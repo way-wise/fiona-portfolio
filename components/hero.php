@@ -18,9 +18,9 @@
             <div class="hero-content-box">
 
               <span class="hero-sub-title">
-                I am Gerold </span>
+                I am Fiona </span>
 
-              <h1 class="hero-title">Web Developer + UX Designer</h1>
+              <h1 class="hero-title">UI/UX Designer + SEO Expert</h1>
               <div class="hero-image-box d-md-none text-center">
                 <img decoding="async" src="./uiux-portfolio_files/hero_img.jpg" alt="ThemeJunction">
               </div>
@@ -56,7 +56,7 @@
           </div>
           <div class="col-md-6 d-none d-md-block">
             <div class="hero-image-box text-center">
-              <img decoding="async" src="./uiux-portfolio_files/hero_img.jpg" alt="ThemeJunction">
+              <img decoding="async" src="./images/me.jpeg" alt="ThemeJunction">
             </div>
           </div>
         </div>
