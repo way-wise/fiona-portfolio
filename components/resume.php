@@ -15,7 +15,9 @@
           <div class="section-header">
             <h2 data-wow-delay="0.3s" class="section-title wow fadeInUp"
               style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-              <i aria-hidden="true" class="tj flaticon flaticon-recommendation"></i> My Experience
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="section-icon">
+                <path d="M20 6h-2l-2-2H8L6 6H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6 10H6v-2h8v2zm4-4H6v-2h12v2zm0-4H6V6h12v2z"/>
+              </svg> My Experience
             </h2>
           </div>
 
@@ -69,7 +71,9 @@
           <div class="section-header">
             <h2 data-wow-delay="0.4s" class="section-title wow fadeInUp"
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-              <i aria-hidden="true" class="tj flaticon flaticon-mortarboard"></i> My Education
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="section-icon">
+                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+              </svg> My Education
             </h2>
           </div>
 

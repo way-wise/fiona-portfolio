@@ -45,7 +45,9 @@
                       <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
                         pain points. Utilizing methods...</p>
                     </div>
-                    <i class="flaticon-up-right-arrow"></i>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+                      <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
                     <a href="services/web-development/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="0.4s"
@@ -58,7 +60,9 @@
                       <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
                         pain points. Utilizing methods...</p>
                     </div>
-                    <i class="flaticon-up-right-arrow"></i>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+                      <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
                     <a href="services/ui-ux-design/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="0.5s"
@@ -71,7 +75,9 @@
                       <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
                         pain points. Utilizing methods...</p>
                     </div>
-                    <i class="flaticon-up-right-arrow"></i>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+                      <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
                     <a href="services/content-writing/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp current"
@@ -85,7 +91,9 @@
                       <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
                         pain points. Utilizing methods...</p>
                     </div>
-                    <i class="flaticon-up-right-arrow"></i>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+                      <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
                     <a href="services/digital-marketing/"
                       class="service-link"></a>
                   </div>

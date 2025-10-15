@@ -121,6 +121,27 @@
     .hero-title, .section-title, .hero-sub-title {
       font-family: 'Sora', sans-serif;
     }
+    
+    /* SVG Icon Styles */
+    .download-icon, .arrow-icon, .contact-icon, .section-icon {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+    
+    .section-icon {
+      margin-right: 8px;
+      margin-left: 0;
+    }
+    
+    .contact-icon {
+      margin-left: 0;
+    }
+    
+    /* Ensure icons inherit text color */
+    .download-icon, .arrow-icon, .contact-icon, .section-icon {
+      fill: currentColor;
+    }
   </style>
 </head>
 

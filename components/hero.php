@@ -31,7 +31,9 @@
               <div class="button-box d-flex flex-wrap align-items-center">
 
                 <a href="#" class="btn tj-btn-secondary">
-                  Download CV <i aria-hidden="true" class="tj flaticon flaticon-download"></i> </a>
+                  Download CV <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="download-icon">
+                    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                  </svg> </a>
 
                 <ul class="ul-reset social-icons">
                   <li>

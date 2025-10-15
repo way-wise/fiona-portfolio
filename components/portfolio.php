@@ -82,7 +82,9 @@ include_once 'data/portfolio.php';
                     <div class="content-box">
                       <h3 class="portfolio-title"><?php echo $item['title']; ?></h3>
                       <p><?php echo $item['description']; ?></p>
-                      <i class="flaticon-up-right-arrow"></i>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                      </svg>
                       <a href="<?php echo $item['link']; ?>" class="portfolio-link"></a>
                     </div>
                   </div>
