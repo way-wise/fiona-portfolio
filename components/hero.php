@@ -1,7 +1,7 @@
 <?php
 // Hero Component (Intro Section)
 ?>
-<div class="elementor-element elementor-element-e84844b elementor-widget elementor-widget-tj-hero-banner"
+<div class="elementor-element elementor-element-e84844b elementor-widget elementor-widget-tj-hero-banner tw-relative"
   data-id="e84844b" data-element_type="widget" data-widget_type="tj-hero-banner.default">
   <div class="elementor-widget-container">
 
@@ -60,47 +60,41 @@
             </div>
           </div>
         </div>
+        <div class="tw-flex tw-justify-center tw-gap-12 tw-absolute tw-bottom-0 tw-w-full tw-left-0 tw-pb-12">
+          <div class="col-12">
+            <div class="counters-wrapper d-flex flex-wrap justify-content-center align-items-center gap-4">
+
+              <!-- Counter 1: Years of Experience -->
+              <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                <div class="number">
+                  <span class="odometer odometer-auto-theme" data-count="14">14</span>
+                </div>
+                <div class="text">Years of <br> Experience</div>
+              </div>
+
+              <!-- Counter 2: Projects Completed -->
+              <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                <div class="number">
+                  <span class="odometer odometer-auto-theme" data-count="50">50</span>
+                  <span>+</span>
+                </div>
+                <div class="text">Project <br> Completed</div>
+              </div>
+
+              <!-- Counter 3: Happy Clients -->
+              <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
+                <div class="number">
+                  <span class="odometer odometer-auto-theme" data-count="1.5">1.5</span>
+                  <span>K</span>
+                </div>
+                <div class="text">Happy <br> Clients</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-  </div>
-</div>
-
-<!-- Counter Section -->
-<div class="counter-section" style="position: relative; z-index: 10; margin-top: 50px;">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="counters-wrapper d-flex flex-wrap justify-content-center align-items-center gap-4">
-          
-          <!-- Counter 1: Years of Experience -->
-          <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-            <div class="number">
-              <span class="odometer odometer-auto-theme" data-count="14">14</span>
-            </div>
-            <div class="text">Years of <br> Experience</div>
-          </div>
-          
-          <!-- Counter 2: Projects Completed -->
-          <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-            <div class="number">
-              <span class="odometer odometer-auto-theme" data-count="50">50</span>
-              <span>+</span>
-            </div>
-            <div class="text">Project <br> Completed</div>
-          </div>
-          
-          <!-- Counter 3: Happy Clients -->
-          <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-            <div class="number">
-              <span class="odometer odometer-auto-theme" data-count="1.5">1.5</span>
-              <span>K</span>
-            </div>
-            <div class="text">Happy <br> Clients</div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
   </div>
 </div>

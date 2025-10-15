@@ -17,14 +17,14 @@
       <div class="col-12 d-flex flex-wrap align-items-center justify-content-between ">
 
         <div class="logo-box">
-          <a class="primary-logo" href="https://gerold.themejunction.net/">
-            <img src="./uiux-portfolio_files/logo-primary.png" alt="logo">
+          <a class="primary-logo tw-no-underline tw-text-3xl tw-font-bold" href="/">
+            &lt;Fiona Bari &gt;
           </a>
         </div>
 
         <div class="header-info-list d-none d-md-inline-block">
           <ul class="ul-reset">
-            <li><a href="mailto:mail@gerolddesign.com">mail@gerolddesign.com</a></li>
+            <li><a href="mailto:learnfiona@gmail.com">learnfiona@gmail.com</a></li>
           </ul>
         </div>
 
@@ -33,23 +33,23 @@
           <ul id="menu-main-menu" class="">
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-552"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-552 nav-item"><a
-                title="Services" href="https://gerold.themejunction.net/#services" class="nav-links">Services</a></li>
+                title="Services" href="#services" class="nav-links">Services</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-553"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-553 nav-item"><a title="Works"
-                href="https://gerold.themejunction.net/#works" class="nav-links">Works</a></li>
+                href="#works" class="nav-links">Works</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-554"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-554 nav-item"><a title="Resume"
-                href="https://gerold.themejunction.net/#resume" class="nav-links">Resume</a></li>
+                href="#resume" class="nav-links">Resume</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-555"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555 nav-item"><a title="Skills"
-                href="https://gerold.themejunction.net/#skills" class="nav-links">Skills</a></li>
+                href="#skills" class="nav-links">Skills</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-556"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-556 nav-item"><a
-                title="Testimonials" href="https://gerold.themejunction.net/#testimonials"
+                title="Testimonials" href="#testimonials"
                 class="nav-links">Testimonials</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-557"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-557 nav-item"><a
-                title="Contact" href="https://gerold.themejunction.net/#contact" class="nav-links">Contact</a></li>
+                title="Contact" href="#contact" class="nav-links">Contact</a></li>
           </ul>
         </div>
 
@@ -58,7 +58,7 @@
 
         <!-- button -->
         <div class="header-button">
-          <a href="https://gerold.themejunction.net/#" class="btn tj-btn-primary">Hire me!</a>
+          <a href="#contact" class="btn tj-btn-primary">Hire me!</a>
         </div>
 
         <div class="menu-bar menuBar d-lg-none">
@@ -80,14 +80,14 @@
       <div class="col-12 d-flex flex-wrap gap-2 align-items-center justify-content-between">
         <!-- logo -->
         <div class="logo-box">
-          <a class="primary-logo" href="https://gerold.themejunction.net/">
-            <img src="./uiux-portfolio_files/logo-primary.png" alt="logo">
-          </a>
+            <a class="primary-logo tw-no-underline tw-text-3xl tw-font-bold" href="/">
+              &lt;Fiona Bari &gt;
+            </a>
         </div>
 
         <div class="header-info-list d-none d-md-inline-block">
           <ul class="ul-reset">
-            <li><a href="mailto:mail@gerolddesign.com">mail@gerolddesign.com</a></li>
+            <li><a href="mailto:learnfiona@gmail.com">learnfiona@gmail.com</a></li>
           </ul>
         </div>
 
@@ -96,23 +96,23 @@
           <ul id="menu-main-menu-1" class="">
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-552 nav-item"><a
-                title="Services" href="https://gerold.themejunction.net/#services" class="nav-links">Services</a></li>
+                title="Services" href="#services" class="nav-links">Services</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-553 nav-item"><a title="Works"
-                href="https://gerold.themejunction.net/#works" class="nav-links">Works</a></li>
+                href="#works" class="nav-links">Works</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-554 nav-item"><a title="Resume"
-                href="https://gerold.themejunction.net/#resume" class="nav-links">Resume</a></li>
+                href="#resume" class="nav-links">Resume</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555 nav-item"><a title="Skills"
-                href="https://gerold.themejunction.net/#skills" class="nav-links">Skills</a></li>
+                href="#skills" class="nav-links">Skills</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-556 nav-item"><a
-                title="Testimonials" href="https://gerold.themejunction.net/#testimonials"
+                title="Testimonials" href="#testimonials"
                 class="nav-links">Testimonials</a></li>
             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-557 nav-item"><a
-                title="Contact" href="https://gerold.themejunction.net/#contact" class="nav-links">Contact</a></li>
+                title="Contact" href="#contact" class="nav-links">Contact</a></li>
           </ul>
         </div>
 

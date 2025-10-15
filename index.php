@@ -19,14 +19,30 @@
   </style>
   
   <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts - Sora -->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <link rel="alternate" type="application/rss+xml" title="Gerold » Feed" href="https://gerold.themejunction.net/feed/">
   <link rel="alternate" type="application/rss+xml" title="Gerold » Comments Feed"
     href="https://gerold.themejunction.net/comments/feed/">
   
+  <!-- Tailwind CSS CDN with tw- prefix -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false, // Disable Tailwind's base styles to avoid conflicts
+      }
+    }
+  </script>
+  
   <!-- CSS Files -->
   <link rel="stylesheet" id="contact-form-7-css" href="./uiux-portfolio_files/styles.css" media="all">
   <link rel="stylesheet" id="tjcore-style-css" href="./uiux-portfolio_files/tjcore.css" media="all">
-  <link rel="stylesheet" id="gerold-google-fonts-css" href="./uiux-portfolio_files/css" media="all">
   <link rel="stylesheet" id="bootstrap-css" href="./uiux-portfolio_files/bootstrap.min.css" media="all">
   <link rel="stylesheet" id="font-awesome-pro-css" href="./uiux-portfolio_files/font-awesome-pro.min.css" media="all">
   <link rel="stylesheet" id="animate-css" href="./uiux-portfolio_files/animate.min.css" media="all">
@@ -85,15 +101,25 @@
   <!-- Custom Styles -->
   <style id="kirki-inline-styles">
     :root {
-      --tj-ff-body: Sora;
+      --tj-ff-body: 'Sora', sans-serif;
       --tj-fz-body: 16px;
-      --tj-ff-heading: Sora;
+      --tj-ff-heading: 'Sora', sans-serif;
       --tj-theme-accent-2: #140c1c;
       --tj-off-white: #f6f3fc;
       --tj-grey-2: #d9d9d9;
     }
+    
     body {
+      font-family: 'Sora', sans-serif;
       line-height: 1.5;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Sora', sans-serif;
+    }
+    
+    .hero-title, .section-title, .hero-sub-title {
+      font-family: 'Sora', sans-serif;
     }
   </style>
 </head>
