@@ -54,14 +54,14 @@
                       <img fetchpriority="high" decoding="async" width="1168" height="1004"
                         src="./uiux-portfolio_files/portfolio-1.jpg"
                         class="attachment-full size-full wp-post-image" alt=""
-                        srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-300x258.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-1024x880.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-768x660.jpg 768w"
+                        srcset="wp-content/uploads/2024/05/portfolio-1.jpg 1168w, wp-content/uploads/2024/05/portfolio-1-300x258.jpg 300w, wp-content/uploads/2024/05/portfolio-1-1024x880.jpg 1024w, wp-content/uploads/2024/05/portfolio-1-768x660.jpg 768w"
                         sizes="(max-width: 1168px) 100vw, 1168px">
                     </div>
                     <div class="content-box">
                       <h3 class="portfolio-title">Mochnix</h3>
                       <p>Project was about precision and information....</p>
                       <i class="flaticon-up-right-arrow"></i>
-                      <a href="https://gerold.themejunction.net/portfolios/mochnix/" class="portfolio-link"></a>
+                      <a href="portfolios/mochnix/" class="portfolio-link"></a>
                     </div>
                   </div>
                   
@@ -70,14 +70,14 @@
                       <img decoding="async" width="1168" height="1004"
                         src="./uiux-portfolio_files/portfolio-2.jpg"
                         class="attachment-full size-full wp-post-image" alt=""
-                        srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-300x258.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-1024x880.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-768x660.jpg 768w"
+                        srcset="wp-content/uploads/2024/05/portfolio-2.jpg 1168w, wp-content/uploads/2024/05/portfolio-2-300x258.jpg 300w, wp-content/uploads/2024/05/portfolio-2-1024x880.jpg 1024w, wp-content/uploads/2024/05/portfolio-2-768x660.jpg 768w"
                         sizes="(max-width: 1168px) 100vw, 1168px">
                     </div>
                     <div class="content-box">
                       <h3 class="portfolio-title">Sebastian</h3>
                       <p>Project was about precision and information....</p>
                       <i class="flaticon-up-right-arrow"></i>
-                      <a href="https://gerold.themejunction.net/portfolios/sebastian/" class="portfolio-link"></a>
+                      <a href="portfolios/sebastian/" class="portfolio-link"></a>
                     </div>
                   </div>
                   
@@ -86,14 +86,14 @@
                       <img decoding="async" width="1168" height="1000"
                         src="./uiux-portfolio_files/portfolio-4.jpg"
                         class="attachment-full size-full wp-post-image" alt=""
-                        srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-300x257.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-1024x877.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-768x658.jpg 768w"
+                        srcset="wp-content/uploads/2024/05/portfolio-4.jpg 1168w, wp-content/uploads/2024/05/portfolio-4-300x257.jpg 300w, wp-content/uploads/2024/05/portfolio-4-1024x877.jpg 1024w, wp-content/uploads/2024/05/portfolio-4-768x658.jpg 768w"
                         sizes="(max-width: 1168px) 100vw, 1168px">
                     </div>
                     <div class="content-box">
                       <h3 class="portfolio-title">New Age</h3>
                       <p>Project was about precision and information....</p>
                       <i class="flaticon-up-right-arrow"></i>
-                      <a href="https://gerold.themejunction.net/portfolios/new-age/" class="portfolio-link"></a>
+                      <a href="portfolios/new-age/" class="portfolio-link"></a>
                     </div>
                   </div>
                   
@@ -103,14 +103,14 @@
                       <img loading="lazy" decoding="async" width="1168" height="1000"
                         src="./uiux-portfolio_files/portfolio-3.jpg"
                         class="attachment-full size-full wp-post-image" alt=""
-                        srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-300x257.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-1024x877.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-768x658.jpg 768w"
+                        srcset="wp-content/uploads/2024/05/portfolio-3.jpg 1168w, wp-content/uploads/2024/05/portfolio-3-300x257.jpg 300w, wp-content/uploads/2024/05/portfolio-3-1024x877.jpg 1024w, wp-content/uploads/2024/05/portfolio-3-768x658.jpg 768w"
                         sizes="(max-width: 1168px) 100vw, 1168px">
                     </div>
                     <div class="content-box">
                       <h3 class="portfolio-title">Deloitte</h3>
                       <p>Project was about precision and information....</p>
                       <i class="flaticon-up-right-arrow"></i>
-                      <a href="https://gerold.themejunction.net/portfolios/deloitte/" class="portfolio-link"></a>
+                      <a href="portfolios/deloitte/" class="portfolio-link"></a>
                     </div>
                   </div>
 

@@ -117,7 +117,7 @@
         </div>
 
         <div class="header-button">
-          <a href="https://gerold.themejunction.net/#" class="btn tj-btn-primary">Hire me!</a>
+          <a href="#" class="btn tj-btn-primary">Hire me!</a>
         </div>
 
         <div class="menu-bar menuBar d-lg-none">

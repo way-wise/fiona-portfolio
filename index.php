@@ -2,7 +2,7 @@
 // Main Index File - Portfolio Website
 ?>
 <!DOCTYPE html>
-<!-- saved from url=(0039)https://gerold.themejunction.net/#works -->
+<!-- saved from url=(0039)#works -->
 <html lang="en-US" class="lenis">
 
 <head>
@@ -25,9 +25,9 @@
   <!-- Google Fonts - Sora -->
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="alternate" type="application/rss+xml" title="Gerold » Feed" href="https://gerold.themejunction.net/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Gerold » Feed" href="feed/">
   <link rel="alternate" type="application/rss+xml" title="Gerold » Comments Feed"
-    href="https://gerold.themejunction.net/comments/feed/">
+    href="comments/feed/">
   
   <!-- Tailwind CSS CDN with tw- prefix -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -80,23 +80,23 @@
   <script src="./uiux-portfolio_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
   <script src="./uiux-portfolio_files/v4-shims.min.js.download" id="font-awesome-4-shim-js"></script>
   
-  <link rel="https://api.w.org/" href="https://gerold.themejunction.net/wp-json/">
-  <link rel="alternate" title="JSON" type="application/json" href="https://gerold.themejunction.net/wp-json/wp/v2/pages/100">
-  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gerold.themejunction.net/xmlrpc.php?rsd">
+  <link rel="https://api.w.org/" href="wp-json/">
+  <link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/100">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd">
   <meta name="generator" content="WordPress 6.8.3">
-  <link rel="canonical" href="https://gerold.themejunction.net/">
-  <link rel="shortlink" href="https://gerold.themejunction.net/">
+  <link rel="canonical" href="">
+  <link rel="shortlink" href="">
   <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-    href="https://gerold.themejunction.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgerold.themejunction.net%2F">
+    href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgerold.themejunction.net%2F">
   <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-    href="https://gerold.themejunction.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgerold.themejunction.net%2F&amp;format=xml">
+    href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgerold.themejunction.net%2F&amp;format=xml">
   <meta name="generator"
     content="Elementor 3.32.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
   
-  <link rel="icon" href="https://gerold.themejunction.net/wp-content/uploads/2024/05/favicon.png" sizes="32x32">
-  <link rel="icon" href="https://gerold.themejunction.net/wp-content/uploads/2024/05/favicon.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="https://gerold.themejunction.net/wp-content/uploads/2024/05/favicon.png">
-  <meta name="msapplication-TileImage" content="https://gerold.themejunction.net/wp-content/uploads/2024/05/favicon.png">
+  <link rel="icon" href="wp-content/uploads/2024/05/favicon.png" sizes="32x32">
+  <link rel="icon" href="wp-content/uploads/2024/05/favicon.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="wp-content/uploads/2024/05/favicon.png">
+  <meta name="msapplication-TileImage" content="wp-content/uploads/2024/05/favicon.png">
   
   <!-- Custom Styles -->
   <style id="kirki-inline-styles">
@@ -127,7 +127,7 @@
 <body class="home wp-singular page-template page-template-elementor_header_footer page page-id-100 wp-embed-responsive wp-theme-gerold tj-magic-cursor absolute_header sticky_header active_header_1 elementor-default elementor-template-full-width elementor-kit-7 elementor-page elementor-page-100 e--ua-blink e--ua-chrome e--ua-webkit"
   data-elementor-device-mode="desktop" data-new-gr-c-s-check-loaded="14.1257.0" data-gr-ext-installed="" style="">
 
-  <a class="skip-link screen-reader-text" href="https://gerold.themejunction.net/#primary">Skip to content</a>
+  <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 
   <!-- Include Header Component -->
   <?php include 'components/header.php'; ?>
@@ -236,6 +236,40 @@
   <script src="./uiux-portfolio_files/frontend-modules.min.js.download" id="elementor-frontend-modules-js"></script>
   <script src="./uiux-portfolio_files/core.min.js.download" id="jquery-ui-core-js"></script>
   <script src="./uiux-portfolio_files/frontend.min.js.download" id="elementor-frontend-js"></script>
+
+  <!-- Custom Testimonial Carousel Initialization -->
+  <script>
+    jQuery(document).ready(function($) {
+      // Initialize testimonial carousel
+      if ($('#testimonial-carousel').length) {
+        $('#testimonial-carousel').owlCarousel({
+          loop: true,
+          margin: 30,
+          nav: false,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 2
+            },
+            1024: {
+              items: 3
+            }
+          }
+        });
+      }
+      
+      // Initialize WOW animations
+      if (typeof WOW !== 'undefined') {
+        new WOW().init();
+      }
+    });
+  </script>
 
 </body>
 

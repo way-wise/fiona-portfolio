@@ -46,7 +46,7 @@
                         pain points. Utilizing methods...</p>
                     </div>
                     <i class="flaticon-up-right-arrow"></i>
-                    <a href="https://gerold.themejunction.net/services/web-development/" class="service-link"></a>
+                    <a href="services/web-development/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="0.4s"
                     style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
@@ -59,7 +59,7 @@
                         pain points. Utilizing methods...</p>
                     </div>
                     <i class="flaticon-up-right-arrow"></i>
-                    <a href="https://gerold.themejunction.net/services/ui-ux-design/" class="service-link"></a>
+                    <a href="services/ui-ux-design/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="0.5s"
                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
@@ -72,7 +72,7 @@
                         pain points. Utilizing methods...</p>
                     </div>
                     <i class="flaticon-up-right-arrow"></i>
-                    <a href="https://gerold.themejunction.net/services/content-writing/" class="service-link"></a>
+                    <a href="services/content-writing/" class="service-link"></a>
                   </div>
                   <div class="service-item d-flex flex-wrap align-items-center wow fadeInUp current"
                     data-wow-delay="0.6s"
@@ -86,7 +86,7 @@
                         pain points. Utilizing methods...</p>
                     </div>
                     <i class="flaticon-up-right-arrow"></i>
-                    <a href="https://gerold.themejunction.net/services/digital-marketing/"
+                    <a href="services/digital-marketing/"
                       class="service-link"></a>
                   </div>
 
