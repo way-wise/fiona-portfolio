@@ -38,7 +38,7 @@
               style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/figma.png" alt="">
+                  <img decoding="async" src="./assets/figma.png" alt="">
                 </div>
                 <div class="number">92%</div>
               </div>
@@ -49,7 +49,7 @@
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/sketch.png" alt="">
+                  <img decoding="async" src="./assets/sketch.png" alt="">
                 </div>
                 <div class="number">80%</div>
               </div>
@@ -60,7 +60,7 @@
               style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/xd.png" alt="">
+                  <img decoding="async" src="./assets/xd.png" alt="">
                 </div>
                 <div class="number">85%</div>
               </div>
@@ -71,7 +71,7 @@
               style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/wp.png" alt="">
+                  <img decoding="async" src="./assets/wp.png" alt="">
                 </div>
                 <div class="number">99%</div>
               </div>
@@ -82,7 +82,7 @@
               style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/react.png" alt="">
+                  <img decoding="async" src="./assets/react.png" alt="">
                 </div>
                 <div class="number">89%</div>
               </div>
@@ -93,7 +93,7 @@
               style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
               <div class="skill-inner">
                 <div class="icon-box d-block">
-                  <img decoding="async" src="./uiux-portfolio_files/js.png" alt="">
+                  <img decoding="async" src="./assets/js.png" alt="">
                 </div>
                 <div class="number">93%</div>
               </div>

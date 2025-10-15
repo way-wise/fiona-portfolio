@@ -9,7 +9,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
-  <title>Gerold – Personal Portfolio WordPress Theme</title>
+  <title>Fiona Bari – Personal Portfolio</title>
   <meta name="robots" content="noindex, nofollow">
   
   <style>
@@ -41,44 +41,44 @@
   </script>
   
   <!-- CSS Files -->
-  <link rel="stylesheet" id="contact-form-7-css" href="./uiux-portfolio_files/styles.css" media="all">
-  <link rel="stylesheet" id="tjcore-style-css" href="./uiux-portfolio_files/tjcore.css" media="all">
-  <link rel="stylesheet" id="bootstrap-css" href="./uiux-portfolio_files/bootstrap.min.css" media="all">
-  <link rel="stylesheet" id="font-awesome-pro-css" href="./uiux-portfolio_files/font-awesome-pro.min.css" media="all">
-  <link rel="stylesheet" id="animate-css" href="./uiux-portfolio_files/animate.min.css" media="all">
-  <link rel="stylesheet" id="meanmenu-css" href="./uiux-portfolio_files/meanmenu.css" media="all">
-  <link rel="stylesheet" id="nice-select-css" href="./uiux-portfolio_files/nice-select.css" media="all">
-  <link rel="stylesheet" id="flaticon-css" href="./uiux-portfolio_files/flaticon_gerold.css" media="all">
-  <link rel="stylesheet" id="owl-carousel-css" href="./uiux-portfolio_files/owl.carousel.min.css" media="all">
-  <link rel="stylesheet" id="odometer-css" href="./uiux-portfolio_files/odometer-theme-default.css" media="all">
-  <link rel="stylesheet" id="magnific-popup-css" href="./uiux-portfolio_files/magnific-popup.css" media="all">
-  <link rel="stylesheet" id="gerold-swiper-css" href="./uiux-portfolio_files/swiper.min.css" media="all">
-  <link rel="stylesheet" id="gerold-core-css" href="./uiux-portfolio_files/gerold-core.css" media="all">
-  <link rel="stylesheet" id="gerold-core-2-css" href="./uiux-portfolio_files/gerold-core-2.css" media="all">
-  <link rel="stylesheet" id="gerold-core-3-css" href="./uiux-portfolio_files/gerold-core-3.css" media="all">
-  <link rel="stylesheet" id="gerold-main-css" href="./uiux-portfolio_files/gerold-main.css" media="all">
-  <link rel="stylesheet" id="gerold-responsive-css" href="./uiux-portfolio_files/gerold-responsive.css" media="all">
-  <link rel="stylesheet" id="gerold-responsive-2-css" href="./uiux-portfolio_files/gerold-responsive-2.css" media="all">
-  <link rel="stylesheet" id="gerold-responsive-3-css" href="./uiux-portfolio_files/gerold-responsive-3.css" media="all">
-  <link rel="stylesheet" id="gerold-unit-css" href="./uiux-portfolio_files/gerold-unit.css" media="all">
-  <link rel="stylesheet" id="gerold-custom-css" href="./uiux-portfolio_files/gerold-custom.css" media="all">
-  <link rel="stylesheet" id="gerold-style-css" href="./uiux-portfolio_files/style.css" media="all">
-  <link rel="stylesheet" id="elementor-icons-css" href="./uiux-portfolio_files/elementor-icons.min.css" media="all">
-  <link rel="stylesheet" id="elementor-frontend-css" href="./uiux-portfolio_files/custom-frontend.min.css" media="all">
-  <link rel="stylesheet" id="elementor-post-7-css" href="./uiux-portfolio_files/post-7.css" media="all">
-  <link rel="stylesheet" id="font-awesome-5-all-css" href="./uiux-portfolio_files/all.min.css" media="all">
-  <link rel="stylesheet" id="font-awesome-4-shim-css" href="./uiux-portfolio_files/v4-shims.min.css" media="all">
-  <link rel="stylesheet" id="elementor-post-100-css" href="./uiux-portfolio_files/post-100.css" media="all">
-  <link rel="stylesheet" id="elementor-gf-local-roboto-css" href="./uiux-portfolio_files/roboto.css" media="all">
-  <link rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="./uiux-portfolio_files/robotoslab.css" media="all">
-  <link rel="stylesheet" id="elementor-icons-tj-flaticons-css" href="./uiux-portfolio_files/flaticon_gerold(1).css" media="all">
-  <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./uiux-portfolio_files/fontawesome.min.css" media="all">
-  <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./uiux-portfolio_files/brands.min.css" media="all">
+  <link rel="stylesheet" id="contact-form-7-css" href="./assets/styles.css" media="all">
+  <link rel="stylesheet" id="tjcore-style-css" href="./assets/tjcore.css" media="all">
+  <link rel="stylesheet" id="bootstrap-css" href="./assets/bootstrap.min.css" media="all">
+  <link rel="stylesheet" id="font-awesome-pro-css" href="./assets/font-awesome-pro.min.css" media="all">
+  <link rel="stylesheet" id="animate-css" href="./assets/animate.min.css" media="all">
+  <link rel="stylesheet" id="meanmenu-css" href="./assets/meanmenu.css" media="all">
+  <link rel="stylesheet" id="nice-select-css" href="./assets/nice-select.css" media="all">
+  <link rel="stylesheet" id="flaticon-css" href="./assets/flaticon_gerold.css" media="all">
+  <link rel="stylesheet" id="owl-carousel-css" href="./assets/owl.carousel.min.css" media="all">
+  <link rel="stylesheet" id="odometer-css" href="./assets/odometer-theme-default.css" media="all">
+  <link rel="stylesheet" id="magnific-popup-css" href="./assets/magnific-popup.css" media="all">
+  <link rel="stylesheet" id="gerold-swiper-css" href="./assets/swiper.min.css" media="all">
+  <link rel="stylesheet" id="gerold-core-css" href="./assets/gerold-core.css" media="all">
+  <link rel="stylesheet" id="gerold-core-2-css" href="./assets/gerold-core-2.css" media="all">
+  <link rel="stylesheet" id="gerold-core-3-css" href="./assets/gerold-core-3.css" media="all">
+  <link rel="stylesheet" id="gerold-main-css" href="./assets/gerold-main.css" media="all">
+  <link rel="stylesheet" id="gerold-responsive-css" href="./assets/gerold-responsive.css" media="all">
+  <link rel="stylesheet" id="gerold-responsive-2-css" href="./assets/gerold-responsive-2.css" media="all">
+  <link rel="stylesheet" id="gerold-responsive-3-css" href="./assets/gerold-responsive-3.css" media="all">
+  <link rel="stylesheet" id="gerold-unit-css" href="./assets/gerold-unit.css" media="all">
+  <link rel="stylesheet" id="gerold-custom-css" href="./assets/gerold-custom.css" media="all">
+  <link rel="stylesheet" id="gerold-style-css" href="./assets/style.css" media="all">
+  <link rel="stylesheet" id="elementor-icons-css" href="./assets/elementor-icons.min.css" media="all">
+  <link rel="stylesheet" id="elementor-frontend-css" href="./assets/custom-frontend.min.css" media="all">
+  <link rel="stylesheet" id="elementor-post-7-css" href="./assets/post-7.css" media="all">
+  <link rel="stylesheet" id="font-awesome-5-all-css" href="./assets/all.min.css" media="all">
+  <link rel="stylesheet" id="font-awesome-4-shim-css" href="./assets/v4-shims.min.css" media="all">
+  <link rel="stylesheet" id="elementor-post-100-css" href="./assets/post-100.css" media="all">
+  <link rel="stylesheet" id="elementor-gf-local-roboto-css" href="./assets/roboto.css" media="all">
+  <link rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="./assets/robotoslab.css" media="all">
+  <link rel="stylesheet" id="elementor-icons-tj-flaticons-css" href="./assets/flaticon_gerold(1).css" media="all">
+  <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./assets/fontawesome.min.css" media="all">
+  <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./assets/brands.min.css" media="all">
   
   <!-- JavaScript Files -->
-  <script src="./uiux-portfolio_files/jquery.min.js.download" id="jquery-core-js"></script>
-  <script src="./uiux-portfolio_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
-  <script src="./uiux-portfolio_files/v4-shims.min.js.download" id="font-awesome-4-shim-js"></script>
+  <script src="./assets/jquery.min.js.download" id="jquery-core-js"></script>
+  <script src="./assets/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+  <script src="./assets/v4-shims.min.js.download" id="font-awesome-4-shim-js"></script>
   
   <link rel="https://api.w.org/" href="wp-json/">
   <link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/100">
@@ -207,35 +207,35 @@
   <?php include 'components/footer.php'; ?>
 
   <!-- JavaScript Files -->
-  <script src="./uiux-portfolio_files/hooks.min.js.download" id="wp-hooks-js"></script>
-  <script src="./uiux-portfolio_files/i18n.min.js.download" id="wp-i18n-js"></script>
-  <script src="./uiux-portfolio_files/index.js.download" id="swv-js"></script>
-  <script src="./uiux-portfolio_files/index(1).js.download" id="contact-form-7-js"></script>
-  <script src="./uiux-portfolio_files/tjcore.js.download" id="tjcore-script-js"></script>
-  <script src="./uiux-portfolio_files/bootstrap.bundle.min.js.download" id="bootstrap-bundle-js"></script>
-  <script src="./uiux-portfolio_files/gsap.min.js.download" id="gerold-gsap-js"></script>
-  <script src="./uiux-portfolio_files/gsap-scroll-to-plugin.min.js.download" id="gsap-scroll-to-plugin-js"></script>
-  <script src="./uiux-portfolio_files/gsap-scroll-trigger.min.js.download" id="gerold-scroll-trigger-js"></script>
-  <script src="./uiux-portfolio_files/gsap-split-text.js.download" id="gerold-split-text-js"></script>
-  <script src="./uiux-portfolio_files/lenis.min.js.download" id="lenis-js"></script>
-  <script src="./uiux-portfolio_files/nice-select.js.download" id="nice-select-js"></script>
-  <script src="./uiux-portfolio_files/meanmenu.js.download" id="meanmenu-js"></script>
-  <script src="./uiux-portfolio_files/appear.min.js.download" id="appear-js"></script>
-  <script src="./uiux-portfolio_files/wow.min.js.download" id="wow-js"></script>
-  <script src="./uiux-portfolio_files/owl.carousel.min.js.download" id="owl-carousel-js"></script>
-  <script src="./uiux-portfolio_files/imagesloaded.min.js.download" id="imagesloaded-js"></script>
-  <script src="./uiux-portfolio_files/isotope.pkgd.min.js.download" id="gerold-isotope-js"></script>
-  <script src="./uiux-portfolio_files/masonry.pkgd.min.js.download" id="gerold-masonry-js"></script>
-  <script src="./uiux-portfolio_files/odometer.min.js.download" id="odometer-js"></script>
-  <script src="./uiux-portfolio_files/magnific-popup.js.download" id="magnific-popup-js"></script>
-  <script src="./uiux-portfolio_files/swiper.min.js.download" id="gerold-swiper-js"></script>
-  <script src="./uiux-portfolio_files/vanilla-tilt.min.js.download" id="gerold-tilt-js"></script>
-  <script src="./uiux-portfolio_files/tj-cursor.js.download" id="gerold-cursor-js"></script>
-  <script src="./uiux-portfolio_files/gerold-main.js.download" id="gerold-main-js"></script>
-  <script src="./uiux-portfolio_files/webpack.runtime.min.js.download" id="elementor-webpack-runtime-js"></script>
-  <script src="./uiux-portfolio_files/frontend-modules.min.js.download" id="elementor-frontend-modules-js"></script>
-  <script src="./uiux-portfolio_files/core.min.js.download" id="jquery-ui-core-js"></script>
-  <script src="./uiux-portfolio_files/frontend.min.js.download" id="elementor-frontend-js"></script>
+  <script src="./assets/hooks.min.js.download" id="wp-hooks-js"></script>
+  <script src="./assets/i18n.min.js.download" id="wp-i18n-js"></script>
+  <script src="./assets/index.js.download" id="swv-js"></script>
+  <script src="./assets/index(1).js.download" id="contact-form-7-js"></script>
+  <script src="./assets/tjcore.js.download" id="tjcore-script-js"></script>
+  <script src="./assets/bootstrap.bundle.min.js.download" id="bootstrap-bundle-js"></script>
+  <script src="./assets/gsap.min.js.download" id="gerold-gsap-js"></script>
+  <script src="./assets/gsap-scroll-to-plugin.min.js.download" id="gsap-scroll-to-plugin-js"></script>
+  <script src="./assets/gsap-scroll-trigger.min.js.download" id="gerold-scroll-trigger-js"></script>
+  <script src="./assets/gsap-split-text.js.download" id="gerold-split-text-js"></script>
+  <script src="./assets/lenis.min.js.download" id="lenis-js"></script>
+  <script src="./assets/nice-select.js.download" id="nice-select-js"></script>
+  <script src="./assets/meanmenu.js.download" id="meanmenu-js"></script>
+  <script src="./assets/appear.min.js.download" id="appear-js"></script>
+  <script src="./assets/wow.min.js.download" id="wow-js"></script>
+  <script src="./assets/owl.carousel.min.js.download" id="owl-carousel-js"></script>
+  <script src="./assets/imagesloaded.min.js.download" id="imagesloaded-js"></script>
+  <script src="./assets/isotope.pkgd.min.js.download" id="gerold-isotope-js"></script>
+  <script src="./assets/masonry.pkgd.min.js.download" id="gerold-masonry-js"></script>
+  <script src="./assets/odometer.min.js.download" id="odometer-js"></script>
+  <script src="./assets/magnific-popup.js.download" id="magnific-popup-js"></script>
+  <script src="./assets/swiper.min.js.download" id="gerold-swiper-js"></script>
+  <script src="./assets/vanilla-tilt.min.js.download" id="gerold-tilt-js"></script>
+  <script src="./assets/tj-cursor.js.download" id="gerold-cursor-js"></script>
+  <script src="./assets/gerold-main.js.download" id="gerold-main-js"></script>
+  <script src="./assets/webpack.runtime.min.js.download" id="elementor-webpack-runtime-js"></script>
+  <script src="./assets/frontend-modules.min.js.download" id="elementor-frontend-modules-js"></script>
+  <script src="./assets/core.min.js.download" id="jquery-ui-core-js"></script>
+  <script src="./assets/frontend.min.js.download" id="elementor-frontend-js"></script>
 
   <!-- Custom Testimonial Carousel Initialization -->
   <script>

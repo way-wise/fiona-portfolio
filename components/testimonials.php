@@ -36,7 +36,7 @@
               <div class="testimonial-item">
                 <div class="top-area d-flex flex-wrap justify-content-between align-items-start">
                   <div class="image-box">
-                    <img decoding="async" src="./uiux-portfolio_files/testi-1.jpg" alt="Brandon Fraser">
+                    <img decoding="async" src="./assets/testi-1.jpg" alt="Brandon Fraser">
                   </div>
                 </div>
                 <div class="icon-box">
@@ -76,7 +76,7 @@
               <div class="testimonial-item">
                 <div class="top-area d-flex flex-wrap justify-content-between align-items-start">
                   <div class="image-box">
-                    <img decoding="async" src="./uiux-portfolio_files/testi-2.jpg" alt="Tim Bailey">
+                    <img decoding="async" src="./assets/testi-2.jpg" alt="Tim Bailey">
                   </div>
                 </div>
                 <div class="icon-box">
@@ -116,7 +116,7 @@
               <div class="testimonial-item">
                 <div class="top-area d-flex flex-wrap justify-content-between align-items-start">
                   <div class="image-box">
-                    <img decoding="async" src="./uiux-portfolio_files/testi-1.jpg" alt="Sarah Johnson">
+                    <img decoding="async" src="./assets/testi-1.jpg" alt="Sarah Johnson">
                   </div>
                 </div>
                 <div class="icon-box">

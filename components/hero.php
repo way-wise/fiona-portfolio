@@ -22,7 +22,7 @@
 
               <h1 class="hero-title">UI/UX Designer + SEO Expert</h1>
               <div class="hero-image-box d-md-none text-center">
-                <img decoding="async" src="./uiux-portfolio_files/hero_img.jpg" alt="ThemeJunction">
+                <img decoding="async" src="./assets/hero_img.jpg" alt="ThemeJunction">
               </div>
 
               <p class="lead">I break down complex user experience problems to create integrity focussed

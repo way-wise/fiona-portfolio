@@ -9,7 +9,7 @@
         <!-- logo -->
         <div class="footer-logo-box">
           <a href="">
-            <img src="./uiux-portfolio_files/logo-primary.png" alt="logo">
+            <img src="./assets/logo-primary.png" alt="logo">
           </a>
         </div>
 
