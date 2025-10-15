@@ -144,7 +144,7 @@
                 </div>
                 <div class="text-box">
                   <p>Phone</p>
-                  <a href="tel:+01-123-654-8096">+01 123 654 8096</a>
+                  <a href="tel:+1 (310) 528-6170">+1 (310) 528-6170</a>
                 </div>
               </li>
               <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -154,7 +154,7 @@
                 </div>
                 <div class="text-box">
                   <p>Email</p>
-                  <a href="mailto:gerolddesign@mail.com">gerolddesign@mail.com</a>
+                  <a href="mailto:learnfiona@gmail.com">learnfiona@gmail.com</a>
                 </div>
               </li>
               <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -164,7 +164,7 @@
                 </div>
                 <div class="text-box">
                   <p>Address</p>
-                  <a href="#">Warne Park Street Pine, <br> FL 33157, New York</a>
+                  <a href="#">Santa Clarita, <br> CA 91351, USA</a>
                 </div>
               </li>
 
