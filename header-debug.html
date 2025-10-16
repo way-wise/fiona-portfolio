@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Debug Test</title>
+    <link media="all" href="./assets/css/fonts.css" rel="stylesheet" />
+    <link media="all" href="./assets/css/custom.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        
+        .debug-info {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            z-index: 9999;
+        }
+        
+        .test-content {
+            padding: 2rem;
+            margin-top: 100px;
+        }
+        
+        .test-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Include Header Component -->
+    <?php include 'components/header.php'; ?>
+    
+    <!-- Debug Info -->
+    <div class="debug-info">
+        <div><strong>Header Debug Info:</strong></div>
+        <div id="header-status">Checking...</div>
+        <div id="logo-status">Checking...</div>
+        <div id="menu-status">Checking...</div>
+    </div>
+    
+    <div class="test-content">
+        <h1>Header Debug Test Page</h1>
+        
+        <div class="test-section">
+            <h2>Header Visibility Test</h2>
+            <p>This page tests if the header is visible and functional.</p>
+            <p>You should see:</p>
+            <ul>
+                <li>Header with "Fiona Bari" logo on the left</li>
+                <li>Navigation menu on the right (desktop) or burger menu (mobile)</li>
+                <li>White background with subtle shadow</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>Scroll Test</h2>
+            <p>Scroll down to test the sticky header functionality.</p>
+            <div style="height: 50vh; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                Scroll Test Area
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>Mobile Menu Test</h2>
+            <p>On mobile devices, click the burger menu to test the mobile menu functionality.</p>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu JavaScript -->
+    <script src="./assets/js/mobile-menu.js"></script>
+    
+    <script>
+        // Debug script to check header elements
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Header debug test page loaded');
+            
+            // Check header element
+            const header = document.querySelector('.header-component');
+            const headerStatus = document.getElementById('header-status');
+            
+            if (header) {
+                const headerRect = header.getBoundingClientRect();
+                headerStatus.innerHTML = `Header: Found<br>Size: ${Math.round(headerRect.width)}x${Math.round(headerRect.height)}<br>Top: ${Math.round(headerRect.top)}px`;
+                console.log('Header found:', headerRect);
+            } else {
+                headerStatus.innerHTML = 'Header: NOT FOUND';
+                console.error('Header not found');
+            }
+            
+            // Check logo element
+            const logo = document.querySelector('.aux-widget-logo');
+            const logoStatus = document.getElementById('logo-status');
+            
+            if (logo) {
+                const logoRect = logo.getBoundingClientRect();
+                logoStatus.innerHTML = `Logo: Found<br>Size: ${Math.round(logoRect.width)}x${Math.round(logoRect.height)}`;
+                console.log('Logo found:', logoRect);
+            } else {
+                logoStatus.innerHTML = 'Logo: NOT FOUND';
+                console.error('Logo not found');
+            }
+            
+            // Check menu element
+            const menu = document.querySelector('.aux-master-menu');
+            const menuStatus = document.getElementById('menu-status');
+            
+            if (menu) {
+                const menuRect = menu.getBoundingClientRect();
+                menuStatus.innerHTML = `Menu: Found<br>Size: ${Math.round(menuRect.width)}x${Math.round(menuRect.height)}`;
+                console.log('Menu found:', menuRect);
+            } else {
+                menuStatus.innerHTML = 'Menu: NOT FOUND';
+                console.error('Menu not found');
+            }
+            
+            // Check all header elements
+            const allElements = document.querySelectorAll('.header-component *');
+            console.log('All header elements:', allElements.length);
+            allElements.forEach((el, index) => {
+                console.log(`Element ${index}:`, el.tagName, el.className);
+            });
+        });
+    </script>
+</body>
+</html>

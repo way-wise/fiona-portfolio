@@ -1,7 +1,7 @@
 <header class="aux-elementor-header aux-overlay-header header-component" id="site-elementor-header" data-sticky-height="80">
     <div class="aux-wrapper">
-        <div class="aux-header aux-header-elements-wrapper">
-            <div data-elementor-type="header" data-elementor-id="31" class="elementor elementor-31">
+        <div class="aux-header aux-header-elements-wrapper !tw-p-0 !tw-w-full">
+            <div data-elementor-type="header" data-elementor-id="31" class="elementor elementor-31 !tw-w-full">
                 <div data-export-id="396-31-bf254c5"
                     class="aux-parallax-section elementor-element elementor-element-bf254c5 e-flex e-con-boxed e-con e-parent e-lazyloaded"
                     data-id="bf254c5" data-element_type="container"
@@ -30,7 +30,6 @@
                                     <!-- Mobile Menu Toggle Button -->
                                     <div class="aux-burger-box" id="mobile-menu-toggle">
                                         <div class="aux-burger">
-                                            <span></span>
                                             <span></span>
                                             <span></span>
                                         </div>
