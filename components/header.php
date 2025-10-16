@@ -14,13 +14,13 @@
                                 <div class="aux-widget-logo">
                                     <a class="aux-logo-anchor aux-has-logo"
                                         title="Digital Pulse – Phlox Elementor WordPress Theme"
-                                        href="https://demo.phlox.pro/portfolio-digital-pulse/"><img width="134"
+                                        href="/portfolio-digital-pulse/"><img width="134"
                                             height="21"
                                             src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/DigitalAgency-1.svg"
                                             class="attachment-full size-full" alt="" /></a>
                                     <section class="aux-logo-text">
                                         <h3 class="site-title">
-                                            <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
+                                            <a href="/portfolio-digital-pulse/"
                                                 title="Digital Pulse – Phlox Elementor WordPress Theme ">Digital
                                                 Pulse - Phlox Elementor WordPress Theme
                                             </a>
@@ -54,7 +54,7 @@
                                             <!-- start single menu -->
                                             <li id="menu-item-39"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22 current_page_item menu-item-39 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
-                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
+                                                <a href="/portfolio-digital-pulse/"
                                                     class="aux-item-content">
                                                     <span class="aux-menu-label">Home</span>
                                                 </a>
@@ -63,7 +63,7 @@
                                             <!-- start single menu -->
                                             <li id="menu-item-38"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
-                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/"
+                                                <a href="/portfolio-digital-pulse/portfolio/"
                                                     class="aux-item-content">
                                                     <span class="aux-menu-label">Portfolio</span>
                                                 </a>
@@ -72,7 +72,7 @@
                                             <!-- start single menu -->
                                             <li id="menu-item-37"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
-                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/"
+                                                <a href="/portfolio-digital-pulse/about-us/"
                                                     class="aux-item-content">
                                                     <span class="aux-menu-label">About us</span>
                                                 </a>
@@ -81,7 +81,7 @@
                                             <!-- start single menu -->
                                             <li id="menu-item-36"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
-                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/contacts/"
+                                                <a href="/portfolio-digital-pulse/contacts/"
                                                     class="aux-item-content">
                                                     <span class="aux-menu-label">Contacts</span>
                                                 </a>

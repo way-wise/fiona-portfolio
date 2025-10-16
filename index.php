@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0047)https://demo.phlox.pro/portfolio-digital-pulse/ -->
+<!-- saved from url=(0047)/portfolio-digital-pulse/ -->
 <html
     class="js audio canvas fullscreen svg video cssanimations boxshadow csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox csscalc no-flexboxtweener cssgradients csstransforms supports csstransforms3d csstransitions objectfit object-fit cssclippathsvg cssclippathinset cssclippathcircle cssclippathellipse cssclippathpolygon"
     lang="en-US">
@@ -26,17 +26,17 @@
         rel="stylesheet" />
     <title>Home - Digital Pulse - Phlox Elementor WordPress Theme</title>
     <meta name="description" content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
-    <link rel="canonical" href="https://demo.phlox.pro/portfolio-digital-pulse/" />
+    <link rel="canonical" href="/portfolio-digital-pulse/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Home - Digital Pulse - Phlox Elementor WordPress Theme" />
     <meta property="og:description"
         content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
-    <meta property="og:url" content="https://demo.phlox.pro/portfolio-digital-pulse/" />
+    <meta property="og:url" content="/portfolio-digital-pulse/" />
     <meta property="og:site_name" content="Digital Pulse - Phlox Elementor WordPress Theme" />
     <meta property="article:modified_time" content="2025-03-25T09:06:09+00:00" />
     <meta property="og:image"
-        content="https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png" />
+        content="/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="text/javascript" async=""
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/js"></script>
@@ -53,46 +53,46 @@
             "@context": "https://schema.org",
             "@graph": [{
                     "@type": "WebPage",
-                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/",
-                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "@id": "/portfolio-digital-pulse/",
+                    "url": "/portfolio-digital-pulse/",
                     "name": "Home - Digital Pulse - Phlox Elementor WordPress Theme",
                     "isPartOf": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website"
+                        "@id": "/portfolio-digital-pulse/#website"
                     },
                     "about": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
+                        "@id": "/portfolio-digital-pulse/#organization"
                     },
                     "primaryImageOfPage": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
+                        "@id": "/portfolio-digital-pulse/#primaryimage"
                     },
                     "image": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
+                        "@id": "/portfolio-digital-pulse/#primaryimage"
                     },
-                    "thumbnailUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "thumbnailUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
                     "datePublished": "2023-12-19T07:04:51+00:00",
                     "dateModified": "2025-03-25T09:06:09+00:00",
                     "description": "The best premium Elementor WordPress theme for {portfolio-digital-pulse}",
                     "breadcrumb": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb"
+                        "@id": "/portfolio-digital-pulse/#breadcrumb"
                     },
                     "inLanguage": "en-US",
                     "potentialAction": [{
                         "@type": "ReadAction",
-                        "target": ["https://demo.phlox.pro/portfolio-digital-pulse/"]
+                        "target": ["/portfolio-digital-pulse/"]
                     }]
                 },
                 {
                     "@type": "ImageObject",
                     "inLanguage": "en-US",
-                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage",
-                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
-                    "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "@id": "/portfolio-digital-pulse/#primaryimage",
+                    "url": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "contentUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
                     "width": 770,
                     "height": 1148
                 },
                 {
                     "@type": "BreadcrumbList",
-                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb",
+                    "@id": "/portfolio-digital-pulse/#breadcrumb",
                     "itemListElement": [{
                         "@type": "ListItem",
                         "position": 1,
@@ -101,18 +101,18 @@
                 },
                 {
                     "@type": "WebSite",
-                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website",
-                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "@id": "/portfolio-digital-pulse/#website",
+                    "url": "/portfolio-digital-pulse/",
                     "name": "Digital Pulse - Phlox Elementor WordPress Theme",
                     "description": "Complete Elementor Demo - Phlox WordPress Theme",
                     "publisher": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
+                        "@id": "/portfolio-digital-pulse/#organization"
                     },
                     "potentialAction": [{
                         "@type": "SearchAction",
                         "target": {
                             "@type": "EntryPoint",
-                            "urlTemplate": "https://demo.phlox.pro/portfolio-digital-pulse/?s={search_term_string}"
+                            "urlTemplate": "/portfolio-digital-pulse/?s={search_term_string}"
                         },
                         "query-input": {
                             "@type": "PropertyValueSpecification",
@@ -124,21 +124,21 @@
                 },
                 {
                     "@type": "Organization",
-                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization",
+                    "@id": "/portfolio-digital-pulse/#organization",
                     "name": "Digital Pulse - Phlox Elementor WordPress Theme",
-                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "url": "/portfolio-digital-pulse/",
                     "logo": {
                         "@type": "ImageObject",
                         "inLanguage": "en-US",
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/",
-                        "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
-                        "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "@id": "/portfolio-digital-pulse/#/schema/logo/image/",
+                        "url": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "contentUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
                         "width": 134,
                         "height": 21,
                         "caption": "Digital Pulse - Phlox Elementor WordPress Theme "
                     },
                     "image": {
-                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/"
+                        "@id": "/portfolio-digital-pulse/#/schema/logo/image/"
                     }
                 }
             ]
@@ -149,10 +149,10 @@
     <link rel="dns-prefetch" href="https://maps.googleapis.com/" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
     <link rel="alternate" type="application/rss+xml" title="Digital Pulse - Phlox Elementor WordPress Theme  » Feed"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/feed/" />
+        href="/portfolio-digital-pulse/feed/" />
     <link rel="alternate" type="application/rss+xml"
         title="Digital Pulse - Phlox Elementor WordPress Theme  » Comments Feed"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/comments/feed/" />
+        href="/portfolio-digital-pulse/comments/feed/" />
     <script type="text/javascript">
         window._wpemojiSettings = {
             baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -812,17 +812,17 @@
         /* ]]> */
     </script>
 
-    <link rel="https://api.w.org/" href="https://demo.phlox.pro/portfolio-digital-pulse/wp-json/" />
+    <link rel="https://api.w.org/" href="/portfolio-digital-pulse/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/wp-json/wp/v2/pages/22" />
+        href="/portfolio-digital-pulse/wp-json/wp/v2/pages/22" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/xmlrpc.php?rsd" />
+        href="/portfolio-digital-pulse/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.7.4" />
-    <link rel="shortlink" href="https://demo.phlox.pro/portfolio-digital-pulse/" />
+    <link rel="shortlink" href="/portfolio-digital-pulse/" />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F" />
+        href="/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://demo.phlox.pro/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F&amp;format=xml" />
+        href="/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F&amp;format=xml" />
     <meta name="title" content="Home" />
     <meta name="description"
         content="Business Masters agency Strategic Solutions for Sustainable Success Get Started consultation Ready to Unlock Your Digital Potential? Let’s Talk! Read more What we Do we are passionate about design, and it’s not just a job for us; it’s a way of life. who have a common goal: to deliver exceptional design solutions that resonate with […]" />
@@ -1454,11 +1454,21 @@
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/common.js.download"></script>
     <script type="text/javascript" charset="UTF-8"
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/util.js.download"></script>
-        <style>
-            .hsds-beacon {
-                display: none !important;
+    <style>
+        .hsds-beacon {
+            display: none !important;
+        }
+    </style>
+    <!-- Tailwind CSS CDN with tw- prefix -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            prefix: 'tw-',
+            corePlugins: {
+                preflight: false, // Disable Tailwind's base styles to avoid conflicts
             }
-        </style>
+        }
+    </script>
 </head>
 
 <body data-rsssl="1"
@@ -1502,8 +1512,8 @@
                                     include 'components/what-we-do.php';
                                     include 'components/projects.php';
                                     ?>
-                                    
-                                    
+
+
                                     <div data-export-id="396-22-9cf4fce"
                                         class="aux-parallax-section elementor-element elementor-element-9cf4fce e-flex e-con-boxed e-con e-parent e-lazyloaded"
                                         data-id="9cf4fce" data-element_type="container">
@@ -1928,7 +1938,7 @@
                                                                             <div
                                                                                 class="aux-media-frame aux-media-image">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/sunflower-realty-group/"><img
+                                                                                    href="/portfolio-digital-pulse/portfolio/sunflower-realty-group/"><img
                                                                                         width="606" height="697"
                                                                                         class="aux-attachment aux-featured-image attachment-606.66666666667x697.66666666667 aux-attachment-id-1965"
                                                                                         alt="d376be96ed331d78fd5cb863c6e3417b"
@@ -1937,12 +1947,12 @@
                                                                                         sizes="447px"
                                                                                         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/d376be96ed331d78fd5cb863c6e3417b-scaled-607x698.jpg"
                                                                                         srcset="
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-150x173.jpg    150w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-300x345.jpg    300w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-768x883.jpg    768w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-1024x1178.jpg 1024w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-607x698.jpg    607w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-2550x2932.jpg 2550w
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-150x173.jpg    150w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-300x345.jpg    300w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-768x883.jpg    768w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-1024x1178.jpg 1024w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-607x698.jpg    607w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/d376be96ed331d78fd5cb863c6e3417b-scaled-2550x2932.jpg 2550w
                                               " /></a>
                                                                             </div>
                                                                         </div>
@@ -1952,7 +1962,7 @@
                                                                         <header class="entry-header">
                                                                             <h3 class="entry-title">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/sunflower-realty-group/">
+                                                                                    href="/portfolio-digital-pulse/portfolio/sunflower-realty-group/">
                                                                                     Sunflower Realty Group
                                                                                 </a>
                                                                             </h3>
@@ -1976,7 +1986,7 @@
                                                                         </div>
                                                                         <div class="entry-info">
                                                                             <span class="entry-tax">
-                                                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio-cat/marketing/"
+                                                                                <a href="/portfolio-digital-pulse/portfolio-cat/marketing/"
                                                                                     title="View all posts in Marketing"
                                                                                     rel="category">Marketing</a>
                                                                             </span>
@@ -1998,7 +2008,7 @@
                                                                             <div
                                                                                 class="aux-media-frame aux-media-image">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/e-commerce-evolution/"><img
+                                                                                    href="/portfolio-digital-pulse/portfolio/e-commerce-evolution/"><img
                                                                                         width="606" height="697"
                                                                                         class="aux-attachment aux-featured-image attachment-606.66666666667x697.66666666667 aux-attachment-id-1973"
                                                                                         alt="61762b926afd242a0897e5b8d1348aa0"
@@ -2007,12 +2017,12 @@
                                                                                         sizes="447px"
                                                                                         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/61762b926afd242a0897e5b8d1348aa0-scaled-607x698.jpg"
                                                                                         srcset="
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-150x173.jpg    150w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-300x345.jpg    300w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-768x883.jpg    768w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-1024x1178.jpg 1024w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-607x698.jpg    607w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-2038x2343.jpg 2038w
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-150x173.jpg    150w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-300x345.jpg    300w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-768x883.jpg    768w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-1024x1178.jpg 1024w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-607x698.jpg    607w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/61762b926afd242a0897e5b8d1348aa0-scaled-2038x2343.jpg 2038w
                                               " /></a>
                                                                             </div>
                                                                         </div>
@@ -2022,7 +2032,7 @@
                                                                         <header class="entry-header">
                                                                             <h3 class="entry-title">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/e-commerce-evolution/">
+                                                                                    href="/portfolio-digital-pulse/portfolio/e-commerce-evolution/">
                                                                                     E-commerce Evolution
                                                                                 </a>
                                                                             </h3>
@@ -2046,7 +2056,7 @@
                                                                         </div>
                                                                         <div class="entry-info">
                                                                             <span class="entry-tax">
-                                                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio-cat/logo-design/"
+                                                                                <a href="/portfolio-digital-pulse/portfolio-cat/logo-design/"
                                                                                     title="View all posts in Logo design"
                                                                                     rel="category">Logo design</a>
                                                                             </span>
@@ -2068,7 +2078,7 @@
                                                                             <div
                                                                                 class="aux-media-frame aux-media-image">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/zenithmarket-adventures/"><img
+                                                                                    href="/portfolio-digital-pulse/portfolio/zenithmarket-adventures/"><img
                                                                                         loading="lazy" width="606"
                                                                                         height="697"
                                                                                         class="aux-attachment aux-featured-image attachment-606.66666666667x697.66666666667 aux-attachment-id-1970"
@@ -2078,12 +2088,12 @@
                                                                                         sizes="447px"
                                                                                         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-607x698.jpg"
                                                                                         srcset="
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-150x173.jpg    150w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-300x345.jpg    300w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-768x883.jpg    768w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-1024x1178.jpg 1024w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-607x698.jpg    607w,
-                                                https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-2550x2932.jpg 2550w
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-150x173.jpg    150w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-300x345.jpg    300w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-768x883.jpg    768w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-1024x1178.jpg 1024w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-607x698.jpg    607w,
+                                                /portfolio-digital-pulse/wp-content/uploads/sites/396/2024/01/fbc0c7428951faa5931dc8fdf82f8cc2-scaled-2550x2932.jpg 2550w
                                               " /></a>
                                                                             </div>
                                                                         </div>
@@ -2093,7 +2103,7 @@
                                                                         <header class="entry-header">
                                                                             <h3 class="entry-title">
                                                                                 <a
-                                                                                    href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/zenithmarket-adventures/">
+                                                                                    href="/portfolio-digital-pulse/portfolio/zenithmarket-adventures/">
                                                                                     ZenithMarket Adventures
                                                                                 </a>
                                                                             </h3>
@@ -2117,7 +2127,7 @@
                                                                         </div>
                                                                         <div class="entry-info">
                                                                             <span class="entry-tax">
-                                                                                <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio-cat/marketing/"
+                                                                                <a href="/portfolio-digital-pulse/portfolio-cat/marketing/"
                                                                                     title="View all posts in Marketing"
                                                                                     rel="category">Marketing</a>
                                                                             </span>
@@ -2229,7 +2239,7 @@
                                                     <div
                                                         class="aux-modern-button-wrapper aux-modern-button-align-center">
                                                         <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                                                            href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/">
+                                                            href="/portfolio-digital-pulse/portfolio/">
                                                             <div class="aux-overlay"></div>
                                                             <div class="aux-icon"></div>
                                                             <div class="aux-text">
@@ -2455,7 +2465,7 @@
                                                         <div
                                                             class="aux-modern-button-wrapper aux-modern-button-align-left">
                                                             <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                                                                href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/">
+                                                                href="/portfolio-digital-pulse/about-us/">
                                                                 <div class="aux-overlay"></div>
                                                                 <div class="aux-icon"></div>
                                                                 <div class="aux-text">
@@ -3166,13 +3176,13 @@
                                         <div class="aux-widget-logo">
                                             <a class="aux-logo-anchor aux-has-logo"
                                                 title="Digital Pulse – Phlox Elementor WordPress Theme"
-                                                href="https://demo.phlox.pro/portfolio-digital-pulse/"><img width="134"
+                                                href="/portfolio-digital-pulse/"><img width="134"
                                                     height="21"
                                                     src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/DigitalAgency-1.svg"
                                                     class="attachment-full size-full" alt="" /></a>
                                             <section class="aux-logo-text">
                                                 <h3 class="site-title">
-                                                    <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
+                                                    <a href="/portfolio-digital-pulse/"
                                                         title="Digital Pulse – Phlox Elementor WordPress Theme ">Digital
                                                         Pulse - Phlox Elementor WordPress Theme
                                                     </a>
@@ -3219,7 +3229,7 @@
                                                     <!-- start single menu -->
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22 current_page_item menu-item-39 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
+                                                        <a href="/portfolio-digital-pulse/"
                                                             class="aux-item-content">
                                                             <span class="aux-menu-label">Home</span>
                                                         </a>
@@ -3228,7 +3238,7 @@
                                                     <!-- start single menu -->
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/"
+                                                        <a href="/portfolio-digital-pulse/portfolio/"
                                                             class="aux-item-content">
                                                             <span class="aux-menu-label">Portfolio</span>
                                                         </a>
@@ -3237,7 +3247,7 @@
                                                     <!-- start single menu -->
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/"
+                                                        <a href="/portfolio-digital-pulse/about-us/"
                                                             class="aux-item-content">
                                                             <span class="aux-menu-label">About us</span>
                                                         </a>
@@ -3246,7 +3256,7 @@
                                                     <!-- start single menu -->
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/contacts/"
+                                                        <a href="/portfolio-digital-pulse/contacts/"
                                                             class="aux-item-content">
                                                             <span class="aux-menu-label">Contacts</span>
                                                         </a>
@@ -3436,7 +3446,7 @@
             <div class="aux-fs-search">
                 <div class="aux-search-section">
                     <div class="aux-search-form">
-                        <form action="https://demo.phlox.pro/portfolio-digital-pulse/" method="get">
+                        <form action="/portfolio-digital-pulse/" method="get">
                             <div class="aux-search-input-form">
                                 <input type="text" class="aux-search-field" placeholder="Type here.." name="s"
                                     autocomplete="off" />
@@ -3456,7 +3466,7 @@
             <div class="aux-search-field">
                 <div class="aux-search-section aux-404-search">
                     <div class="aux-search-form aux-iconic-search">
-                        <form action="https://demo.phlox.pro/portfolio-digital-pulse/" method="get">
+                        <form action="/portfolio-digital-pulse/" method="get">
                             <div class="aux-search-input-form">
                                 <input type="text" class="aux-search-field" placeholder="Search..." name="s"
                                     autocomplete="off" />

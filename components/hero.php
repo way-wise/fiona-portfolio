@@ -165,8 +165,8 @@ require_once 'data/projects.php';
                             <div class="aux-media-image">
                                 <img fetchpriority="high" decoding="async"
                                     width="770" height="1148"
-                                    src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/Group-103-2.png"
-                                    class="aux-attachment aux-featured-image aux-attachment-id-82"
+                                    src="./assets/images/me.jpeg"
+                                    class="aux-attachment aux-featured-image aux-attachment-id-82 !tw-h-[520px] tw-object-cover !tw-rounded-t-full"
                                     alt="Hero Image" data-ratio="0.67"
                                     data-original-w="770" />
                             </div>
@@ -220,7 +220,7 @@ require_once 'data/projects.php';
                     <div
                         class="aux-modern-button-wrapper aux-modern-button-align-left">
                         <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                            href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/">
+                            href="/portfolio-digital-pulse/portfolio/">
                             <div class="aux-overlay"></div>
                             <div class="aux-icon"></div>
                             <div class="aux-text">
