@@ -28,7 +28,7 @@ require_once 'data/projects.php';
                                 Hello, I'm Fiona Bari
                             </h5>
                             <div class="aux-modern-heading-divider"></div>
-                            <h1 class="aux-modern-heading-secondary !tw-text-5xl">
+                            <h1 class="aux-modern-heading-secondary md:!tw-text-5xl">
                                 <span class="aux-head-before">
                                     loves to create beautiful and functional digital experiences.
                                 </span>
