@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Hero Component
  * Main banner section with call-to-action
@@ -34,7 +35,7 @@ require_once 'data/projects.php';
                     </section>
                 </div>
             </div>
-            
+
             <!-- Get Started Button -->
             <div class="elementor-element elementor-element-7cbb982 aux-appear-watch-animation aux-fade-in-up-1 elementor-widget elementor-widget-aux_modern_button aux-animated aux-animated-once"
                 data-id="7cbb982" data-element_type="widget"
@@ -53,7 +54,7 @@ require_once 'data/projects.php';
                 </div>
             </div>
         </div>
-        
+
         <!-- Decorative Elements -->
         <div class="elementor-element elementor-element-becc75d e-con-full e-flex e-con e-child"
             data-id="becc75d" data-element_type="container">
@@ -88,7 +89,7 @@ require_once 'data/projects.php';
                     </div>
                 </div>
             </div>
-            
+
             <!-- Decorative Shapes -->
             <div class="aux-scroll-anim elementor-element elementor-element-ebbdb8b aux-appear-watch-animation aux-fade-in-up aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
                 data-move-in="" data-move-out="moveVertical" data-axis-x="-20"
@@ -105,7 +106,7 @@ require_once 'data/projects.php';
                     </div>
                 </div>
             </div>
-            
+
             <!-- Additional decorative shapes -->
             <div class="aux-scroll-anim elementor-element elementor-element-d499a34 aux-appear-watch-animation aux-slide-from-left aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
                 data-move-in="" data-move-out="moveVertical" data-axis-x="20"
@@ -122,7 +123,7 @@ require_once 'data/projects.php';
                     </div>
                 </div>
             </div>
-            
+
             <div class="elementor-element elementor-element-c0c0a4a aux-appear-watch-animation aux-slide-from-top aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
                 data-id="c0c0a4a" data-element_type="widget"
                 data-widget_type="aux_simple_shape.default">
@@ -134,7 +135,7 @@ require_once 'data/projects.php';
                     </div>
                 </div>
             </div>
-            
+
             <div class="elementor-element elementor-element-12921b0 aux-appear-watch-animation aux-slide-from-bot aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
                 data-id="12921b0" data-element_type="widget"
                 data-widget_type="aux_simple_shape.default">
@@ -147,7 +148,7 @@ require_once 'data/projects.php';
                 </div>
             </div>
         </div>
-        
+
         <!-- Hero Image -->
         <div class="elementor-element elementor-element-c36448a e-con-full e-flex e-con e-child"
             data-id="c36448a" data-element_type="container">
@@ -173,7 +174,7 @@ require_once 'data/projects.php';
                     </section>
                 </div>
             </div>
-            
+
             <!-- Additional decorative shape -->
             <div class="aux-scroll-anim elementor-element elementor-element-eb9973f aux-appear-watch-animation aux-fade-in-up aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
                 data-move-in="" data-move-out="moveHorizontal" data-axis-x="40"
@@ -207,7 +208,8 @@ require_once 'data/projects.php';
                 data-widget_type="heading.default">
                 <div class="elementor-widget-container">
                     <h4 class="elementor-heading-title elementor-size-default">
-                        <?php echo htmlspecialchars($site_config['hero_description']); ?>
+                        Ready to Unlock Your Digital Potential? Let's
+                        Talk!
                     </h4>
                 </div>
             </div>
@@ -215,15 +217,41 @@ require_once 'data/projects.php';
                 data-id="d602c13" data-element_type="widget"
                 data-widget_type="aux_modern_button.default">
                 <div class="elementor-widget-container">
-                    <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                    <div
+                        class="aux-modern-button-wrapper aux-modern-button-align-left">
                         <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                            href="#contact">
+                            href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/">
                             <div class="aux-overlay"></div>
                             <div class="aux-icon"></div>
                             <div class="aux-text">
                                 <span class="aux-text-before">Read more</span>
                             </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elementor-element elementor-element-d89f2c8 e-con-full e-flex e-con e-child"
+            data-id="d89f2c8" data-element_type="container">
+            <div class="elementor-element elementor-element-97a5e71 aux-appear-watch-animation aux-slide-from-right aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
+                data-id="97a5e71" data-element_type="widget"
+                data-widget_type="aux_simple_shape.default">
+                <div class="elementor-widget-container">
+                    <div class="aux-widget-container aux-simple-shape-container">
+                        <div class="aux-widget-container-inner">
+                            <div class="aux-the-shape"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-3b68597 aux-appear-watch-animation aux-slide-from-top aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
+                data-id="3b68597" data-element_type="widget"
+                data-widget_type="aux_simple_shape.default">
+                <div class="elementor-widget-container">
+                    <div class="aux-widget-container aux-simple-shape-container">
+                        <div class="aux-widget-container-inner">
+                            <div class="aux-the-shape"></div>
+                        </div>
                     </div>
                 </div>
             </div>
