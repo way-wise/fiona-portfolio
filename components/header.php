@@ -53,7 +53,7 @@
                                                 </a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="/about-me" class="aux-item-content !tw-text-white !tw-uppercase">
+                                                <a href="/#about" class="aux-item-content !tw-text-white !tw-uppercase">
                                                     <span class="aux-menu-label">About Me</span>
                                                 </a>
                                             </li>

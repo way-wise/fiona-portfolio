@@ -11,7 +11,7 @@ require_once 'data/projects.php';
 <!-- Projects Section -->
 <div data-export-id="396-22-86ce46c"
     class="aux-parallax-section elementor-element elementor-element-86ce46c e-flex e-con-boxed e-con e-parent e-lazyloaded"
-    data-id="86ce46c" data-element_type="container">
+    data-id="86ce46c" data-element_type="container" id="portfolio">
     <div class="e-con-inner">
         <!-- Section Title -->
         <div class="elementor-element elementor-element-a5fbc05 aux-appear-watch-animation aux-fade-in-down elementor-widget elementor-widget-aux_modern_heading aux-animated aux-animated-once"

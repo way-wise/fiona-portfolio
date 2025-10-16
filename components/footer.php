@@ -6,8 +6,7 @@
  */
 ?>
 
-<footer class="aux-elementor-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter"
-    role="contentinfo">
+<footer class="aux-elementor-footer" id="contact">
     <div class="aux-wrapper">
         <div data-elementor-type="footer" data-elementor-id="388" class="elementor elementor-388">
             <div data-export-id="396-388-611192b"

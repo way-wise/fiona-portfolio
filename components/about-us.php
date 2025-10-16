@@ -4,7 +4,7 @@
 <div data-export-id="396-22-8e6b480"
     class="aux-parallax-section elementor-element elementor-element-8e6b480 e-flex e-con-boxed e-con e-parent e-lazyloaded"
     data-id="8e6b480" data-element_type="container"
-    data-settings='{"background_background":"classic"}'>
+    data-settings='{"background_background":"classic"}' id="about">
     <div class="e-con-inner">
         <div class="elementor-element elementor-element-410b68d e-con-full e-flex e-con e-child"
             data-id="410b68d" data-element_type="container">
