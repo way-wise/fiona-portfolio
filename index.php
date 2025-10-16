@@ -24,6 +24,9 @@
     <link media="all"
         href="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/autoptimize_eb60963be1ab3218bf6d91ebf2324c93.css"
         rel="stylesheet" />
+    <!-- Local Fonts CSS - Fallback for Google Fonts -->
+    <link media="all" href="./assets/css/fonts.css" rel="stylesheet" />
+    <link media="all" href="./assets/css/custom.css" rel="stylesheet" />
     <title>Home - Digital Pulse - Phlox Elementor WordPress Theme</title>
     <meta name="description" content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
     <link rel="canonical" href="/portfolio-digital-pulse/" />

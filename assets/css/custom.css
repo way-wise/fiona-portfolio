@@ -1,5 +1,34 @@
 /* Custom CSS for Component-Based Portfolio */
 
+/* Import local fonts */
+@import url('./fonts.css');
+
+/* Font Override - Ensure fonts work in all environments */
+/* Override Google Fonts with system fonts as fallback */
+* {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.site-description,
+.aux-menu-label,
+.entry-title,
+.error404 .entry-main .entry-content h2 {
+  font-family: 'Josefin Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Specific overrides for elements that should use Josefin Sans */
+.aux-search.aux-template-type-side-media .entry-title a,
+.error404 .entry-main .entry-content h2 {
+  font-family: 'Josefin Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Ensure all text elements have proper font fallbacks */
+body, html, p, div, span, a, li, ul, ol, td, th, input, textarea, button {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
 /* Component-specific styles */
 .component-section {
     margin: 0;
