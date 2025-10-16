@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://static.mailerlite.com/data/a/816/816811/webforms/g1w8q3/465/465081/page.html?v=1760601816 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <title>Webform</title>
+    <style>
+
+            * { padding: 0; margin: 0; }            
+
+            body {
+                
+                background: none !important;
+                font-size: 16px;
+                font-family: Arial;
+                
+            }
+			
+			.checkbox.ml-error label {
+				border-bottom: 2px solid red;
+			  }
+            
+            .mb0 {
+            
+                margin-bottom: 0px;    
+                
+            }
+            
+            .mb10 {
+            
+                margin-bottom: 10px;    
+                
+            }
+            
+            .mb15 {
+            
+                margin-bottom: 15px;    
+                
+            }
+            
+            .mb20 {
+            
+                margin-bottom: 20px;    
+                
+            }
+            
+            .mb30 {
+            
+                margin-bottom: 30px;    
+                
+            }
+            
+            .mt0 {
+            
+                margin-top: 0;    
+                
+            }
+            
+            .mt15 {
+            
+                margin-top: 15px;    
+                
+            }
+            
+            .overlay {
+	            
+                position: fixed;
+                left: 0;
+                top: 0;
+                z-index: 9999;
+                width: 100%;
+                height: 100%; 
+                overflow: auto;
+                overflow-x: hidden;
+                cursor: default;
+                
+            }
+            
+            .mailerlite-container {
+                
+                width: 100% !important;
+                box-sizing: border-box;
+                margin: 0 auto;
+                position: static;
+                display: table;
+                height: 100%;
+                
+            }
+            
+            .mailerlite-vertical-align-center {
+                
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                
+            }
+            
+            .ml-subscribe-form .ml-vertical-align-center{
+                display: table-cell;
+                vertical-align: middle;
+            }
+            
+            .mailerlite-webform {
+                
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                padding: 100px 30px;
+                max-width: 700px;
+                background-color: #ffffff;
+                   
+                
+            }
+            
+            h3 {
+            
+                margin: 0px 0px 0px 0px;
+                color: #444;
+                font-size: 30px;
+                font-weight: 700;
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                
+            }
+            
+            .description {
+                
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                color: #444;
+                font-size: 18px;
+                
+            }
+            
+            .description p {
+	            
+	            margin: 0 0 10px 0;
+	            
+            }
+            
+            .description p:last-child {
+	            
+	            margin: 0;
+	            
+            }
+            
+            .description a {
+            
+                color: #444;
+                text-decoration: underline; 
+                
+            }
+            
+            .description a:hover {
+                
+                text-decoration: none;    
+                
+            }
+            
+            .btn {
+                
+                border: none;
+                background: #1BB0CE;
+                color: #ffffff;
+                font-weight: 400;
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                padding: 15px 30px;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 20px;
+            
+            }
+            
+            .btn:hover, .btn:focus, .btn:active {
+            
+                background: #058ba6;
+                color: #ffffff;
+                
+            }
+            
+            .input-group .input-group-btn .btn {
+            
+                border-radius: 0px 6px 6px 0px !important;
+                border: 1px solid #1bb0ce !important;
+                border-size: 1px 1px 1px 0px;
+                            
+            }
+            
+            .form-group .btn {
+                
+                margin-top:     
+                
+            }
+            
+            label {
+            
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: left;
+                color: #333333;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+                
+            }
+            
+            .ml-confirmation-text {
+	            
+				color: #ffffff;
+				font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+				font-size: 13px;
+				font-weight: 400;
+				line-height: 20px;
+	            
+			}
+			
+			.ml-confirmation-text input {
+				
+				line-height: 20px;
+				
+			}
+
+            .input-group .form-control, .form-group .form-control {
+            
+                height: auto;
+                padding: 15px 16px;
+                font-size: 16px;
+                box-shadow: none;
+                line-height: 20px;
+                
+            }
+            
+            .input-group .form-control {
+                
+                border-radius: 6px 0px 0px 6px;
+                
+            }
+            
+            .form-group .form-control {
+                
+                border-radius: 6px 6px 6px 6px;
+                
+            }
+            
+            .form-control {
+                
+                background: #ffffff;
+                color: #333333;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+                border: 1px solid #1bb0ce !important;
+                
+            }
+            
+            .form-control:focus {
+            
+                box-shadow: none;
+                z-index: 1;
+                
+            }
+            
+            .close-popup {
+                
+                color: #444444;
+                position: absolute;
+                right: 5px;
+                top: 5px;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 16px;
+                z-index: 999;
+                
+            }
+            
+            .close-popup:hover, .close-popup:active, .close-popup:focus {
+            
+                text-decoration: none;
+                color: #000000;
+                outline: none;   
+                
+            }
+            
+            .close-text {
+	            
+                color: #ffffff;
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                
+            }
+            
+            .close-text:hover, .close-text:active, .close-text:focus {
+            
+                text-decoration: underline;
+                color: #ffffff;
+                
+            }
+            
+             .ml-error input {
+                 
+                 background: url(https://bucket.mlcdn.com/a/470/470227/templates/0/653/2ef124b19b1e1bd6c3d8b6766bd7bd0b538c7d76.png) 97% center no-repeat #ffffff;
+                 background-size: 24px 24px;
+    
+             }
+             
+            @media (max-width: 768px) {
+	            
+	            .mailerlite-container {
+		            
+		            padding: 15px !important;
+		            
+	            }
+	            
+	            .mailerlite-vertical-align-center {
+		            
+		            vertical-align: top;
+		            
+	            }
+	            
+	            .mailerlite-webform {
+		            
+		            padding: 30px !important;
+		            
+	            }
+	            
+	            h1,h2,h3 {
+	                
+	                word-break: break-word;
+	                
+                }
+	            
+	            h3 {
+		            
+	                font-size: 18px;
+		            
+	            }
+	            
+	            .description {
+		            
+	                font-size: 13px;
+	                margin-bottom: -15px;
+		            
+	            }
+				
+				.close-text {
+					
+	                font-size: 13px;
+					
+				}
+
+	            .btn {
+		            
+		             white-space: normal !important;
+		             
+	            }
+                
+                .input-group {
+                
+                    display: block;    
+                    
+                }
+                
+                .input-group .form-control {
+                   
+                    border-radius: 6px !important;    
+                    display: block;
+                    font-size: 13px !important;
+                    margin-bottom: 15px;
+                    padding: 10px !important;
+                    
+                }
+                
+                .input-group .input-group-btn .btn {
+                    
+                    border-radius: 6px 6px 6px 6px !important;
+                    display: block;    
+	                font-size: 13px !important;
+                    padding: 10px !important;
+                    width: 100%;
+                    
+                }
+                
+            }
+
+        </style><meta name="robots" content="noindex, nofollow"><script type="text/javascript" src="./jquery.min.js.download"></script><script type="text/javascript" src="./ml_jQuery.inputmask.bundle.min.js.download"></script></head>
+    <body style="position: relative;" data-new-gr-c-s-check-loaded="14.1257.0" data-gr-ext-installed="">
+        
+        
+        <style>
+            .overlay-close {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                cursor: default;
+            }
+        </style>
+                
+        
+        
+        
+	        
+	                
+	                
+	        
+	        		
+	            
+	            
+	            
+	            
+	        
+	        		
+	            	
+	            
+	                    
+	        
+	        	
+	            	
+	            	
+	            
+	                    
+	            
+	        
+	        	
+	            	
+	            	
+	            
+	                    
+	            
+	        
+	        
+	            		
+	            	
+	                    
+	            
+	            	
+	        
+	        
+	            
+	            
+	            
+	            
+	            
+	        
+	        
+	            
+	            
+	            
+	            	
+	            
+	             
+	        
+		        
+        
+			
+		        
+        <div class="overlay">
+			<a class="overlay-close" href="javascript:close()"></a>
+			<div class="mailerlite-container">
+				<div class="mailerlite-vertical-align-center">
+					<div class="mailerlite-webform">
+						
+						<a href="javascript:close()" class="close-popup glyphicon glyphicon-remove"></a>
+						
+						<div class="row row-form">
+							<div class="col-sm-10 col-sm-offset-1 ml-subscribe-form" id="mlb2-465081">
+								<form action="https://app.mailerlite.com/webforms/submit/g1w8q3" data-code="g1w8q3" method="POST" target="_blank">
+									<div class="row mb30">
+										<div class="col-sm-12">
+											
+												<div class="row mb15">
+													<div class="col-sm-12">
+														<h3>
+															
+														</h3>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-sm-12">
+														<div class="description">
+															<p><span style="font-size: 24px;">Join our newsletter to receive the latest news and updates.</span></p>
+														</div>
+													</div>
+												</div>
+											
+										</div>
+									</div>
+									
+										
+											
+											
+											
+										
+										
+											
+										 
+										<div class="row">
+											<div class="col-sm-12">
+												<div>
+													
+													<div class="input-group form-group mb0 ml-field-email ml-validate-required ml-validate-email">
+														<input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" aria-invalid="false">
+														<span class="input-group-btn">
+															<button class="btn btn-default primary" type="submit">
+																Submit
+															</button>
+															<button disabled="disabled" style="display: none;" type="button" class="loading btn btn-default">
+															<img src="./rolling.gif" width="20" height="20" style="width: 20px; height: 20px; display: block;" border="0">
+															</button>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										
+										
+									
+									<input type="hidden" name="ml-submit" value="1" aria-invalid="false">
+								</form>
+								
+							</div>
+						</div>
+						
+						<div class="row row-success" style="display: none">
+							<div class="col-sm-8 col-sm-offset-2">
+								
+									<div class="row mb15">
+										<div class="col-sm-12">
+											<h3>
+												Thank you!
+											</h3>
+										</div>
+									</div>
+									<div class="row mb20">
+										<div class="col-sm-12">
+											<div class="description">
+												<p>for downloading Phlox theme.</p>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<a class="btn" href="javascript:close()">
+												Close
+											</a>
+										</div>
+									</div>
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+    
+        <div style="display: none">
+        <script>
+    
+
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        var isEscape = false;
+        if ('key' in evt) {
+            isEscape = evt.key == 'Escape';
+        } else {
+            isEscape = evt.keyCode == 27;
+        }
+
+        if (isEscape) {
+            close();
+        }
+    };
+
+    function close() {
+        window.parent.postMessage('ml-accounts-816811-s3m4k9h6b4-webforms-465081-g1w8q3-hide', '*');
+    };
+
+    function ml_webform_success_465081 () {
+        var $ = ml_jQuery || jQuery;
+
+        $('.row-form').hide();
+        $('.row-success').show();
+        $(window).scrollTop(0);
+
+        
+        if ($('.row-success').find('.success-template').length && $('.success-template').html()) {
+            $('.row-success').replaceWith($('.success-template').html());
+        }
+    }
+
+    
+</script>
+
+
+        </div>
+
+        <script type="text/javascript" src="./webforms.min.js.download"></script>
+        
+    
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
