@@ -49,103 +49,100 @@
     <script async=""
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/analytics.js.download"></script>
     <script type="application/ld+json" class="yoast-schema-graph">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://demo.phlox.pro/portfolio-digital-pulse/",
-            "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
-            "name": "Home - Digital Pulse - Phlox Elementor WordPress Theme",
-            "isPartOf": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website"
-            },
-            "about": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
-            },
-            "image": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
-            },
-            "thumbnailUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
-            "datePublished": "2023-12-19T07:04:51+00:00",
-            "dateModified": "2025-03-25T09:06:09+00:00",
-            "description": "The best premium Elementor WordPress theme for {portfolio-digital-pulse}",
-            "breadcrumb": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": ["https://demo.phlox.pro/portfolio-digital-pulse/"]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage",
-            "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
-            "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
-            "width": 770,
-            "height": 1148
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home" }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website",
-            "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
-            "name": "Digital Pulse - Phlox Elementor WordPress Theme",
-            "description": "Complete Elementor Demo - Phlox WordPress Theme",
-            "publisher": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
-            },
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://demo.phlox.pro/portfolio-digital-pulse/?s={search_term_string}"
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "WebPage",
+                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "name": "Home - Digital Pulse - Phlox Elementor WordPress Theme",
+                    "isPartOf": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website"
+                    },
+                    "about": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
+                    },
+                    "primaryImageOfPage": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
+                    },
+                    "image": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage"
+                    },
+                    "thumbnailUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "datePublished": "2023-12-19T07:04:51+00:00",
+                    "dateModified": "2025-03-25T09:06:09+00:00",
+                    "description": "The best premium Elementor WordPress theme for {portfolio-digital-pulse}",
+                    "breadcrumb": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb"
+                    },
+                    "inLanguage": "en-US",
+                    "potentialAction": [{
+                        "@type": "ReadAction",
+                        "target": ["https://demo.phlox.pro/portfolio-digital-pulse/"]
+                    }]
                 },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
+                {
+                    "@type": "ImageObject",
+                    "inLanguage": "en-US",
+                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#primaryimage",
+                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "width": 770,
+                    "height": 1148
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#breadcrumb",
+                    "itemListElement": [{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home"
+                    }]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#website",
+                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "name": "Digital Pulse - Phlox Elementor WordPress Theme",
+                    "description": "Complete Elementor Demo - Phlox WordPress Theme",
+                    "publisher": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization"
+                    },
+                    "potentialAction": [{
+                        "@type": "SearchAction",
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://demo.phlox.pro/portfolio-digital-pulse/?s={search_term_string}"
+                        },
+                        "query-input": {
+                            "@type": "PropertyValueSpecification",
+                            "valueRequired": true,
+                            "valueName": "search_term_string"
+                        }
+                    }],
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization",
+                    "name": "Digital Pulse - Phlox Elementor WordPress Theme",
+                    "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/",
+                        "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "width": 134,
+                        "height": 21,
+                        "caption": "Digital Pulse - Phlox Elementor WordPress Theme "
+                    },
+                    "image": {
+                        "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/"
+                    }
                 }
-              }
-            ],
-            "inLanguage": "en-US"
-          },
-          {
-            "@type": "Organization",
-            "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#organization",
-            "name": "Digital Pulse - Phlox Elementor WordPress Theme",
-            "url": "https://demo.phlox.pro/portfolio-digital-pulse/",
-            "logo": {
-              "@type": "ImageObject",
-              "inLanguage": "en-US",
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/",
-              "url": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
-              "contentUrl": "https://demo.phlox.pro/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
-              "width": 134,
-              "height": 21,
-              "caption": "Digital Pulse - Phlox Elementor WordPress Theme "
-            },
-            "image": {
-              "@id": "https://demo.phlox.pro/portfolio-digital-pulse/#/schema/logo/image/"
-            }
-          }
-        ]
-      }
+            ]
+        }
     </script>
     <!-- / Yoast SEO plugin. -->
 
@@ -163,45 +160,50 @@
             svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
             svgExt: ".svg",
             source: {
-                concatemoji:
-                    "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4",
+                concatemoji: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4",
             },
         };
         /*! This file is auto-generated */
-        !(function (i, n) {
+        !(function(i, n) {
             var o, s, e;
+
             function c(e) {
                 try {
-                    var t = { supportTests: e, timestamp: new Date().valueOf() };
+                    var t = {
+                        supportTests: e,
+                        timestamp: new Date().valueOf()
+                    };
                     sessionStorage.setItem(o, JSON.stringify(t));
-                } catch (e) { }
+                } catch (e) {}
             }
+
             function p(e, t, n) {
                 e.clearRect(0, 0, e.canvas.width, e.canvas.height),
                     e.fillText(t, 0, 0);
                 var t = new Uint32Array(
-                    e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-                ),
+                        e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                    ),
                     r =
-                        (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                            e.fillText(n, 0, 0),
-                            new Uint32Array(
-                                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-                            ));
-                return t.every(function (e, t) {
+                    (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                        e.fillText(n, 0, 0),
+                        new Uint32Array(
+                            e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                        ));
+                return t.every(function(e, t) {
                     return e === r[t];
                 });
             }
+
             function u(e, t, n) {
                 switch (t) {
                     case "flag":
                         return n(
-                            e,
-                            "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                            "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
-                        )
-                            ? !1
-                            : !n(
+                                e,
+                                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                            ) ?
+                            !1 :
+                            !n(
                                 e,
                                 "\ud83c\uddfa\ud83c\uddf3",
                                 "\ud83c\uddfa\u200b\ud83c\uddf3"
@@ -220,21 +222,25 @@
                 }
                 return !1;
             }
+
             function f(e, t, n) {
                 var r =
                     "undefined" != typeof WorkerGlobalScope &&
-                        self instanceof WorkerGlobalScope
-                        ? new OffscreenCanvas(300, 150)
-                        : i.createElement("canvas"),
-                    a = r.getContext("2d", { willReadFrequently: !0 }),
+                    self instanceof WorkerGlobalScope ?
+                    new OffscreenCanvas(300, 150) :
+                    i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
                     o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
                 return (
-                    e.forEach(function (e) {
+                    e.forEach(function(e) {
                         o[e] = t(a, e, n);
                     }),
                     o
                 );
             }
+
             function t(e) {
                 var t = i.createElement("script");
                 (t.src = e), (t.defer = !0), i.head.appendChild(t);
@@ -242,12 +248,17 @@
             "undefined" != typeof Promise &&
                 ((o = "wpEmojiSettingsSupports"),
                     (s = ["flag", "emoji"]),
-                    (n.supports = { everything: !0, everythingExceptFlag: !0 }),
-                    (e = new Promise(function (e) {
-                        i.addEventListener("DOMContentLoaded", e, { once: !0 });
+                    (n.supports = {
+                        everything: !0,
+                        everythingExceptFlag: !0
+                    }),
+                    (e = new Promise(function(e) {
+                        i.addEventListener("DOMContentLoaded", e, {
+                            once: !0
+                        });
                     })),
-                    new Promise(function (t) {
-                        var n = (function () {
+                    new Promise(function(t) {
+                        var n = (function() {
                             try {
                                 var e = JSON.parse(sessionStorage.getItem(o));
                                 if (
@@ -257,7 +268,7 @@
                                     "object" == typeof e.supportTests
                                 )
                                     return e.supportTests;
-                            } catch (e) { }
+                            } catch (e) {}
                             return null;
                         })();
                         if (!n) {
@@ -272,49 +283,50 @@
                                     var e =
                                         "postMessage(" +
                                         f.toString() +
-                                        "(" +
-                                        [JSON.stringify(s), u.toString(), p.toString()].join(
+                                        "(" + [JSON.stringify(s), u.toString(), p.toString()].join(
                                             ","
                                         ) +
                                         "));",
-                                        r = new Blob([e], { type: "text/javascript" }),
+                                        r = new Blob([e], {
+                                            type: "text/javascript"
+                                        }),
                                         a = new Worker(URL.createObjectURL(r), {
                                             name: "wpTestEmojiSupports",
                                         });
-                                    return void (a.onmessage = function (e) {
+                                    return void(a.onmessage = function(e) {
                                         c((n = e.data)), a.terminate(), t(n);
                                     });
-                                } catch (e) { }
+                                } catch (e) {}
                             c((n = f(s, u, p)));
                         }
                         t(n);
                     })
-                        .then(function (e) {
-                            for (var t in e)
-                                (n.supports[t] = e[t]),
-                                    (n.supports.everything =
-                                        n.supports.everything && n.supports[t]),
-                                    "flag" !== t &&
-                                    (n.supports.everythingExceptFlag =
-                                        n.supports.everythingExceptFlag && n.supports[t]);
+                    .then(function(e) {
+                        for (var t in e)
+                            (n.supports[t] = e[t]),
+                            (n.supports.everything =
+                                n.supports.everything && n.supports[t]),
+                            "flag" !== t &&
                             (n.supports.everythingExceptFlag =
-                                n.supports.everythingExceptFlag && !n.supports.flag),
-                                (n.DOMReady = !1),
-                                (n.readyCallback = function () {
-                                    n.DOMReady = !0;
-                                });
-                        })
-                        .then(function () {
-                            return e;
-                        })
-                        .then(function () {
-                            var e;
-                            n.supports.everything ||
-                                (n.readyCallback(),
-                                    (e = n.source || {}).concatemoji
-                                        ? t(e.concatemoji)
-                                        : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
-                        }));
+                                n.supports.everythingExceptFlag && n.supports[t]);
+                        (n.supports.everythingExceptFlag =
+                            n.supports.everythingExceptFlag && !n.supports.flag),
+                        (n.DOMReady = !1),
+                        (n.readyCallback = function() {
+                            n.DOMReady = !0;
+                        });
+                    })
+                    .then(function() {
+                        return e;
+                    })
+                    .then(function() {
+                        var e;
+                        n.supports.everything ||
+                            (n.readyCallback(),
+                                (e = n.source || {}).concatemoji ?
+                                t(e.concatemoji) :
+                                e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+                    }));
         })((window, document), window._wpemojiSettings);
     </script>
     <style id="wp-emoji-styles-inline-css">
@@ -778,15 +790,13 @@
 
     <script id="auxin-modernizr-js-extra" type="text/javascript">
         var auxin = {
-            ajax_url:
-                "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
             is_rtl: "",
             is_reponsive: "1",
             is_framed: "",
             frame_width: "20",
             wpml_lang: "en",
-            uploadbaseurl:
-                "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
+            uploadbaseurl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
             nonce: "f3f9c34eba",
         };
     </script>
@@ -794,9 +804,7 @@
         /* < ![CDATA[ */
         function auxinNS(n) {
             for (
-                var e = n.split("."), a = window, i = "", r = e.length, t = 0;
-                r > t;
-                t++
+                var e = n.split("."), a = window, i = "", r = e.length, t = 0; r > t; t++
             )
                 "window" != e[t] && ((i = e[t]), (a[i] = a[i] || {}), (a = a[i]));
             return a;
@@ -820,14 +828,14 @@
         content="Business Masters agency Strategic Solutions for Sustainable Success Get Started consultation Ready to Unlock Your Digital Potential? Let’s Talk! Read more What we Do we are passionate about design, and it’s not just a job for us; it’s a way of life. who have a common goal: to deliver exceptional design solutions that resonate with […]" />
     <link href="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/css2" rel="stylesheet" />
     <script type="text/javascript">
-        (function (i, s, o, g, r, a, m) {
+        (function(i, s, o, g, r, a, m) {
             i["GoogleAnalyticsObject"] = r;
             (i[r] =
                 i[r] ||
-                function () {
+                function() {
                     (i[r].q = i[r].q || []).push(arguments);
                 }),
-                (i[r].l = 1 * new Date());
+            (i[r].l = 1 * new Date());
             (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
             a.async = 1;
             a.src = g;
@@ -1446,6 +1454,11 @@
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/common.js.download"></script>
     <script type="text/javascript" charset="UTF-8"
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/util.js.download"></script>
+        <style>
+            .hsds-beacon {
+                display: none !important;
+            }
+        </style>
 </head>
 
 <body data-rsssl="1"
@@ -1464,123 +1477,14 @@
     </style>
 
     <div id="inner-body">
-        <header class="aux-elementor-header aux-overlay-header" id="site-elementor-header" itemscope="itemscope"
-            itemtype="https://schema.org/WPHeader" data-sticky-height="80">
-            <div class="aux-wrapper">
-                <div class="aux-header aux-header-elements-wrapper">
-                    <div data-elementor-type="header" data-elementor-id="31" class="elementor elementor-31">
-                        <div data-export-id="396-31-bf254c5"
-                            class="aux-parallax-section elementor-element elementor-element-bf254c5 e-flex e-con-boxed e-con e-parent e-lazyloaded"
-                            data-id="bf254c5" data-element_type="container"
-                            data-settings='{"background_background":"classic"}'>
-                            <div class="e-con-inner">
-                                <div class="elementor-element elementor-element-8b72c2b aux-appear-watch-animation aux-fade-in-right elementor-widget elementor-widget-aux_logo aux-animated aux-animated-once"
-                                    data-id="8b72c2b" data-element_type="widget" data-widget_type="aux_logo.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="aux-widget-logo">
-                                            <a class="aux-logo-anchor aux-has-logo"
-                                                title="Digital Pulse – Phlox Elementor WordPress Theme"
-                                                href="https://demo.phlox.pro/portfolio-digital-pulse/"><img width="134"
-                                                    height="21"
-                                                    src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/DigitalAgency-1.svg"
-                                                    class="attachment-full size-full" alt="" /></a>
-                                            <section class="aux-logo-text">
-                                                <h3 class="site-title">
-                                                    <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
-                                                        title="Digital Pulse – Phlox Elementor WordPress Theme ">Digital
-                                                        Pulse - Phlox Elementor WordPress Theme
-                                                    </a>
-                                                </h3>
-                                                <p class="site-description">
-                                                    Complete Elementor Demo - Phlox WordPress Theme
-                                                </p>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-a7cb876 aux-appear-watch-animation aux-fade-in-right elementor-widget elementor-widget-aux_menu_box aux-animated aux-animated-once"
-                                    data-id="a7cb876" data-element_type="widget" data-widget_type="aux_menu_box.default"
-                                    style="animation-name: none; opacity: 1">
-                                    <div class="elementor-widget-container">
-                                        <div
-                                            class="aux-elementor-header-menu aux-nav-menu-element aux-nav-menu-element-a7cb876">
-                                            <div class="aux-burger-box" data-target-panel="overlay"
-                                                data-target-content=".elementor-element-a7cb876 .aux-master-menu">
-                                                <div class="aux-burger aux-thick-small">
-                                                    <span class="mid-line"></span>
-                                                </div>
-                                            </div>
-                                            <!-- start master menu -->
-                                            <nav id="master-menu-elementor-a7cb876" class="menu-header-menu-container">
-                                                <ul id="menu-header-menu"
-                                                    class="aux-master-menu aux-skin-classic aux-horizontal aux-wide"
-                                                    data-type="horizontal" data-switch-type="toggle"
-                                                    data-switch-parent=".elementor-element-a7cb876 .aux-fs-popup .aux-fs-menu"
-                                                    data-switch-width="767">
-                                                    <!-- start single menu -->
-                                                    <li id="menu-item-39"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22 current_page_item menu-item-39 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/"
-                                                            class="aux-item-content">
-                                                            <span class="aux-menu-label">Home</span>
-                                                        </a>
-                                                    </li>
-                                                    <!-- end single menu -->
-                                                    <!-- start single menu -->
-                                                    <li id="menu-item-38"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/portfolio/"
-                                                            class="aux-item-content">
-                                                            <span class="aux-menu-label">Portfolio</span>
-                                                        </a>
-                                                    </li>
-                                                    <!-- end single menu -->
-                                                    <!-- start single menu -->
-                                                    <li id="menu-item-37"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/"
-                                                            class="aux-item-content">
-                                                            <span class="aux-menu-label">About us</span>
-                                                        </a>
-                                                    </li>
-                                                    <!-- end single menu -->
-                                                    <!-- start single menu -->
-                                                    <li id="menu-item-36"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
-                                                        <a href="https://demo.phlox.pro/portfolio-digital-pulse/contacts/"
-                                                            class="aux-item-content">
-                                                            <span class="aux-menu-label">Contacts</span>
-                                                        </a>
-                                                    </li>
-                                                    <!-- end single menu -->
-                                                </ul>
-                                            </nav>
-                                            <!-- end master menu -->
-                                            <section class="aux-fs-popup aux-fs-menu-layout-center aux-indicator"
-                                                style="display: none">
-                                                <div class="aux-panel-close">
-                                                    <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
-                                                </div>
-                                                <div class="aux-fs-menu" data-menu-title=""></div>
-                                            </section>
-                                        </div>
-                                        <style>
-                                            @media only screen and (min-width: 768px) {
-                                                .elementor-element-a7cb876 .aux-burger-box {
-                                                    display: none;
-                                                }
-                                            }
-                                        </style>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of header-elements -->
-            </div>
-            <!-- end of wrapper -->
-        </header>
+        <?php
+        // Include site configuration first
+        require_once 'data/site_config.php';
+        ?>
+        <?php
+        // Include all components
+        include 'components/header.php';
+        ?>
         <!-- end header -->
 
         <main id="main"
@@ -1592,193 +1496,13 @@
                             <article id="post-22" class="post-22 page type-page status-publish hentry">
                                 <div data-elementor-type="wp-page" data-elementor-id="22"
                                     class="elementor elementor-22">
-                                    <div data-export-id="396-22-4140c61"
-                                        class="aux-parallax-section elementor-element elementor-element-4140c61 e-flex e-con-boxed e-con e-parent e-lazyloaded"
-                                        data-id="4140c61" data-element_type="container"
-                                        data-settings='{"background_background":"classic"}'>
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-480dbd7 e-con-full e-flex e-con e-child"
-                                                data-id="480dbd7" data-element_type="container">
-                                                <div class="elementor-element elementor-element-546073f aux-appear-watch-animation aux-fade-in-down elementor-widget elementor-widget-aux_modern_heading aux-animated aux-animated-once"
-                                                    data-id="546073f" data-element_type="widget"
-                                                    data-widget_type="aux_modern_heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <section class="aux-widget-modern-heading">
-                                                            <div class="aux-widget-inner">
-                                                                <h5 class="aux-modern-heading-primary">
-                                                                    Business Masters agency
-                                                                </h5>
-                                                                <div class="aux-modern-heading-divider"></div>
-                                                                <h1 class="aux-modern-heading-secondary">
-                                                                    <span class="aux-head-before">Strategic Solutions
-                                                                        for Sustainable
-                                                                        Success</span>
-                                                                </h1>
-                                                            </div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-7cbb982 aux-appear-watch-animation aux-fade-in-up-1 elementor-widget elementor-widget-aux_modern_button aux-animated aux-animated-once"
-                                                    data-id="7cbb982" data-element_type="widget"
-                                                    data-widget_type="aux_modern_button.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="aux-modern-button-wrapper aux-modern-button-align-left">
-                                                            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                                                                href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/">
-                                                                <div class="aux-overlay"></div>
-                                                                <div class="aux-icon"></div>
-                                                                <div class="aux-text">
-                                                                    <span class="aux-text-before">Get Started</span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-becc75d e-con-full e-flex e-con e-child"
-                                                data-id="becc75d" data-element_type="container">
-                                                <div class="elementor-element elementor-element-a0f2d9a e-flex e-con-boxed e-con e-child"
-                                                    data-id="a0f2d9a" data-element_type="container">
-                                                    <div class="e-con-inner">
-                                                        <div class="elementor-element elementor-element-482d3b0 aux-appear-watch-animation aux-slide-from-right aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                            data-id="482d3b0" data-element_type="widget"
-                                                            data-widget_type="aux_simple_shape.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div
-                                                                    class="aux-widget-container aux-simple-shape-container">
-                                                                    <div class="aux-widget-container-inner">
-                                                                        <div class="aux-the-shape"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-a455636 aux-appear-watch-animation aux-fade-in-down-1 elementor-widget elementor-widget-aux_modern_button aux-animated aux-animated-once"
-                                                            data-id="a455636" data-element_type="widget"
-                                                            data-widget_type="aux_modern_button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div
-                                                                    class="aux-modern-button-wrapper aux-modern-button-align-left">
-                                                                    <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-top"
-                                                                        href="https://demo.phlox.pro/portfolio-digital-pulse/about-us/">
-                                                                        <div class="aux-overlay"></div>
-                                                                        <div class="aux-icon">
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="23" height="23"
-                                                                                viewBox="0 0 23 23" fill="none">
-                                                                                <path
-                                                                                    d="M21 22.5C21.8284 22.5 22.5 21.8284 22.5 21L22.5 7.5C22.5 6.67157 21.8284 6 21 6C20.1716 6 19.5 6.67157 19.5 7.5V19.5H7.5C6.67157 19.5 6 20.1716 6 21C6 21.8284 6.67157 22.5 7.5 22.5L21 22.5ZM0.93934 3.06066L19.9393 22.0607L22.0607 19.9393L3.06066 0.93934L0.93934 3.06066Z"
-                                                                                    fill="var( --e-global-color-e629fc4 )">
-                                                                                </path>
-                                                                            </svg>
-                                                                        </div>
-                                                                        <div class="aux-text">
-                                                                            <span
-                                                                                class="aux-text-before">consultation</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="aux-scroll-anim elementor-element elementor-element-ebbdb8b aux-appear-watch-animation aux-fade-in-up aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                    data-move-in="" data-move-out="moveVertical" data-axis-x="-20"
-                                                    data-axis-y="50" data-rotate="90" data-scale="1" data-vp-top="0.5"
-                                                    data-vp-bot="0.5" data-el-top="0.2" data-scroll-animation-off="1024"
-                                                    data-id="ebbdb8b" data-element_type="widget"
-                                                    data-widget_type="aux_simple_shape.default">
-                                                    <div class="elementor-widget-container"
-                                                        style="transform: translateY(0px)">
-                                                        <div class="aux-widget-container aux-simple-shape-container">
-                                                            <div class="aux-widget-container-inner">
-                                                                <div class="aux-the-shape"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="aux-scroll-anim elementor-element elementor-element-d499a34 aux-appear-watch-animation aux-slide-from-left aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                    data-move-in="" data-move-out="moveVertical" data-axis-x="20"
-                                                    data-axis-y="20" data-rotate="90" data-scale="1" data-vp-top="0.5"
-                                                    data-vp-bot="0.5" data-el-top="0.2" data-scroll-animation-off="1024"
-                                                    data-id="d499a34" data-element_type="widget"
-                                                    data-widget_type="aux_simple_shape.default">
-                                                    <div class="elementor-widget-container"
-                                                        style="transform: translateY(0px)">
-                                                        <div class="aux-widget-container aux-simple-shape-container">
-                                                            <div class="aux-widget-container-inner">
-                                                                <div class="aux-the-shape"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-c0c0a4a aux-appear-watch-animation aux-slide-from-top aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                    data-id="c0c0a4a" data-element_type="widget"
-                                                    data-widget_type="aux_simple_shape.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="aux-widget-container aux-simple-shape-container">
-                                                            <div class="aux-widget-container-inner">
-                                                                <div class="aux-the-shape"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-12921b0 aux-appear-watch-animation aux-slide-from-bot aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                    data-id="12921b0" data-element_type="widget"
-                                                    data-widget_type="aux_simple_shape.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="aux-widget-container aux-simple-shape-container">
-                                                            <div class="aux-widget-container-inner">
-                                                                <div class="aux-the-shape"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-c36448a e-con-full e-flex e-con e-child"
-                                                data-id="c36448a" data-element_type="container">
-                                                <div class="aux-scroll-anim elementor-element elementor-element-583dbc6 aux-appear-watch-animation aux-fade-in-up-2 elementor-widget elementor-widget-aux_image aux-animated aux-animated-once"
-                                                    data-move-in="" data-move-out="moveVertical" data-axis-x="20"
-                                                    data-axis-y="-25" data-rotate="90" data-scale="1" data-vp-top="0.5"
-                                                    data-vp-bot="0.5" data-el-top="0.2" data-scroll-animation-off="1024"
-                                                    data-id="583dbc6" data-element_type="widget"
-                                                    data-widget_type="aux_image.default">
-                                                    <div class="elementor-widget-container"
-                                                        style="transform: translateY(0.822961px)">
-                                                        <section
-                                                            class="widget-container aux-widget-image aux-alignnone aux-parent-au68166444">
-                                                            <div class="aux-media-hint-frame">
-                                                                <div class="aux-media-image">
-                                                                    <img fetchpriority="high" decoding="async"
-                                                                        width="770" height="1148"
-                                                                        src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/Group-103-2.png"
-                                                                        class="aux-attachment aux-featured-image aux-attachment-id-82"
-                                                                        alt="Group 103 (2)" data-ratio="0.67"
-                                                                        data-original-w="770" />
-                                                                </div>
-                                                            </div>
-                                                        </section>
-                                                        <!-- widget-container -->
-                                                    </div>
-                                                </div>
-                                                <div class="aux-scroll-anim elementor-element elementor-element-eb9973f aux-appear-watch-animation aux-fade-in-up aux-shpe-type-circle elementor-widget elementor-widget-aux_simple_shape aux-animated aux-animated-once"
-                                                    data-move-in="" data-move-out="moveHorizontal" data-axis-x="40"
-                                                    data-axis-y="200" data-rotate="90" data-scale="1" data-vp-top="0.5"
-                                                    data-vp-bot="0.5" data-el-top="0.2" data-scroll-animation-off="1024"
-                                                    data-id="eb9973f" data-element_type="widget"
-                                                    data-widget_type="aux_simple_shape.default">
-                                                    <div class="elementor-widget-container"
-                                                        style="transform: translateX(0px)">
-                                                        <div class="aux-widget-container aux-simple-shape-container">
-                                                            <div class="aux-widget-container-inner">
-                                                                <div class="aux-the-shape"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php
+                                    // Include all main components
+                                    include 'components/hero.php';
+                                    include 'components/what-we-do.php';
+                                    include 'components/projects.php';
+                                    ?>
+                                    
                                     <div data-export-id="396-22-8e57750"
                                         class="aux-parallax-section elementor-element elementor-element-8e57750 e-flex e-con-boxed e-con e-parent e-lazyloaded"
                                         data-id="8e57750" data-element_type="container"
@@ -2528,8 +2252,7 @@
                                                                 extra_column_classes: "",
                                                                 custom_el_id: "",
                                                                 template_part_file: "recent-portfolio",
-                                                                extra_template_path:
-                                                                    "\/var\/www\/demos\/wp-content\/plugins\/auxin-portfolio\/public\/templates\/elements",
+                                                                extra_template_path: "\/var\/www\/demos\/wp-content\/plugins\/auxin-portfolio\/public\/templates\/elements",
                                                                 universal_id: "au93e84f2b",
                                                                 query_args: [],
                                                                 term: "",
@@ -3453,11 +3176,11 @@
                                         data-widget_type="aux_mailchimp.default">
                                         <div class="elementor-widget-container">
                                             <script type="text/javascript">
-                                                (function () {
+                                                (function() {
                                                     window.mc4wp = window.mc4wp || {
                                                         listeners: [],
                                                         forms: {
-                                                            on: function (evt, cb) {
+                                                            on: function(evt, cb) {
                                                                 window.mc4wp.listeners.push({
                                                                     event: evt,
                                                                     callback: cb,
@@ -3821,17 +3544,14 @@
         </div>
     </div>
     <!-- outputs by wp_footer -->
-    <iframe src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/chat-storage.html" id="chat-storage"
-        style="display: none"></iframe>
 
     <script type="text/javascript">
-        (function () {
+        (function() {
             const chatStorageFrame = document.getElementById("chat-storage");
 
-            chatStorageFrame.onload = function () {
+            chatStorageFrame.onload = function() {
                 window.addEventListener("message", messageHandler, false);
-                chatStorageFrame.contentWindow.postMessage(
-                    {
+                chatStorageFrame.contentWindow.postMessage({
                         action: "get",
                     },
                     "*"
@@ -3845,12 +3565,11 @@
                 }
 
                 const superSetItem = window.localStorage.setItem;
-                window.localStorage.setItem = function (key, value) {
+                window.localStorage.setItem = function(key, value) {
                     superSetItem.call(this, key, value);
 
                     if (key.indexOf("hs-beacon") !== -1) {
-                        chatStorageFrame.contentWindow.postMessage(
-                            {
+                        chatStorageFrame.contentWindow.postMessage({
                                 action: "save",
                                 key: key,
                                 value: value,
@@ -3862,9 +3581,9 @@
             };
         })();
 
-        (function () {
+        (function() {
             const superSetItem = window.localStorage.setItem;
-            window.localStorage.setItem = function (key, value) {
+            window.localStorage.setItem = function(key, value) {
                 superSetItem.call(this, key, value);
                 if (key.indexOf("hs-beacon") !== -1) {
                     const data = JSON.parse(value);
@@ -3880,28 +3599,32 @@
 
     <!-- BEGIN HScout -->
     <script type="text/javascript">
-        !(function (e, t, n) {
+        !(function(e, t, n) {
             function a() {
                 var e = t.getElementsByTagName("script")[0],
                     n = t.createElement("script");
                 (n.type = "text/javascript"),
-                    (n.async = !0),
-                    (n.src = "https://beacon-v2.helpscout.net"),
-                    e.parentNode.insertBefore(n, e);
+                (n.async = !0),
+                (n.src = "https://beacon-v2.helpscout.net"),
+                e.parentNode.insertBefore(n, e);
             }
             if (
                 ((e.Beacon = n =
-                    function (t, n, a) {
-                        e.Beacon.readyQueue.push({ method: t, options: n, data: a });
-                    }),
+                        function(t, n, a) {
+                            e.Beacon.readyQueue.push({
+                                method: t,
+                                options: n,
+                                data: a
+                            });
+                        }),
                     (n.readyQueue = []),
                     "complete" === t.readyState)
             )
                 return a();
-            e.attachEvent
-                ? e.attachEvent("onload", a)
-                : e.addEventListener("load", a, !1);
-        })(window, document, window.Beacon || function () { });
+            e.attachEvent ?
+                e.attachEvent("onload", a) :
+                e.addEventListener("load", a, !1);
+        })(window, document, window.Beacon || function() {});
     </script>
     <script type="text/javascript">
         window.Beacon("init", "7954be8c-f44c-49ee-9348-a9e8776f86cd");
@@ -3956,7 +3679,7 @@
         });
     </script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             function maybePrefixUrlField() {
                 const value = this.value.trim();
                 if (value !== "" && value.indexOf("http") !== 0) {
@@ -3988,8 +3711,9 @@
                             lazyloadBackgroundObserver.unobserve(entry.target);
                         }
                     });
-                },
-                { rootMargin: "200px 0px 200px 0px" }
+                }, {
+                    rootMargin: "200px 0px 200px 0px"
+                }
             );
             lazyloadBackgrounds.forEach((lazyloadBackground) => {
                 lazyloadBackgroundObserver.observe(lazyloadBackground);
@@ -4024,17 +3748,14 @@
             language: "en",
             strings: {
                 "mejs.download-file": "Download File",
-                "mejs.install-flash":
-                    "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
+                "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
                 "mejs.fullscreen": "Fullscreen",
                 "mejs.play": "Play",
                 "mejs.pause": "Pause",
                 "mejs.time-slider": "Time Slider",
-                "mejs.time-help-text":
-                    "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
+                "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
                 "mejs.live-broadcast": "Live Broadcast",
-                "mejs.volume-help-text":
-                    "Use Up\/Down Arrow keys to increase or decrease volume.",
+                "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.",
                 "mejs.unmute": "Unmute",
                 "mejs.mute": "Mute",
                 "mejs.volume-slider": "Volume Slider",
@@ -4104,8 +3825,7 @@
 
     <script id="mediaelement-js-extra" type="text/javascript">
         var _wpmejsSettings = {
-            pluginPath:
-                "\/portfolio-digital-pulse\/wp-includes\/js\/mediaelement\/",
+            pluginPath: "\/portfolio-digital-pulse\/wp-includes\/js\/mediaelement\/",
             classPrefix: "mejs-",
             stretching: "auto",
             audioShortcodeLibrary: "mediaelement",
@@ -4121,7 +3841,9 @@
     <script src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/i18n.min.js.download" id="wp-i18n-js"
         type="text/javascript"></script>
     <script id="wp-i18n-js-after" type="text/javascript">
-        wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+        wp.i18n.setLocaleData({
+            "text direction\u0004ltr": ["ltr"]
+        });
     </script>
 
     <script id="contact-form-7-js-extra" type="text/javascript">
@@ -4136,15 +3858,13 @@
 
     <script id="demo-tools-js-extra" type="text/javascript">
         var auxDemoTools = {
-            ajax_url:
-                "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
         };
     </script>
 
     <script id="auxin-portfolio-portfolio-js-extra" type="text/javascript">
         var auxpfo = {
-            ajax_url:
-                "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
             invalid_required: "This is a required field",
             invalid_postcode: "Zipcode must be digits",
             invalid_phonenum: "Enter a valid phone number",
@@ -4154,8 +3874,7 @@
 
     <script id="wp_ulike-js-extra" type="text/javascript">
         var wp_ulike_params = {
-            ajax_url:
-                "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
             notifications: "1",
         };
     </script>
@@ -4187,7 +3906,14 @@
                 a11yCarouselPaginationBulletMessage: "Go to slide",
             },
             is_rtl: false,
-            breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+            breakpoints: {
+                xs: 0,
+                sm: 480,
+                md: 768,
+                lg: 1025,
+                xl: 1440,
+                xxl: 1600
+            },
             responsive: {
                 breakpoints: {
                     mobile: {
@@ -4250,16 +3976,18 @@
                 "floating-buttons": true,
             },
             urls: {
-                assets:
-                    "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/plugins\/elementor\/assets\/",
-                ajaxurl:
-                    "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
-                uploadUrl:
-                    "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
+                assets: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/plugins\/elementor\/assets\/",
+                ajaxurl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+                uploadUrl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
             },
-            nonces: { floatingButtonsClickTracking: "360355422e" },
+            nonces: {
+                floatingButtonsClickTracking: "360355422e"
+            },
             swiperClass: "swiper",
-            settings: { page: [], editorPreferences: [] },
+            settings: {
+                page: [],
+                editorPreferences: []
+            },
             kit: {
                 active_breakpoints: ["viewport_mobile", "viewport_tablet"],
                 global_image_lightbox: "yes",
@@ -4272,8 +4000,7 @@
             },
             post: {
                 id: 22,
-                title:
-                    "Home%20-%20Digital%20Pulse%20-%20Phlox%20Elementor%20WordPress%20Theme",
+                title: "Home%20-%20Digital%20Pulse%20-%20Phlox%20Elementor%20WordPress%20Theme",
                 excerpt: "",
                 featuredImage: false,
             },
@@ -4321,4 +4048,5 @@
     </div>
     <span id="elementor-device-mode" class="elementor-screen-only"></span>
 </body>
+
 </html>
