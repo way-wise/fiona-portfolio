@@ -31,7 +31,7 @@
     <script src="./assets/js/mobile-menu.js" defer></script>
     <!-- Sticky Header JavaScript -->
     <script src="./assets/js/sticky-header.js" defer></script>
-    <title>Home - Digital Pulse - Phlox Elementor WordPress Theme</title>
+    <title>Fiona Bari Portfolio</title>
     <meta name="description" content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
     <link rel="canonical" href="/" />
     <meta property="og:locale" content="en_US" />
