@@ -37,46 +37,11 @@ function initScrollAnimations() {
     });
 }
 
-// Project filtering functionality
+// Project filtering functionality (handled in component)
 function initProjectFiltering() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const projectItems = document.querySelectorAll('.aux-iso-item');
-    
-    if (!filterButtons.length || !projectItems.length) return;
-
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const filter = this.getAttribute('data-filter');
-            
-            // Update active button
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-            
-            // Filter projects with animation
-            projectItems.forEach((item, index) => {
-                setTimeout(() => {
-                    if (filter === 'all') {
-                        item.style.display = 'block';
-                        item.style.opacity = '1';
-                    } else {
-                        const category = item.querySelector('.entry-tax a');
-                        if (category) {
-                            const categoryText = category.textContent.toLowerCase().replace(/\s+/g, '-');
-                            if (categoryText === filter) {
-                                item.style.display = 'block';
-                                item.style.opacity = '1';
-                            } else {
-                                item.style.opacity = '0';
-                                setTimeout(() => {
-                                    item.style.display = 'none';
-                                }, 300);
-                            }
-                        }
-                    }
-                }, index * 50); // Staggered animation
-            });
-        });
-    });
+    // Filtering is now handled directly in the projects component
+    // This function is kept for compatibility but does nothing
+    return;
 }
 
 // Newsletter form handling

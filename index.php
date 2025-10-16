@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0047)/portfolio-digital-pulse/ -->
+<!-- saved from url=(0047)/ -->
 <html
     class="js audio canvas fullscreen svg video cssanimations boxshadow csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox csscalc no-flexboxtweener cssgradients csstransforms supports csstransforms3d csstransitions objectfit object-fit cssclippathsvg cssclippathinset cssclippathcircle cssclippathellipse cssclippathpolygon"
     lang="en-US">
@@ -33,17 +33,17 @@
     <script src="./assets/js/sticky-header.js" defer></script>
     <title>Home - Digital Pulse - Phlox Elementor WordPress Theme</title>
     <meta name="description" content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
-    <link rel="canonical" href="/portfolio-digital-pulse/" />
+    <link rel="canonical" href="/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Home - Digital Pulse - Phlox Elementor WordPress Theme" />
     <meta property="og:description"
         content="The best premium Elementor WordPress theme for {portfolio-digital-pulse}" />
-    <meta property="og:url" content="/portfolio-digital-pulse/" />
+    <meta property="og:url" content="/" />
     <meta property="og:site_name" content="Digital Pulse - Phlox Elementor WordPress Theme" />
     <meta property="article:modified_time" content="2025-03-25T09:06:09+00:00" />
     <meta property="og:image"
-        content="/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png" />
+        content="/wp-content/uploads/sites/396/2023/12/Group-103-2.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="text/javascript" async=""
         src="./Home - Digital Pulse - Phlox Elementor WordPress Theme_files/js"></script>
@@ -60,46 +60,46 @@
             "@context": "https://schema.org",
             "@graph": [{
                     "@type": "WebPage",
-                    "@id": "/portfolio-digital-pulse/",
-                    "url": "/portfolio-digital-pulse/",
+                    "@id": "/",
+                    "url": "/",
                     "name": "Home - Digital Pulse - Phlox Elementor WordPress Theme",
                     "isPartOf": {
-                        "@id": "/portfolio-digital-pulse/#website"
+                        "@id": "/#website"
                     },
                     "about": {
-                        "@id": "/portfolio-digital-pulse/#organization"
+                        "@id": "/#organization"
                     },
                     "primaryImageOfPage": {
-                        "@id": "/portfolio-digital-pulse/#primaryimage"
+                        "@id": "/#primaryimage"
                     },
                     "image": {
-                        "@id": "/portfolio-digital-pulse/#primaryimage"
+                        "@id": "/#primaryimage"
                     },
-                    "thumbnailUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "thumbnailUrl": "/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
                     "datePublished": "2023-12-19T07:04:51+00:00",
                     "dateModified": "2025-03-25T09:06:09+00:00",
                     "description": "The best premium Elementor WordPress theme for {portfolio-digital-pulse}",
                     "breadcrumb": {
-                        "@id": "/portfolio-digital-pulse/#breadcrumb"
+                        "@id": "/#breadcrumb"
                     },
                     "inLanguage": "en-US",
                     "potentialAction": [{
                         "@type": "ReadAction",
-                        "target": ["/portfolio-digital-pulse/"]
+                        "target": ["/"]
                     }]
                 },
                 {
                     "@type": "ImageObject",
                     "inLanguage": "en-US",
-                    "@id": "/portfolio-digital-pulse/#primaryimage",
-                    "url": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
-                    "contentUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "@id": "/#primaryimage",
+                    "url": "/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
+                    "contentUrl": "/wp-content/uploads/sites/396/2023/12/Group-103-2.png",
                     "width": 770,
                     "height": 1148
                 },
                 {
                     "@type": "BreadcrumbList",
-                    "@id": "/portfolio-digital-pulse/#breadcrumb",
+                    "@id": "/#breadcrumb",
                     "itemListElement": [{
                         "@type": "ListItem",
                         "position": 1,
@@ -108,18 +108,18 @@
                 },
                 {
                     "@type": "WebSite",
-                    "@id": "/portfolio-digital-pulse/#website",
-                    "url": "/portfolio-digital-pulse/",
+                    "@id": "/#website",
+                    "url": "/",
                     "name": "Digital Pulse - Phlox Elementor WordPress Theme",
                     "description": "Complete Elementor Demo - Phlox WordPress Theme",
                     "publisher": {
-                        "@id": "/portfolio-digital-pulse/#organization"
+                        "@id": "/#organization"
                     },
                     "potentialAction": [{
                         "@type": "SearchAction",
                         "target": {
                             "@type": "EntryPoint",
-                            "urlTemplate": "/portfolio-digital-pulse/?s={search_term_string}"
+                            "urlTemplate": "/?s={search_term_string}"
                         },
                         "query-input": {
                             "@type": "PropertyValueSpecification",
@@ -131,21 +131,21 @@
                 },
                 {
                     "@type": "Organization",
-                    "@id": "/portfolio-digital-pulse/#organization",
+                    "@id": "/#organization",
                     "name": "Digital Pulse - Phlox Elementor WordPress Theme",
-                    "url": "/portfolio-digital-pulse/",
+                    "url": "/",
                     "logo": {
                         "@type": "ImageObject",
                         "inLanguage": "en-US",
-                        "@id": "/portfolio-digital-pulse/#/schema/logo/image/",
-                        "url": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
-                        "contentUrl": "/portfolio-digital-pulse/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "@id": "/#/schema/logo/image/",
+                        "url": "/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
+                        "contentUrl": "/wp-content/uploads/sites/396/2025/04/DigitalAgency-1.svg",
                         "width": 134,
                         "height": 21,
                         "caption": "Digital Pulse - Phlox Elementor WordPress Theme "
                     },
                     "image": {
-                        "@id": "/portfolio-digital-pulse/#/schema/logo/image/"
+                        "@id": "/#/schema/logo/image/"
                     }
                 }
             ]
@@ -156,10 +156,10 @@
     <link rel="dns-prefetch" href="https://maps.googleapis.com/" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
     <link rel="alternate" type="application/rss+xml" title="Digital Pulse - Phlox Elementor WordPress Theme  » Feed"
-        href="/portfolio-digital-pulse/feed/" />
+        href="/feed/" />
     <link rel="alternate" type="application/rss+xml"
         title="Digital Pulse - Phlox Elementor WordPress Theme  » Comments Feed"
-        href="/portfolio-digital-pulse/comments/feed/" />
+        href="/comments/feed/" />
     <script type="text/javascript">
         window._wpemojiSettings = {
             baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -167,7 +167,7 @@
             svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
             svgExt: ".svg",
             source: {
-                concatemoji: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4",
+                concatemoji: "https:\/\/demo.phlox.pro\\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4",
             },
         };
         /*! This file is auto-generated */
@@ -797,13 +797,13 @@
 
     <script id="auxin-modernizr-js-extra" type="text/javascript">
         var auxin = {
-            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\\/wp-admin\/admin-ajax.php",
             is_rtl: "",
             is_reponsive: "1",
             is_framed: "",
             frame_width: "20",
             wpml_lang: "en",
-            uploadbaseurl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
+            uploadbaseurl: "https:\/\/demo.phlox.pro\\/wp-content\/uploads\/sites\/396",
             nonce: "f3f9c34eba",
         };
     </script>
@@ -819,17 +819,17 @@
         /* ]]> */
     </script>
 
-    <link rel="https://api.w.org/" href="/portfolio-digital-pulse/wp-json/" />
+    <link rel="https://api.w.org/" href="/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="/portfolio-digital-pulse/wp-json/wp/v2/pages/22" />
+        href="/wp-json/wp/v2/pages/22" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="/portfolio-digital-pulse/xmlrpc.php?rsd" />
+        href="/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.7.4" />
-    <link rel="shortlink" href="/portfolio-digital-pulse/" />
+    <link rel="shortlink" href="/" />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F" />
+        href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="/portfolio-digital-pulse/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F&amp;format=xml" />
+        href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.phlox.pro%2Fportfolio-digital-pulse%2F&amp;format=xml" />
     <meta name="title" content="Home" />
     <meta name="description"
         content="Business Masters agency Strategic Solutions for Sustainable Success Get Started consultation Ready to Unlock Your Digital Potential? Let’s Talk! Read more What we Do we are passionate about design, and it’s not just a job for us; it’s a way of life. who have a common goal: to deliver exceptional design solutions that resonate with […]" />
@@ -1519,10 +1519,6 @@
                                     include 'components/what-we-do.php';
                                     include 'components/projects.php';
                                     ?>
-
-                                    <?php 
-                                    include 'components/category.php';
-                                    ?>
                                     <?php 
                                     include 'components/about-us.php';
                                     ?>
@@ -1587,7 +1583,7 @@
             <div class="aux-fs-search">
                 <div class="aux-search-section">
                     <div class="aux-search-form">
-                        <form action="/portfolio-digital-pulse/" method="get">
+                        <form action="/" method="get">
                             <div class="aux-search-input-form">
                                 <input type="text" class="aux-search-field" placeholder="Type here.." name="s"
                                     autocomplete="off" />
@@ -1607,7 +1603,7 @@
             <div class="aux-search-field">
                 <div class="aux-search-section aux-404-search">
                     <div class="aux-search-form aux-iconic-search">
-                        <form action="/portfolio-digital-pulse/" method="get">
+                        <form action="/" method="get">
                             <div class="aux-search-input-form">
                                 <input type="text" class="aux-search-field" placeholder="Search..." name="s"
                                     autocomplete="off" />
@@ -1915,7 +1911,7 @@
 
     <script id="mediaelement-js-extra" type="text/javascript">
         var _wpmejsSettings = {
-            pluginPath: "\/portfolio-digital-pulse\/wp-includes\/js\/mediaelement\/",
+            pluginPath: "\\/wp-includes\/js\/mediaelement\/",
             classPrefix: "mejs-",
             stretching: "auto",
             audioShortcodeLibrary: "mediaelement",
@@ -1939,7 +1935,7 @@
     <script id="contact-form-7-js-extra" type="text/javascript">
         var wpcf7 = {
             api: {
-                root: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-json\/",
+                root: "https:\/\/demo.phlox.pro\\/wp-json\/",
                 namespace: "contact-form-7\/v1",
             },
             cached: "1",
@@ -1948,13 +1944,13 @@
 
     <script id="demo-tools-js-extra" type="text/javascript">
         var auxDemoTools = {
-            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\\/wp-admin\/admin-ajax.php",
         };
     </script>
 
     <script id="auxin-portfolio-portfolio-js-extra" type="text/javascript">
         var auxpfo = {
-            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\\/wp-admin\/admin-ajax.php",
             invalid_required: "This is a required field",
             invalid_postcode: "Zipcode must be digits",
             invalid_phonenum: "Enter a valid phone number",
@@ -1964,7 +1960,7 @@
 
     <script id="wp_ulike-js-extra" type="text/javascript">
         var wp_ulike_params = {
-            ajax_url: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
+            ajax_url: "https:\/\/demo.phlox.pro\\/wp-admin\/admin-ajax.php",
             notifications: "1",
         };
     </script>
@@ -2066,9 +2062,9 @@
                 "floating-buttons": true,
             },
             urls: {
-                assets: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/plugins\/elementor\/assets\/",
-                ajaxurl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-admin\/admin-ajax.php",
-                uploadUrl: "https:\/\/demo.phlox.pro\/portfolio-digital-pulse\/wp-content\/uploads\/sites\/396",
+                assets: "https:\/\/demo.phlox.pro\\/wp-content\/plugins\/elementor\/assets\/",
+                ajaxurl: "https:\/\/demo.phlox.pro\\/wp-admin\/admin-ajax.php",
+                uploadUrl: "https:\/\/demo.phlox.pro\\/wp-content\/uploads\/sites\/396",
             },
             nonces: {
                 floatingButtonsClickTracking: "360355422e"

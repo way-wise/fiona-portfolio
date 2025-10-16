@@ -222,7 +222,7 @@ require_once 'data/projects.php';
                     <div
                         class="aux-modern-button-wrapper aux-modern-button-align-left">
                         <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                            href="/portfolio-digital-pulse/portfolio/">
+                            href="/portfolio/">
                             <div class="aux-overlay"></div>
                             <div class="aux-icon"></div>
                             <div class="aux-text">

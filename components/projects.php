@@ -49,7 +49,9 @@ require_once 'data/projects.php';
                         
                         <?php foreach ($projects as $index => $project): ?>
                         <!-- Project Item -->
-                        <div class="aux-iso-item aux-col aux-iso-visible" style="
+                        <div class="aux-iso-item aux-col aux-iso-visible project-item" 
+                             data-category="<?php echo strtolower(str_replace(' ', '-', $project['category'])); ?>" 
+                             style="
                                 margin-bottom: 30px;
                                 padding-right: 30px;
                                 position: absolute;
@@ -147,12 +149,24 @@ require_once 'data/projects.php';
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
+    font-weight: 500;
 }
 
 .filter-btn:hover,
 .filter-btn.active {
     background: #333;
     color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.project-item {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-item.hidden {
+    opacity: 0;
+    transform: scale(0.8);
 }
 
 @media (max-width: 768px) {
@@ -168,10 +182,10 @@ require_once 'data/projects.php';
 </style>
 
 <script>
-// Simple filter functionality
+// Enhanced filter functionality
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
-    const projectItems = document.querySelectorAll('.aux-iso-item');
+    const projectItems = document.querySelectorAll('.project-item');
     
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -181,16 +195,28 @@ document.addEventListener('DOMContentLoaded', function() {
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             
-            // Filter projects
-            projectItems.forEach(item => {
+            // Filter projects with smooth animation
+            projectItems.forEach((item, index) => {
+                const itemCategory = item.getAttribute('data-category');
+                
                 if (filter === 'all') {
-                    item.style.display = 'block';
-                } else {
-                    const category = item.querySelector('.entry-tax a').getAttribute('rel');
-                    if (category === filter) {
+                    item.style.opacity = '0';
+                    setTimeout(() => {
                         item.style.display = 'block';
+                        item.style.opacity = '1';
+                    }, index * 50);
+                } else {
+                    if (itemCategory === filter) {
+                        item.style.opacity = '0';
+                        setTimeout(() => {
+                            item.style.display = 'block';
+                            item.style.opacity = '1';
+                        }, index * 50);
                     } else {
-                        item.style.display = 'none';
+                        item.style.opacity = '0';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
                     }
                 }
             });

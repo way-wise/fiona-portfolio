@@ -177,16 +177,14 @@
                             <div class="aux-modern-heading-divider"></div>
                             <div class="aux-modern-heading-description">
                                 <p>
-                                    Welcome to Phlox Studio, a creative
-                                    powerhouse specializing in marketing
-                                    strategy, brand design, and advertising
-                                    design. We are here to bring your vision
-                                    to life and help your business thrive in a
-                                    competitive digital world. At Phlox, we
-                                    are passionate about design, and it's not
-                                    just a job for us; it's a way of life. Our
-                                    team is comprised of talented and
-                                    innovative professionals.
+                                    Hi, I’m Fiona — a UI/UX Designer based in California with a background in Computer Science. I bring over 6 years of experience designing sleek, intuitive, and user-centered digital experiences across web and mobile platforms.
+
+
+                                    Throughout my career, I’ve tackled a wide range of complex design challenges — from simplifying multi-step user flows to optimizing usability for large-scale systems. My work bridges functionality and aesthetics, always rooted in real user needs.
+
+                                    From wireframes to high-fidelity prototypes, I design interfaces that not only look polished but also solve real problems and deliver measurable results.
+
+    
                                 </p>
                             </div>
                         </div>
@@ -215,7 +213,7 @@
                     <div
                         class="aux-modern-button-wrapper aux-modern-button-align-left">
                         <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-"
-                            href="/portfolio-digital-pulse/about-us/">
+                            href="/about-us/">
                             <div class="aux-overlay"></div>
                             <div class="aux-icon"></div>
                             <div class="aux-text">
