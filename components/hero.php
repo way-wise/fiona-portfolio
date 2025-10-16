@@ -25,11 +25,13 @@ require_once 'data/projects.php';
                     <section class="aux-widget-modern-heading">
                         <div class="aux-widget-inner">
                             <h5 class="aux-modern-heading-primary">
-                                <?php echo htmlspecialchars($site_config['hero_subtitle']); ?>
+                                Hello, I'm Fiona Bari
                             </h5>
                             <div class="aux-modern-heading-divider"></div>
-                            <h1 class="aux-modern-heading-secondary">
-                                <span class="aux-head-before"><?php echo htmlspecialchars($site_config['hero_title']); ?></span>
+                            <h1 class="aux-modern-heading-secondary !tw-text-5xl">
+                                <span class="aux-head-before">
+                                    loves to create beautiful and functional digital experiences.
+                                </span>
                             </h1>
                         </div>
                     </section>
