@@ -1,5 +1,21 @@
-const HomePage = () => {
-  return <div className="p-4 text-center text-xl">Home Page</div>;
-};
+// import HeroSection from "@/app/(main)/_components/hero-section";
 
-export default HomePage;
+import HeroSection from "./_components/hero-section";
+
+// const HomePage = () => {
+//   return (
+//     <div className="min-h-screen">
+//       <HeroSection />
+//     </div>
+//   );
+// };
+
+// export default HomePage;
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-[#fff5f5]">
+      <HeroSection />
+    </main>
+  );
+}
