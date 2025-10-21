@@ -1,15 +1,12 @@
-import HeroSection from "./_components/hero-section";
+import AboutSection from "./_components/about-us-section";
 
 const HomePage = () => {
   return (
-    <div
-      className="relative min-h-[5803px] w-full min-w-[1920px] bg-white"
-      data-model-id="501:119"
-    >
-      <HeroSection />
-      {/* <ServicesSection />
+    <div className="bg-white">
+      {/* <HeroSection />
+      <ServicesSection /> */}
       <AboutSection />
-      <ToolsSection />
+      {/*    <ToolsSection />
       <PortfolioSection />
       <ContactSection />
       <Footer /> */}

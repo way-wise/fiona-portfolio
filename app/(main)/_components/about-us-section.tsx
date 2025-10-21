@@ -1,106 +1,123 @@
-export const AboutSection = (): JSX.Element => {
+import Image from "next/image";
+
+const AboutSection = () => {
   return (
-    <>
-      <div className="absolute top-[1798px] left-0 h-[705px] w-[1920px] bg-[#e7edff]" />
+    <section id="about" className="w-full bg-[#e7edff] py-20">
+      <div className="container mx-auto px-4">
+        <div className="grid items-center gap-10 md:grid-cols-2 lg:gap-16">
+          {/* Left main div */}
+          <div className="relative mx-auto w-full max-w-xs sm:max-w-sm md:max-w-md">
+            {/* Accent shape (no positioning on right side, only structure) */}
+            <div className="w-full rounded-t-[234px] rounded-b-[16px] bg-fiona-red pt-20">
+              {/* Main image (no absolute) */}
+              <div className="">
+                <Image
+                  className="mx-auto h-auto w-[88%] object-contain"
+                  alt="Fiona Bari portrait"
+                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-1.png"
+                  width={480}
+                  height={560}
+                  priority
+                />
+              </div>
+            </div>
+            {/* Only positioned element: 450+ Total Customer card */}
+            <div className="absolute top-20 left-[-10%] z-20 rounded-t-full rounded-b-md bg-white p-4 shadow-[0_0_8px_#0000001a]">
+              <div className="flex flex-col items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-fiona-red">
+                  <Image
+                    alt="Users icon"
+                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/ci-users.svg"
+                    width={20}
+                    height={20}
+                  />
+                </div>
+                <div className="text-black">
+                  <div className="text-2xl leading-none font-bold">450+</div>
+                </div>
+                <div className="text-xs font-medium text-[#6d6d6d]">
+                  Total Customer
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div className="absolute top-[1898px] left-[431px] h-[505px] w-[470px] rounded-[234px_234px_16px_16px] bg-[#db0009]" />
+          {/* Right main div (no absolute positioning) */}
+          <div>
+            <h2 className="mb-4 text-center font-['Raleway',Helvetica] text-3xl font-semibold text-black sm:text-4xl md:text-left lg:text-5xl">
+              Who is Fiona Bari?
+            </h2>
+            <p className="mb-8 text-center font-['Inter',Helvetica] text-base leading-7 text-[#6d6d6d] md:text-left">
+              We provide comprehensive digital solutions to help your business
+              grow and succeed in the digital landscape.
+            </p>
 
-      <img
-        className="absolute top-[1936px] left-[449px] h-[467px] w-[435px]"
-        alt="Mask group"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-1.png"
-      />
+            <div className="mb-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
+              <div>
+                <div className="text-center text-3xl font-bold text-black sm:text-[32px] md:text-left">
+                  750+
+                </div>
+                <div className="text-center text-sm font-medium text-[#6d6d6d] md:text-left">
+                  Project Completed
+                </div>
+              </div>
+              <div>
+                <div className="text-center text-3xl font-bold text-black sm:text-[32px] md:text-left">
+                  25+
+                </div>
+                <div className="text-center text-sm font-medium text-[#6d6d6d] md:text-left">
+                  Industry Covered
+                </div>
+              </div>
+              <div>
+                <div className="text-center text-3xl font-bold text-black sm:text-[32px] md:text-left">
+                  5+
+                </div>
+                <div className="text-center text-sm font-medium text-[#6d6d6d] md:text-left">
+                  Years of Experience
+                </div>
+              </div>
+            </div>
 
-      <div className="absolute top-[1953px] left-[380px] h-[150px] w-[138px] rounded-[234px_234px_26px_26px] bg-white shadow-[0px_0px_8px_#0000001a]" />
+            <div className="flex flex-col gap-4 sm:flex-row">
+              <a
+                className="group flex items-center gap-3 rounded-full bg-white px-5 py-4 text-black shadow-[0_0_3px_#00000026]"
+                href="tel:+13105286170"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span className="flex h-10 w-10 items-center justify-center rounded-[20px] bg-fiona-red">
+                  <Image
+                    alt="Phone icon"
+                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/fluent-call-24-regular.svg"
+                    width={20}
+                    height={20}
+                  />
+                </span>
+                <span className="font-['Inter',Helvetica] text-lg">
+                  +1 (310) 528-6170
+                </span>
+              </a>
 
-      <div className="absolute top-[1972px] left-[424px] h-[50px] w-[50px] rounded-[25px] bg-[#db0009]" />
-
-      <img
-        className="absolute top-[1985px] left-[437px] h-6 w-6"
-        alt="Ci users"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/ci-users.svg"
-      />
-
-      <div className="absolute top-[2028px] left-[397px] text-center [font-family:'Inter',Helvetica] text-3xl leading-[30px] font-normal tracking-[0] text-transparent">
-        <span className="leading-[37.6px] font-bold text-black">
-          450+
-          <br />
-        </span>
-        <span className="text-sm leading-[22.4px] font-medium text-black">
-          Total Customer
-        </span>
+              <div className="flex items-center gap-3 rounded-full bg-white px-5 py-4 text-black shadow-[0_0_3px_#00000026]">
+                <span className="flex h-10 w-10 items-center justify-center rounded-[20px] bg-fiona-red">
+                  <Image
+                    alt="Email icon"
+                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/mage-email.svg"
+                    width={20}
+                    height={20}
+                  />
+                </span>
+                <span className="font-['Inter',Helvetica] text-lg">
+                  learnfiona@gmail.com
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className="absolute top-[2000px] left-[975px] [font-family:'Raleway',Helvetica] text-[50px] leading-[normal] font-semibold tracking-[0] whitespace-nowrap text-black">
-        Who is Fiona Bari?
-      </div>
-
-      <div className="absolute top-[2084px] left-[975px] [font-family:'Inter',Helvetica] text-base leading-6 font-normal tracking-[0] text-[#6d6d6d]">
-        We provide comprehensive digital solutions to help your business
-        <br />
-        grow and succeed in the digital landscape.
-      </div>
-
-      <div className="absolute top-[2163px] left-[975px] [font-family:'Inter',Helvetica] text-[35px] leading-[35px] font-normal tracking-[0] text-transparent">
-        <span className="leading-[0.1px] font-bold text-black">
-          750+
-          <br />
-        </span>
-        <span className="text-lg leading-8 font-medium text-[#6d6d6d]">
-          Project Completed
-        </span>
-      </div>
-
-      <div className="absolute top-[2163px] left-[1191px] [font-family:'Inter',Helvetica] text-[35px] leading-[35px] font-normal tracking-[0] text-transparent">
-        <span className="leading-[0.1px] font-bold text-black">
-          25+
-          <br />
-        </span>
-        <span className="text-lg leading-8 font-medium text-[#6d6d6d]">
-          Industry Covered
-        </span>
-      </div>
-
-      <div className="absolute top-[2163px] left-[1395px] [font-family:'Inter',Helvetica] text-[35px] leading-[35px] font-normal tracking-[0] text-transparent">
-        <span className="leading-[0.1px] font-bold text-black">
-          5+
-          <br />
-        </span>
-        <span className="text-lg leading-8 font-medium text-[#6d6d6d]">
-          Years of Experience
-        </span>
-      </div>
-
-      <div className="absolute top-[2282px] left-[976px] h-16 w-[260px] rounded-[80px] bg-white shadow-[0px_0px_3px_#00000026]" />
-      <div className="absolute top-[2282px] left-[1251px] h-16 w-[291px] rounded-[80px] bg-white shadow-[0px_0px_3px_#00000026]" />
-
-      <div className="absolute top-[2294px] left-[988px] h-10 w-10 rounded-[20px] bg-[#db0009]" />
-      <div className="absolute top-[2294px] left-[1263px] h-10 w-10 rounded-[20px] bg-[#db0009]" />
-
-      <img
-        className="absolute top-[2302px] left-[996px] h-6 w-6"
-        alt="Fluent call"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/fluent-call-24-regular.svg"
-      />
-
-      <a
-        className="absolute top-[2302px] left-[1039px] [font-family:'Inter',Helvetica] text-xl leading-6 font-normal tracking-[0] whitespace-nowrap text-black"
-        href="tel:+1 (310) 528-6170"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        +1 (310) 528-6170
-      </a>
-
-      <div className="absolute top-[2302px] left-[1314px] [font-family:'Inter',Helvetica] text-xl leading-6 font-normal tracking-[0] whitespace-nowrap text-black">
-        learnfiona@gmail.com
-      </div>
-
-      <img
-        className="absolute top-[2302px] left-[1271px] h-6 w-6"
-        alt="Mage email"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/mage-email.svg"
-      />
-    </>
+    </section>
   );
 };
+
+export default AboutSection;
