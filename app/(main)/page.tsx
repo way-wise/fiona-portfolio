@@ -1,21 +1,20 @@
-// import HeroSection from "@/app/(main)/_components/hero-section";
-
 import HeroSection from "./_components/hero-section";
 
-// const HomePage = () => {
-//   return (
-//     <div className="min-h-screen">
-//       <HeroSection />
-//     </div>
-//   );
-// };
-
-// export default HomePage;
-
-export default function Home() {
+const HomePage = () => {
   return (
-    <main className="min-h-screen bg-[#fff5f5]">
+    <div
+      className="relative min-h-[5803px] w-full min-w-[1920px] bg-white"
+      data-model-id="501:119"
+    >
       <HeroSection />
-    </main>
+      {/* <ServicesSection />
+      <AboutSection />
+      <ToolsSection />
+      <PortfolioSection />
+      <ContactSection />
+      <Footer /> */}
+    </div>
   );
-}
+};
+
+export default HomePage;
