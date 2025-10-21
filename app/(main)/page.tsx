@@ -1,4 +1,4 @@
-import ToolsSection from "./_components/tools-section";
+import { PortfolioSection } from "./_components/portfolio-section";
 
 const HomePage = () => {
   return (
@@ -6,10 +6,10 @@ const HomePage = () => {
       {/* <HeroSection />
       <ServicesSection /> */}
       {/* <AboutSection /> */}
-      <ToolsSection />
+      {/* <ToolsSection /> */}
 
-      {/*       <PortfolioSection />
-      <ContactSection />
+      <PortfolioSection />
+      {/*    <ContactSection />
       <Footer /> */}
     </div>
   );
