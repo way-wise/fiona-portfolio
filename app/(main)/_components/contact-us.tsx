@@ -1,87 +1,100 @@
-export const ContactSection = (): JSX.Element => {
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Textarea } from "@/components/ui/textarea";
+import { ArrowRightIcon } from "lucide-react";
+
+export const ContactSection = () => {
   return (
-    <>
-      <div className="absolute top-[4492px] left-0 h-[915px] w-[1920px] bg-[#ffeff2]" />
-
-      <div className="absolute top-[4581px] left-[620px] text-center [font-family:'Raleway',Helvetica] text-[50px] leading-[normal] font-semibold tracking-[0] whitespace-nowrap text-black">
-        Great Design Starts Together
-      </div>
-
-      <div className="absolute top-[4665px] left-[722px] text-center [font-family:'Inter',Helvetica] text-base leading-6 font-normal tracking-[0] text-[#6d6d6d]">
-        Whether you need a stunning UI, a user-friendly experience, or
-        <br />
-        eye-catching visuals — let's bring your idea to life, together.
-      </div>
-
-      <div className="absolute top-[4749px] left-[541px] [font-family:'Inter',Helvetica] text-xl leading-8 font-medium tracking-[0] whitespace-nowrap text-black">
-        Your Name
-      </div>
-
-      <div className="absolute top-[4788px] left-[540px] h-14 w-[400px] rounded-[10px] border-[1.5px] border-solid border-[#e2e2e2] bg-white" />
-
-      <div className="absolute top-[4800px] left-[564px] [font-family:'Inter',Helvetica] text-base leading-8 font-normal tracking-[0] whitespace-nowrap text-[#6d6d6d]">
-        Enter your name
-      </div>
-
-      <div className="absolute top-[4749px] left-[981px] [font-family:'Inter',Helvetica] text-xl leading-8 font-medium tracking-[0] whitespace-nowrap text-black">
-        Email
-      </div>
-
-      <div className="absolute top-[4788px] left-[980px] h-14 w-[400px] rounded-[10px] border-[1.5px] border-solid border-[#e2e2e2] bg-white" />
-
-      <div className="absolute top-[4800px] left-[1002px] [font-family:'Inter',Helvetica] text-base leading-8 font-normal tracking-[0] whitespace-nowrap text-[#6d6d6d]">
-        Enter your email
-      </div>
-
-      <div className="absolute top-[4863px] left-[541px] [font-family:'Inter',Helvetica] text-xl leading-8 font-medium tracking-[0] whitespace-nowrap text-black">
-        Phone
-      </div>
-
-      <div className="absolute top-[4902px] left-[540px] h-14 w-[400px] rounded-[10px] border-[1.5px] border-solid border-[#e2e2e2] bg-white" />
-
-      <div className="absolute top-[4915px] left-[564px] [font-family:'Inter',Helvetica] text-base leading-8 font-normal tracking-[0] whitespace-nowrap text-[#6d6d6d]">
-        Enter phone number
-      </div>
-
-      <div className="absolute top-[4863px] left-[981px] [font-family:'Inter',Helvetica] text-xl leading-8 font-medium tracking-[0] whitespace-nowrap text-black">
-        Service Interested In
-      </div>
-
-      <div className="absolute top-[4902px] left-[980px] h-14 w-[400px] rounded-[10px] border-[1.5px] border-solid border-[#e2e2e2] bg-white" />
-
-      <div className="absolute top-[4915px] left-[1002px] [font-family:'Inter',Helvetica] text-base leading-8 font-normal tracking-[0] whitespace-nowrap text-[#6d6d6d]">
-        Select Service
-      </div>
-
-      <img
-        className="absolute top-[4920px] left-[1336px] h-6 w-6"
-        alt="Ep arrow up"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/ep-arrow-up.svg"
-      />
-
-      <div className="absolute top-[4978px] left-[541px] [font-family:'Inter',Helvetica] text-xl leading-8 font-medium tracking-[0] whitespace-nowrap text-black">
-        Your message
-      </div>
-
-      <div className="absolute top-[5017px] left-[540px] h-[200px] w-[840px] rounded-[10px] border-[1.5px] border-solid border-[#e2e2e2] bg-white" />
-
-      <div className="absolute top-[5030px] left-[564px] [font-family:'Inter',Helvetica] text-base leading-8 font-normal tracking-[0] whitespace-nowrap text-[#6d6d6d]">
-        Enter phone number
-      </div>
-
-      <div className="absolute top-[5247px] left-[540px] flex h-[60px] w-[249px] rounded-[60px] bg-black">
-        <div className="relative mt-[11px] ml-7 h-[38px] w-[194px]">
-          <div className="absolute top-[7px] left-0 text-right [font-family:'Inter',Helvetica] text-xl leading-[normal] font-medium tracking-[0] whitespace-nowrap text-white">
-            Send Message
-          </div>
-          <div className="absolute top-0 left-[154px] h-[38px] w-[38px] rounded-[19px] bg-[#db0009]" />
-          <img
-            className="absolute top-2 left-[162px] h-[22px] w-[22px]"
-            alt="Guidance left arrow"
-            src="https://c.animaapp.com/mh0l998lUYJvdB/img/guidance-left-arrow.svg"
-          />
+    <section className="bg-rose-50 py-16 md:py-24">
+      <div className="container mx-auto max-w-5xl px-4">
+        <div className="text-center">
+          <h2 className="text-4xl font-semibold tracking-tight text-black md:text-5xl">
+            Great Design Starts Together
+          </h2>
+          <p className="mt-3 text-base leading-6 text-muted-foreground">
+            Whether you need a stunning UI, a user-friendly experience, or
+            eye-catching visuals — let&apos;s bring your idea to life, together.
+          </p>
         </div>
+
+        <form className="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="name"
+              className="text-sm font-medium text-foreground"
+            >
+              Your Name
+            </label>
+            <Input id="name" placeholder="Enter your name" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="email"
+              className="text-sm font-medium text-foreground"
+            >
+              Email
+            </label>
+            <Input id="email" type="email" placeholder="Enter your email" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="phone"
+              className="text-sm font-medium text-foreground"
+            >
+              Phone
+            </label>
+            <Input id="phone" type="tel" placeholder="Enter phone number" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <label className="text-sm font-medium text-foreground">
+              Service Interested In
+            </label>
+            <Select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Select Service" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="ui-ux">UI/UX Design</SelectItem>
+                <SelectItem value="web">Web Design</SelectItem>
+                <SelectItem value="mobile">Mobile App Design</SelectItem>
+                <SelectItem value="branding">Branding</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          <div className="flex flex-col gap-2 md:col-span-2">
+            <label
+              htmlFor="message"
+              className="text-sm font-medium text-foreground"
+            >
+              Your message
+            </label>
+            <Textarea id="message" rows={6} placeholder="Write your message" />
+          </div>
+
+          <div className="md:col-span-2">
+            <Button
+              type="submit"
+              className="h-12 rounded-full bg-black px-6 text-white hover:bg-black/90"
+            >
+              <span className="mr-2 text-base">Send Message</span>
+              <span className="ml-auto flex size-9 items-center justify-center rounded-full bg-red-600">
+                <ArrowRightIcon className="size-5 text-white" />
+              </span>
+            </Button>
+          </div>
+        </form>
       </div>
-    </>
+    </section>
   );
 };

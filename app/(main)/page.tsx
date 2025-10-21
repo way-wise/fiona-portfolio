@@ -1,4 +1,4 @@
-import { PortfolioSection } from "./_components/portfolio-section";
+import { ContactSection } from "./_components/contact-us";
 
 const HomePage = () => {
   return (
@@ -8,9 +8,9 @@ const HomePage = () => {
       {/* <AboutSection /> */}
       {/* <ToolsSection /> */}
 
-      <PortfolioSection />
-      {/*    <ContactSection />
-      <Footer /> */}
+      {/* <PortfolioSection /> */}
+      <ContactSection />
+      {/*  <Footer /> */}
     </div>
   );
 };
