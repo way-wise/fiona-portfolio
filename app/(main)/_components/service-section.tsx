@@ -18,7 +18,7 @@ const servicesCards = [
 ];
 const ServiceSection = () => {
   return (
-    <section className="w-full bg-[#E5FBF3]">
+    <section id="services" className="w-full bg-[#E5FBF3]">
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <h2 className="text-[42px] font-semibold text-nowrap md:text-[50px]">

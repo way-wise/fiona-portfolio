@@ -35,7 +35,7 @@ const tools = [
 
 const ToolsSection = () => {
   return (
-    <section className="w-full bg-[#f6f6f6] py-14 sm:py-16 md:py-20">
+    <section id="tools" className="w-full bg-[#f6f6f6] py-14 sm:py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-2xl font-semibold text-black sm:text-3xl md:text-5xl">
           My Favorite Tools

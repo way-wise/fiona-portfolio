@@ -35,7 +35,7 @@
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  
+
   /* Fiona Portfolio Colors */
   --fiona-red: #db0009;
   --fiona-pink: #ffeff2;
@@ -94,12 +94,12 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  
+
   /* Fiona Portfolio Colors */
   --color-fiona-red: #db0009;
   --color-fiona-pink: #ffeff2;
   --color-fiona-pink-light: #f8e6e9;
-  
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -137,4 +137,11 @@
 
 .icon {
   @apply size-[22px] stroke-[1.5];
+}
+/* Smooth scrolling for in-page navigation on landing page */
+html {
+  scroll-behavior: smooth;
+}
+:where(section[id]) {
+  scroll-margin-top: 96px;
 }

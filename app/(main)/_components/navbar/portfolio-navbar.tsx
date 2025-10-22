@@ -22,10 +22,11 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
   void _session;
 
   const navLinks = [
-    { href: "/", label: "Home", isActive: true },
-    { href: "/about", label: "About Me" },
-    { href: "/services", label: "What I do" },
-    { href: "/portfolio", label: "Portfolio" },
+    { href: "/#home", label: "home", isActive: true },
+    { href: "/#services", label: "services" },
+    { href: "/#about", label: "about" },
+    { href: "/#portfolio", label: "portfolio" },
+    { href: "/#contact", label: "contact" },
   ];
 
   return (
@@ -86,7 +87,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                   className="hidden rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 sm:flex"
                   asChild
                 >
-                  <Link href="/contact">Contact Me</Link>
+                  <Link href="/#contact">Contact Me</Link>
                 </Button>
 
                 {/* Profile Dropdown or Sign In */}
@@ -157,7 +158,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                         asChild
                       >
                         <Link
-                          href="/contact"
+                          href="/#contact"
                           onClick={() => setIsDrawerOpen(false)}
                         >
                           Contact Me

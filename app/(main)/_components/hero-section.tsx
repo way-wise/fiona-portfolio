@@ -3,6 +3,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section
+      id="home"
       className="w-full bg-fiona-pink bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:

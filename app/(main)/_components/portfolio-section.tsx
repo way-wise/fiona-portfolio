@@ -124,8 +124,11 @@ export const PortfolioSection = () => {
   };
 
   return (
-    <section className="w-full bg-[#f8faff] py-14 sm:py-16 md:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <section
+      id="portfolio"
+      className="w-full bg-[#f8faff] py-14 sm:py-16 md:py-20"
+    >
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <h2 className="text-2xl text-black sm:text-3xl md:text-5xl">
