@@ -1,9 +1,9 @@
 "use client";
 
+import { cn } from "@/lib/utils";
+import { cva, type VariantProps } from "class-variance-authority";
 import * as React from "react";
 import { Drawer as DrawerPrimitive } from "vaul";
-import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@/lib/utils";
 
 const sheetVariants = cva("fixed flex flex-col bg-background outline-none", {
   variants: {
@@ -43,9 +43,9 @@ function DrawerContent({
   VariantProps<typeof sheetVariants>) {
   return (
     <DrawerPrimitive.Portal>
-      <DrawerPrimitive.Overlay className="fixed inset-0 bg-black/70" />
+      <DrawerPrimitive.Overlay className="fixed inset-0 z-60 bg-black/70" />
       <DrawerPrimitive.Content
-        className={cn(sheetVariants({ side }), className)}
+        className={cn("z-70", sheetVariants({ side }), className)}
         {...props}
       >
         {children}
@@ -92,11 +92,11 @@ function DrawerDescription({
 
 export {
   Drawer,
-  DrawerTrigger,
-  DrawerHandle,
   DrawerClose,
   DrawerContent,
+  DrawerDescription,
+  DrawerHandle,
   DrawerHeader,
   DrawerTitle,
-  DrawerDescription,
+  DrawerTrigger,
 };
