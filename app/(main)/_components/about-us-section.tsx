@@ -22,7 +22,7 @@ const AboutSection = () => {
               </div>
             </div>
             {/* Only positioned element: 450+ Total Customer card */}
-            <div className="absolute top-20 left-[-10%] z-20 rounded-t-full rounded-b-md bg-white p-4 shadow-[0_0_8px_#0000001a]">
+            <div className="absolute top-20 left-[-10%] z-20 rounded-t-full rounded-b-md! bg-white p-4 shadow-[0_0_8px_#0000001a] sm:left-[-2%] xl:left-[-10%]">
               <div className="flex flex-col items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-fiona-red">
                   <Image
@@ -79,7 +79,7 @@ const AboutSection = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 sm:flex-row">
+            <div className="flex flex-col gap-4 xl:flex-row">
               <a
                 className="group flex items-center gap-3 rounded-full bg-white px-5 py-4 text-black shadow-[0_0_3px_#00000026]"
                 href="tel:+13105286170"
