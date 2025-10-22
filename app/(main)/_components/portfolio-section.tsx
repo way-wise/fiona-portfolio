@@ -125,7 +125,7 @@ export const PortfolioSection = () => {
       id="portfolio"
       className="w-full bg-[#f8faff] py-14 sm:py-16 md:py-20"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4">
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <h2 className="text-2xl text-black sm:text-3xl md:text-5xl">
@@ -149,7 +149,7 @@ export const PortfolioSection = () => {
         <Tabs
           value={selectedCategory}
           onValueChange={(value) => setSelectedCategory(value as Category)}
-          className="mt-8"
+          className="mt-20"
         >
           <div className="flex justify-center">
             <TabsList className="bg-white">
@@ -166,7 +166,7 @@ export const PortfolioSection = () => {
             </TabsList>
           </div>
           <TabsContent value={selectedCategory}>
-            <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-6">
+            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-6">
               {filteredItems.map((item, idx) => {
                 const baseClasses =
                   "overflow-hidden border-zinc-200 " +
