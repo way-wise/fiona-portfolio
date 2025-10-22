@@ -41,7 +41,7 @@ const ToolsSection = () => {
           My Favorite Tools
         </h2>
 
-        <div className="mt-10 grid grid-cols-2 place-items-center gap-5 sm:grid-cols-3 sm:gap-6 md:gap-8 lg:grid-cols-6">
+        <div className="mt-10 grid grid-cols-2 place-items-center gap-5 md:grid-cols-4 md:gap-8 xl:grid-cols-6">
           {tools.map((tool, index) => {
             const mirrored = index % 2 === 1;
             const shapeClass = mirrored
