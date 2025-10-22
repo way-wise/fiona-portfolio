@@ -166,14 +166,13 @@ const PortfolioSection = () => {
             </TabsList>
           </div>
           <TabsContent value={selectedCategory}>
-            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-6">
+            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {filteredItems.map((item, idx) => {
-                const baseClasses =
-                  "overflow-hidden border-zinc-200 " +
-                  (idx < 2 ? "md:col-span-3" : "md:col-span-2");
-
                 return (
-                  <Card key={item.id} className={baseClasses}>
+                  <Card
+                    key={item.id}
+                    className="overflow-hidden border-zinc-200"
+                  >
                     <CardContent className="p-0">
                       <div className="relative aspect-video w-full">
                         <Image
