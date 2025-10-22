@@ -3,32 +3,32 @@ import Image from "next/image";
 const tools = [
   {
     name: "Figma",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/devicon-figma.svg",
+    icon: "/portfolio/tool1.png",
     alt: "Figma logo",
   },
   {
     name: "Miro",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/logos-miro-icon.svg",
+    icon: "/portfolio/tool2.png",
     alt: "Miro logo",
   },
   {
     name: "Photoshop",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/devicon-photoshop.svg",
+    icon: "/portfolio/tool3.png",
     alt: "Photoshop logo",
   },
   {
     name: "Illustrator",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/devicon-illustrator.svg",
+    icon: "/portfolio/tool4.png",
     alt: "Illustrator logo",
   },
   {
     name: "After Effects",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/skill-icons-aftereffects.svg",
+    icon: "/portfolio/tool5.png",
     alt: "After Effects logo",
   },
   {
     name: "Sketch",
-    icon: "https://c.animaapp.com/mh0l998lUYJvdB/img/devicon-sketch.svg",
+    icon: "/portfolio/tool6.png",
     alt: "Sketch logo",
   },
 ];

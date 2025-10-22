@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { IoMdArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
   return (
@@ -35,32 +36,31 @@ const HeroSection = () => {
                 <Image
                   className="h-[60px] w-[60px] rounded-full"
                   alt="Client avatar"
-                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-2.png"
+                  src="/portfolio/review1.png"
                   width={60}
                   height={60}
                 />
                 <Image
                   className="h-[60px] w-[60px] rounded-full"
                   alt="Client avatar"
-                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-3.png"
+                  src="/portfolio/review2.png"
                   width={60}
                   height={60}
                 />
                 <Image
                   className="h-[60px] w-[60px] rounded-full"
                   alt="Client avatar"
-                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-4.png"
+                  src="/portfolio/review3.png"
                   width={60}
                   height={60}
                 />
                 <Image
                   className="h-[60px] w-[60px] rounded-full"
                   alt="Client avatar"
-                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-5.png"
+                  src="/portfolio/review4.png"
                   width={60}
                   height={60}
                 />
-                <div className="h-[60px] w-[60px] rounded-full border border-white bg-[#d9d9d9]" />
               </div>
               <div className="font-['Inter',Helvetica] text-xl font-medium tracking-[0]">
                 <span className="text-fiona-red">150+ Reviews</span>
@@ -83,24 +83,17 @@ const HeroSection = () => {
                     <span className="font-['Inter',Helvetica] text-base font-medium tracking-[0] text-white">
                       Portfolio
                     </span>
-                    <Image
-                      className="h-7 w-7 rounded-full bg-fiona-red p-1 transition-transform group-hover:translate-x-1"
-                      alt="Arrow pointing right"
-                      src="https://c.animaapp.com/mh0l998lUYJvdB/img/guidance-left-arrow.svg"
-                      width={20}
-                      height={20}
-                    />
+                    <div className="rounded-full bg-fiona-red p-1 transition-transform group-hover:translate-x-1">
+                      <IoMdArrowForward className="text-white" size={20} />
+                    </div>
                   </button>
                   <button className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4">
                     <span className="font-['Inter',Helvetica] text-sm font-medium tracking-[0] text-white">
                       Hire Me
                     </span>
-                    <Image
-                      className="h-5 w-5 transition-transform group-hover:translate-x-1"
-                      alt="Arrow pointing right"
-                      src="https://c.animaapp.com/mh0l998lUYJvdB/img/guidance-left-arrow.svg"
-                      width={20}
-                      height={20}
+                    <IoMdArrowForward
+                      className="text-white transition-transform group-hover:translate-x-1"
+                      size={20}
                     />
                   </button>
                 </div>
@@ -108,11 +101,11 @@ const HeroSection = () => {
             </div>
             <div className="">
               <Image
-                className="h-auto w-[300px] sm:w-[360px] md:w-[480px] lg:w-[600px]"
+                className="h-auto w-full sm:w-[360px] md:w-[480px] lg:w-[600px]"
                 alt="Fiona Bari - UX/UI Designer portrait"
-                src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group.png"
-                width={600}
-                height={816}
+                src="/portfolio/fiona.png"
+                width={400}
+                height={600}
                 priority
               />
             </div>

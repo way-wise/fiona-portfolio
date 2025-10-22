@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
+
 const servicesCards = [
   {
     title: "App Design",
@@ -47,6 +50,17 @@ const ServiceSection = () => {
                   priority
                   unoptimized
                 />
+              </div>
+              <div className="group absolute right-[5%] bottom-[5%] flex h-[100px] w-[100px] items-center justify-center rounded-full bg-white p-2 transition-colors hover:bg-fiona-red">
+                <Link
+                  href="#"
+                  className="flex h-full w-full items-center justify-center"
+                >
+                  <GoArrowUpRight
+                    className="text-fiona-red transition-colors group-hover:text-white"
+                    size={40}
+                  />
+                </Link>
               </div>
             </div>
           ))}

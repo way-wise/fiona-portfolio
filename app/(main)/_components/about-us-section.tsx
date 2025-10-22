@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { HiOutlineMail } from "react-icons/hi";
+import { IoCallOutline } from "react-icons/io5";
+import { LuUsers } from "react-icons/lu";
 
 const AboutSection = () => {
   return (
@@ -14,7 +17,7 @@ const AboutSection = () => {
                 <Image
                   className="mx-auto h-auto w-[88%] object-contain"
                   alt="Fiona Bari portrait"
-                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mask-group-1.png"
+                  src="/portfolio/fiona.png"
                   width={480}
                   height={560}
                   priority
@@ -25,12 +28,7 @@ const AboutSection = () => {
             <div className="absolute top-20 left-[-10%] z-20 rounded-t-full rounded-b-md! bg-white p-4 shadow-[0_0_8px_#0000001a] sm:left-[-2%] xl:left-[-10%]">
               <div className="flex flex-col items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-fiona-red">
-                  <Image
-                    alt="Users icon"
-                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/ci-users.svg"
-                    width={20}
-                    height={20}
-                  />
+                  <LuUsers size={20} className="text-white" />
                 </div>
                 <div className="text-black">
                   <div className="text-2xl leading-none font-bold">450+</div>
@@ -87,12 +85,7 @@ const AboutSection = () => {
                 target="_blank"
               >
                 <span className="flex h-10 w-10 items-center justify-center rounded-[20px] bg-fiona-red">
-                  <Image
-                    alt="Phone icon"
-                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/fluent-call-24-regular.svg"
-                    width={20}
-                    height={20}
-                  />
+                  <IoCallOutline size={20} className="text-white" />
                 </span>
                 <span className="font-['Inter',Helvetica] text-lg">
                   +1 (310) 528-6170
@@ -101,12 +94,7 @@ const AboutSection = () => {
 
               <div className="flex items-center gap-3 rounded-full bg-white px-5 py-4 text-black shadow-[0_0_3px_#00000026]">
                 <span className="flex h-10 w-10 items-center justify-center rounded-[20px] bg-fiona-red">
-                  <Image
-                    alt="Email icon"
-                    src="https://c.animaapp.com/mh0l998lUYJvdB/img/mage-email.svg"
-                    width={20}
-                    height={20}
-                  />
+                  <HiOutlineMail size={20} className="text-white" />
                 </span>
                 <span className="font-['Inter',Helvetica] text-lg">
                   learnfiona@gmail.com

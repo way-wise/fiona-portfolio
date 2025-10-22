@@ -8,7 +8,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { ArrowRightIcon } from "lucide-react";
+import { IoMdArrowForward } from "react-icons/io";
 
 export const ContactSection = () => {
   return (
@@ -89,7 +89,7 @@ export const ContactSection = () => {
             >
               <span className="mr-2 text-base">Send Message</span>
               <span className="ml-auto flex size-9 items-center justify-center rounded-full bg-red-600">
-                <ArrowRightIcon className="size-5 text-white" />
+                <IoMdArrowForward className="size-5 text-white" />
               </span>
             </Button>
           </div>
