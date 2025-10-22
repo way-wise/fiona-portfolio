@@ -41,9 +41,9 @@ const ServiceSection = () => {
                 <Image
                   src={service.image}
                   alt={service.title}
-                  width={100}
-                  height={100}
-                  className="w-full"
+                  width={400}
+                  height={300}
+                  className="h-auto w-full"
                   priority
                   unoptimized
                 />
