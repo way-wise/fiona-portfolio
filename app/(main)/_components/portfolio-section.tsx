@@ -5,17 +5,22 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 import Link from "next/link";
+import { useMemo, useState } from "react";
 
 type Category = "all" | "app" | "web" | "branding";
 
-const portfolioItems: Array<{
+interface PortfolioItem {
   id: string;
   title: string;
   subtitle: string;
   image: string;
   href?: string;
   categories: Category[];
-}> = [
+  description?: string;
+  tags?: string[];
+}
+
+const portfolioItems: PortfolioItem[] = [
   {
     id: "1",
     title: "SaaS Landing Page",
@@ -23,6 +28,9 @@ const portfolioItems: Array<{
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-199.png",
     href: "https://example.com/demo",
     categories: ["all", "web"],
+    description:
+      "Modern SaaS landing page with clean design and conversion optimization",
+    tags: ["React", "Tailwind", "Figma"],
   },
   {
     id: "2",
@@ -30,6 +38,9 @@ const portfolioItems: Array<{
     subtitle: "UX/UI Design",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-200.png",
     categories: ["all", "app"],
+    description:
+      "Complete e-commerce mobile app with intuitive shopping experience",
+    tags: ["Mobile", "UX/UI", "E-commerce"],
   },
   {
     id: "3",
@@ -37,6 +48,9 @@ const portfolioItems: Array<{
     subtitle: "UX/UI Design",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-201.png",
     categories: ["all", "app"],
+    description:
+      "Comprehensive fitness tracking app with workout plans and progress monitoring",
+    tags: ["Health", "Mobile", "Tracking"],
   },
   {
     id: "4",
@@ -44,6 +58,9 @@ const portfolioItems: Array<{
     subtitle: "UX/UI Design",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-202.png",
     categories: ["all", "app"],
+    description:
+      "Secure financial management app with budgeting and investment tracking",
+    tags: ["Finance", "Security", "Mobile"],
   },
   {
     id: "5",
@@ -51,6 +68,9 @@ const portfolioItems: Array<{
     subtitle: "Branding",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-203.png",
     categories: ["all", "branding"],
+    description:
+      "Complete brand identity for a cozy coffee shop with warm, inviting aesthetics",
+    tags: ["Branding", "Logo", "Identity"],
   },
   {
     id: "6",
@@ -58,6 +78,9 @@ const portfolioItems: Array<{
     subtitle: "Web Design",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-205.png",
     categories: ["all", "web"],
+    description:
+      "Responsive web platform for fitness tracking and community features",
+    tags: ["Web", "Responsive", "Community"],
   },
   {
     id: "7",
@@ -65,6 +88,9 @@ const portfolioItems: Array<{
     subtitle: "UX/UI Design",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-206.png",
     categories: ["all", "app"],
+    description:
+      "Sensitive and user-friendly mental health support application",
+    tags: ["Health", "Mental", "Support"],
   },
   {
     id: "8",
@@ -72,53 +98,92 @@ const portfolioItems: Array<{
     subtitle: "Branding",
     image: "https://c.animaapp.com/mh0l998lUYJvdB/img/rectangle-207.png",
     categories: ["all", "branding"],
+    description:
+      "Complete branding solution for airline ticket booking platform",
+    tags: ["Travel", "Booking", "Platform"],
   },
 ];
 
 export const PortfolioSection = () => {
-  const renderGrid = (category: Category) => {
-    const items = portfolioItems.filter((item) =>
-      item.categories.includes(category),
+  const [selectedCategory, setSelectedCategory] = useState<Category>("all");
+
+  const filteredItems = useMemo(() => {
+    return portfolioItems.filter((item) =>
+      item.categories.includes(selectedCategory),
     );
+  }, [selectedCategory]);
+
+  const renderCard = (item: PortfolioItem, index: number) => {
+    const baseClasses =
+      "overflow-hidden border-zinc-200 " +
+      (index < 2 ? "md:col-span-3" : "md:col-span-2");
+
+    return (
+      <Card key={item.id} className={baseClasses}>
+        <CardContent className="p-0">
+          <div className="relative aspect-video w-full">
+            <Image
+              src={item.image}
+              alt={item.title}
+              fill
+              className="object-cover"
+            />
+            {item.tags && (
+              <div className="absolute top-2 right-2 flex flex-wrap gap-1">
+                {item.tags.slice(0, 2).map((tag, idx) => (
+                  <span
+                    key={idx}
+                    className="rounded-full bg-black/70 px-2 py-1 text-xs text-white"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+          <div className="space-y-2 p-4">
+            {item.href ? (
+              <Link
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-semibold text-foreground hover:underline"
+              >
+                {item.title}
+              </Link>
+            ) : (
+              <p className="text-lg font-semibold text-foreground">
+                {item.title}
+              </p>
+            )}
+            <p className="text-sm text-muted-foreground">{item.subtitle}</p>
+            {item.description && (
+              <p className="line-clamp-2 text-xs text-muted-foreground">
+                {item.description}
+              </p>
+            )}
+            {item.tags && item.tags.length > 2 && (
+              <div className="flex flex-wrap gap-1">
+                {item.tags.slice(2).map((tag, idx) => (
+                  <span
+                    key={idx}
+                    className="rounded bg-zinc-100 px-2 py-1 text-xs text-zinc-600"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+    );
+  };
+
+  const renderGrid = () => {
     return (
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-6">
-        {items.map((item, idx) => (
-          <Card
-            key={item.id}
-            className={
-              "overflow-hidden border-zinc-200 " +
-              (idx < 2 ? "md:col-span-3" : "md:col-span-2")
-            }
-          >
-            <CardContent className="p-0">
-              <div className="relative aspect-[16/9] w-full">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="space-y-1 p-4">
-                {item.href ? (
-                  <Link
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg font-semibold text-foreground hover:underline"
-                  >
-                    {item.title}
-                  </Link>
-                ) : (
-                  <p className="text-lg font-semibold text-foreground">
-                    {item.title}
-                  </p>
-                )}
-                <p className="text-sm text-muted-foreground">{item.subtitle}</p>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+        {filteredItems.map((item, idx) => renderCard(item, idx))}
       </div>
     );
   };
@@ -142,14 +207,18 @@ export const PortfolioSection = () => {
           <Button asChild className="rounded-full bg-black px-6 py-6 text-base">
             <Link href="#" className="flex items-center gap-3">
               <span>See All Projects</span>
-              <span className="grid size-7 place-items-center rounded-full bg-[#db0009] text-white">
+              <span className="grid size-7 place-items-center rounded-full bg-red-600 text-white">
                 →
               </span>
             </Link>
           </Button>
         </div>
 
-        <Tabs defaultValue="all" className="mt-8">
+        <Tabs
+          value={selectedCategory}
+          onValueChange={(value) => setSelectedCategory(value as Category)}
+          className="mt-8"
+        >
           <div className="flex justify-center">
             <TabsList className="bg-white">
               <TabsTrigger value="all">All</TabsTrigger>
@@ -159,13 +228,12 @@ export const PortfolioSection = () => {
               <TabsTrigger value="web" className="ml-1">
                 Web Design
               </TabsTrigger>
+              <TabsTrigger value="branding" className="ml-1">
+                Branding
+              </TabsTrigger>
             </TabsList>
           </div>
-
-          <TabsContent value="all">{renderGrid("all")}</TabsContent>
-          <TabsContent value="app">{renderGrid("app")}</TabsContent>
-          <TabsContent value="web">{renderGrid("web")}</TabsContent>
-          <TabsContent value="branding">{renderGrid("branding")}</TabsContent>
+          <TabsContent value={selectedCategory}>{renderGrid()}</TabsContent>
         </Tabs>
       </div>
     </section>
