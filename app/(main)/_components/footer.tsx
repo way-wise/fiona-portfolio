@@ -1,4 +1,4 @@
-export const Footer = (): JSX.Element => {
+export const Footer = () => {
   return (
     <>
       <div className="absolute top-[5407px] left-0 h-[396px] w-[1920px] bg-black" />

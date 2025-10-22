@@ -11,7 +11,7 @@ import {
 import type { auth } from "@/lib/auth";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface PortfolioNavbarProps {
   session: typeof auth.$Infer.Session | null;
@@ -19,15 +19,49 @@ interface PortfolioNavbarProps {
 
 const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
   void _session;
 
   const navLinks = [
-    { href: "/#home", label: "home", isActive: true },
-    { href: "/#services", label: "services" },
-    { href: "/#about", label: "about" },
-    { href: "/#portfolio", label: "portfolio" },
-    { href: "/#contact", label: "contact" },
+    { href: "/#home", label: "Home", id: "home" },
+    { href: "/#services", label: "Services", id: "services" },
+    { href: "/#about", label: "About Me", id: "about" },
+    { href: "/#portfolio", label: "Portfolio", id: "portfolio" },
+    { href: "/#contact", label: "Contact", id: "contact" },
   ];
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      {
+        threshold: 0.3,
+        rootMargin: "-96px 0px -50% 0px", // Account for navbar height
+      },
+    );
+
+    // Observe all sections
+    navLinks.forEach((link) => {
+      const element = document.getElementById(link.id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => {
+      navLinks.forEach((link) => {
+        const element = document.getElementById(link.id);
+        if (element) {
+          observer.unobserve(element);
+        }
+      });
+    };
+  }, []);
 
   return (
     <nav className="sticky top-0 right-0 left-0 z-50">
@@ -70,7 +104,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                     key={link.href}
                     href={link.href}
                     className={`text-sm font-semibold transition-colors hover:text-fiona-red ${
-                      link.isActive
+                      activeSection === link.id
                         ? "text-fiona-red underline"
                         : "text-black dark:text-white"
                     }`}
@@ -144,7 +178,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                           key={link.href}
                           href={link.href}
                           className={`text-base font-semibold transition-colors hover:text-fiona-red ${
-                            link.isActive
+                            activeSection === link.id
                               ? "text-fiona-red underline"
                               : "text-black dark:text-white"
                           }`}
