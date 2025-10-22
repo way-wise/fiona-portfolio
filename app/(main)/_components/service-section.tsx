@@ -2,17 +2,17 @@ import Image from "next/image";
 const servicesCards = [
   {
     title: "App Design",
-    image: "/portfolio/service1.png",
+    image: "@/public/portfolio/service1.png",
     link: "/portfolio/service1",
   },
   {
     title: "Web Design",
-    image: "/portfolio/service2.png",
+    image: "@/public/portfolio/service2.png",
     link: "/portfolio/service2",
   },
   {
     title: "Branding",
-    image: "/portfolio/service3.png",
+    image: "@/public/portfolio/service3.png",
     link: "/portfolio/service3",
   },
 ];

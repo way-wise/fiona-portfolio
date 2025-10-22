@@ -1,58 +1,70 @@
 export const Footer = () => {
   return (
-    <>
-      <div className="absolute top-[5407px] left-0 h-[396px] w-[1920px] bg-black" />
+    <footer className="bg-black px-4 py-16 text-white md:px-8 lg:px-16">
+      <div className="mx-auto max-w-7xl px-4">
+        {/* Main Footer Content */}
+        <div className="mb-12 flex flex-col items-start justify-around gap-8 md:flex-row">
+          {/* Brand Section */}
+          <div className="space-y-4">
+            <div className="flex items-center space-x-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-red-600">
+                <span className="text-lg font-semibold text-white">FB</span>
+              </div>
+              <h3 className="text-2xl font-semibold">Fiona Bari</h3>
+            </div>
+            <p className="max-w-sm text-sm leading-relaxed text-gray-300">
+              Fiona Bari is a seasoned UX/UI designer who loves to create
+              beautiful and functional digital experiences.
+            </p>
+          </div>
 
-      <div className="absolute top-[5732px] left-[255px] h-px w-[1410px] bg-[#1e1e1e]" />
+          {/* Contact Section */}
+          <div className="space-y-4">
+            <h4 className="text-xl font-medium">Contact Us</h4>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3">
+                <img
+                  className="h-4 w-4"
+                  alt="Phone"
+                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/phone.svg"
+                />
+                <span className="text-sm">+1 (310) 528-6170</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <img
+                  className="h-4 w-4"
+                  alt="Mail inbox app"
+                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/mail-inbox-app.svg"
+                />
+                <span className="text-sm">learnfiona@gmail.com</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <img
+                  className="h-4 w-4"
+                  alt="Location"
+                  src="https://c.animaapp.com/mh0l998lUYJvdB/img/location.svg"
+                />
+                <span className="text-sm">Santa Clarita, CA 91351, USA</span>
+              </div>
+            </div>
+          </div>
 
-      <div className="absolute top-[5508px] left-[375px] h-[50px] w-[202px]">
-        <div className="absolute top-[9px] left-[57px] [font-family:'Raleway',Helvetica] text-3xl leading-[normal] font-semibold tracking-[0] whitespace-nowrap text-white">
-          Fiona Bari
+          {/* Additional Section - can be used for social links or other content */}
+          <div className="space-y-4">
+            {/* Placeholder for future content like social media links */}
+          </div>
         </div>
-        <div className="absolute top-0 left-0 h-[50px] w-[50px] rounded-[25px] border border-solid bg-[#db0009]" />
-        <div className="absolute top-2.5 left-[9px] flex h-[29px] items-center justify-center text-center [font-family:'Raleway',Helvetica] text-[25px] leading-[normal] font-semibold tracking-[0] whitespace-nowrap text-[#fdfffd]">
-          FB
+
+        {/* Divider */}
+        <div className="mb-8 border-t border-gray-800"></div>
+
+        {/* Copyright */}
+        <div className="text-center">
+          <p className="text-sm text-gray-500">
+            © 2025 Fiona Bari. All rights reserved.
+          </p>
         </div>
       </div>
-
-      <div className="absolute top-[5573px] left-[375px] w-[330px] [font-family:'Poppins',Helvetica] text-sm leading-5 font-normal tracking-[0] text-white">
-        Fiona Bari is a seasoned UX/UI designer who loves to create beautiful
-        and functional digital experiences.
-      </div>
-
-      <div className="absolute top-[5507px] left-[1292px] [font-family:'Poppins',Helvetica] text-xl leading-[normal] font-medium tracking-[-0.50px] text-white">
-        Contact Us
-      </div>
-
-      <div className="absolute top-[5549px] left-[1318px] [font-family:'Poppins',Helvetica] text-sm leading-[30px] font-normal tracking-[-0.50px] text-white">
-        +1 (310) 528-6170
-        <br />
-        learnfiona@gmail.com
-        <br />
-        Santa Clarita, CA 91351, USA
-      </div>
-
-      <img
-        className="absolute top-[5555px] left-[1293px] h-4 w-4"
-        alt="Phone"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/phone.svg"
-      />
-
-      <img
-        className="absolute top-[5587px] left-[1292px] h-4 w-4"
-        alt="Mail inbox app"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/mail-inbox-app.svg"
-      />
-
-      <img
-        className="absolute top-[5616px] left-[1292px] h-4 w-4"
-        alt="Location"
-        src="https://c.animaapp.com/mh0l998lUYJvdB/img/location.svg"
-      />
-
-      <div className="absolute top-[5753px] left-[808px] text-center [font-family:'Poppins',Helvetica] text-sm leading-[30px] font-normal tracking-[-0.50px] whitespace-nowrap text-[#7f7f7f]">
-        © 2025 Fiona Bari . All rights reserved.
-      </div>
-    </>
+    </footer>
   );
 };
