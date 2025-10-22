@@ -7,7 +7,7 @@ const servicesCards = [
   },
   {
     title: "Web Design",
-    image: "@/public/portfolio/service2.png",
+    image: "portfolio/service2.png",
     link: "/portfolio/service2",
   },
   {
