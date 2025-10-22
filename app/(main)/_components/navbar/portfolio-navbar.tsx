@@ -29,7 +29,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
   ];
 
   return (
-    <nav className="relative z-50">
+    <nav className="sticky top-0 right-0 left-0 z-50">
       {/* Background with pink gradient */}
       <div className="absolute inset-0 bg-fiona-pink dark:bg-fiona-pink-light"></div>
 
