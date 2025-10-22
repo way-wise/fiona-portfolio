@@ -10,7 +10,7 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { IoMdArrowForward } from "react-icons/io";
 
-export const ContactSection = () => {
+const ContactSection = () => {
   return (
     <section id="contact" className="bg-rose-50 py-16 md:py-24">
       <div className="container mx-auto max-w-5xl px-4">
@@ -98,3 +98,5 @@ export const ContactSection = () => {
     </section>
   );
 };
+
+export default ContactSection;

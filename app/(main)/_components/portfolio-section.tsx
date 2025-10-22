@@ -111,7 +111,7 @@ const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-export const PortfolioSection = () => {
+const PortfolioSection = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>("all");
 
   const filteredItems = useMemo(() => {
@@ -244,3 +244,5 @@ export const PortfolioSection = () => {
     </section>
   );
 };
+
+export default PortfolioSection;

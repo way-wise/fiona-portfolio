@@ -11,7 +11,7 @@ import {
 import type { auth } from "@/lib/auth";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 interface PortfolioNavbarProps {
   session: typeof auth.$Infer.Session | null;
@@ -22,26 +22,59 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
   const [activeSection, setActiveSection] = useState("home");
   void _session;
 
-  const navLinks = [
-    { href: "/#home", label: "Home", id: "home" },
-    { href: "/#services", label: "Services", id: "services" },
-    { href: "/#about", label: "About Me", id: "about" },
-    { href: "/#portfolio", label: "Portfolio", id: "portfolio" },
-    { href: "/#contact", label: "Contact", id: "contact" },
-  ];
+  const navLinks = useMemo(
+    () => [
+      { href: "/#home", label: "Home", id: "home" },
+      { href: "/#services", label: "Services", id: "services" },
+      { href: "/#about", label: "About Me", id: "about" },
+      { href: "/#portfolio", label: "Portfolio", id: "portfolio" },
+      { href: "/#contact", label: "Contact", id: "contact" },
+    ],
+    [],
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        // Find the section with the highest intersection ratio
+        let maxRatio = 0;
+        let activeId = "home";
+
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
+          if (entry.isIntersecting && entry.intersectionRatio > maxRatio) {
+            maxRatio = entry.intersectionRatio;
+            activeId = entry.target.id;
           }
         });
+
+        // If no sections are intersecting, find the closest one
+        if (maxRatio === 0) {
+          const sections = navLinks
+            .map((link) => ({
+              id: link.id,
+              element: document.getElementById(link.id),
+              rect: document.getElementById(link.id)?.getBoundingClientRect(),
+            }))
+            .filter((section) => section.element && section.rect);
+
+          // Find the section closest to the top of the viewport
+          const closestSection = sections.reduce((closest, current) => {
+            if (!closest) return current;
+            const closestDistance = Math.abs(closest.rect!.top);
+            const currentDistance = Math.abs(current.rect!.top);
+            return currentDistance < closestDistance ? current : closest;
+          });
+
+          if (closestSection) {
+            activeId = closestSection.id;
+          }
+        }
+
+        setActiveSection(activeId);
       },
       {
-        threshold: 0.3,
-        rootMargin: "-96px 0px -50% 0px", // Account for navbar height
+        threshold: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+        rootMargin: "-96px 0px -20% 0px", // Account for navbar height, reduced bottom margin
       },
     );
 
@@ -61,7 +94,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
         }
       });
     };
-  }, []);
+  }, [navLinks]);
 
   return (
     <nav className="sticky top-0 right-0 left-0 z-50">
@@ -105,7 +138,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                     href={link.href}
                     className={`text-sm font-semibold transition-colors hover:text-fiona-red ${
                       activeSection === link.id
-                        ? "text-fiona-red underline"
+                        ? "text-fiona-red"
                         : "text-black dark:text-white"
                     }`}
                   >
@@ -179,7 +212,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                           href={link.href}
                           className={`text-base font-semibold transition-colors hover:text-fiona-red ${
                             activeSection === link.id
-                              ? "text-fiona-red underline"
+                              ? "text-fiona-red"
                               : "text-black dark:text-white"
                           }`}
                           onClick={() => setIsDrawerOpen(false)}

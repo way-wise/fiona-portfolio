@@ -1,7 +1,7 @@
 import AboutSection from "./_components/about-us-section";
-import { ContactSection } from "./_components/contact-us";
+import ContactSection from "./_components/contact-us";
 import HeroSection from "./_components/hero-section";
-import { PortfolioSection } from "./_components/portfolio-section";
+import PortfolioSection from "./_components/portfolio-section";
 import ServicesSection from "./_components/service-section";
 import ToolsSection from "./_components/tools-section";
 
@@ -12,7 +12,6 @@ const HomePage = () => {
       <ServicesSection />
       <AboutSection />
       <ToolsSection />
-
       <PortfolioSection />
       <ContactSection />
     </div>
