@@ -2,6 +2,7 @@ import Image from "next/image";
 import { IoMdArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
+  console.log("Rendering HeroSection");
   return (
     <section
       id="home"
