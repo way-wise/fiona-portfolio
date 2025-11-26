@@ -6,118 +6,18 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { portfolioItems as importedPortfolioItems } from "@/lib/portfolio-data";
 
-type Category = "all" | "app" | "web" | "branding";
-
-interface PortfolioItem {
-  id: string;
-  title: string;
-  subtitle: string;
-  image: string;
-  href?: string;
-  categories: Category[];
-  description?: string;
-  tags?: string[];
-}
-
-const portfolioItems: PortfolioItem[] = [
-  {
-    id: "1",
-    title: "SaaS Landing Page",
-    subtitle: "Website Design",
-    image: "/portfolio/portfolio1.png",
-    href: "#",
-    categories: ["all", "web"],
-    description:
-      "Modern SaaS landing page with clean design and conversion optimization",
-    tags: ["React", "Tailwind", "Figma"],
-  },
-  {
-    id: "2",
-    title: "E-commerce Apps",
-    subtitle: "UX/UI Design",
-    image: "/portfolio/portfolio2.png",
-    href: "#",
-    categories: ["all", "app"],
-    description:
-      "Complete e-commerce mobile app with intuitive shopping experience",
-    tags: ["Mobile", "UX/UI", "E-commerce"],
-  },
-  {
-    id: "3",
-    title: "Fitness Tracking Apps",
-    subtitle: "UX/UI Design",
-    image: "/portfolio/portfolio3.png",
-    href: "#",
-    categories: ["all", "app"],
-    description:
-      "Comprehensive fitness tracking app with workout plans and progress monitoring",
-    tags: ["Health", "Mobile", "Tracking"],
-  },
-  {
-    id: "4",
-    title: "Financial App",
-    subtitle: "UX/UI Design",
-    image: "/portfolio/portfolio4.png",
-    href: "#",
-    categories: ["all", "app"],
-    description:
-      "Secure financial management app with budgeting and investment tracking",
-    tags: ["Finance", "Security", "Mobile"],
-  },
-  {
-    id: "5",
-    title: "FifthSip Coffee Shop Warm & Inviting",
-    subtitle: "Branding",
-    image: "/portfolio/portfolio5.png",
-    href: "#",
-    categories: ["all", "branding"],
-    description:
-      "Complete brand identity for a cozy coffee shop with warm, inviting aesthetics",
-    tags: ["Branding", "Logo", "Identity"],
-  },
-  {
-    id: "6",
-    title: "Fitness Tracking Apps",
-    subtitle: "Web Design",
-    image: "/portfolio/portfolio6.png",
-    href: "#",
-    categories: ["all", "web"],
-    description:
-      "Responsive web platform for fitness tracking and community features",
-    tags: ["Web", "Responsive", "Community"],
-  },
-  {
-    id: "7",
-    title: "Mental Health Apps",
-    subtitle: "UX/UI Design",
-    image: "/portfolio/portfolio7.png",
-    href: "#",
-    categories: ["all", "app"],
-    description:
-      "Sensitive and user-friendly mental health support application",
-    tags: ["Health", "Mental", "Support"],
-  },
-  {
-    id: "8",
-    title: "Air Ticket Solutions Booking Platform",
-    subtitle: "Branding",
-    image: "/portfolio/portfolio8.png",
-    href: "#",
-    categories: ["all", "branding"],
-    description:
-      "Complete branding solution for airline ticket booking platform",
-    tags: ["Travel", "Booking", "Platform"],
-  },
-];
+type Category = "all" | "apps-design" | "web-design" | "branding" | "email-template";
 
 const PortfolioSection = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>("all");
 
   const filteredItems = useMemo(() => {
-    return portfolioItems.filter((item) =>
-      item.categories.includes(selectedCategory),
-    );
+    if (selectedCategory === "all") {
+      return importedPortfolioItems;
+    }
+    return importedPortfolioItems.filter((item) => item.category === selectedCategory);
   }, [selectedCategory]);
 
   return (
@@ -154,20 +54,23 @@ const PortfolioSection = () => {
           <div className="flex justify-center">
             <TabsList className="bg-white">
               <TabsTrigger value="all">All</TabsTrigger>
-              <TabsTrigger value="app" className="ml-1">
+              <TabsTrigger value="apps-design" className="ml-1">
                 App Design
               </TabsTrigger>
-              <TabsTrigger value="web" className="ml-1">
+              <TabsTrigger value="web-design" className="ml-1">
                 Web Design
               </TabsTrigger>
               <TabsTrigger value="branding" className="ml-1">
                 Branding
               </TabsTrigger>
+              <TabsTrigger value="email-template" className="ml-1">
+                Email Templates
+              </TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value={selectedCategory}>
             <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {filteredItems.map((item, idx) => {
+              {filteredItems.map((item) => {
                 return (
                   <Card
                     key={item.id}
@@ -183,23 +86,23 @@ const PortfolioSection = () => {
                           unoptimized
                           priority
                         />
-                        {item.tags && (
+                        {item.technologies && (
                           <div className="absolute top-2 right-2 flex flex-wrap gap-1">
-                            {item.tags.slice(0, 2).map((tag, tagIdx) => (
+                            {item.technologies.slice(0, 2).map((tech, techIdx) => (
                               <span
-                                key={tagIdx}
+                                key={techIdx}
                                 className="rounded-full bg-black/70 px-2 py-1 text-xs text-white"
                               >
-                                {tag}
+                                {tech}
                               </span>
                             ))}
                           </div>
                         )}
                       </div>
                       <div className="space-y-2 p-4">
-                        {item.href ? (
+                        {item.demoUrl ? (
                           <Link
-                            href={item.href}
+                            href={item.demoUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-lg font-semibold text-foreground hover:underline"
@@ -212,21 +115,21 @@ const PortfolioSection = () => {
                           </p>
                         )}
                         <p className="text-sm text-muted-foreground">
-                          {item.subtitle}
+                          {item.category}
                         </p>
                         {item.description && (
                           <p className="line-clamp-2 text-xs text-muted-foreground">
                             {item.description}
                           </p>
                         )}
-                        {item.tags && item.tags.length > 2 && (
+                        {item.technologies && item.technologies.length > 2 && (
                           <div className="flex flex-wrap gap-1">
-                            {item.tags.slice(2).map((tag, tagIdx) => (
+                            {item.technologies.slice(2).map((tech, techIdx) => (
                               <span
-                                key={tagIdx}
+                                key={techIdx}
                                 className="rounded bg-zinc-100 px-2 py-1 text-xs text-zinc-600"
                               >
-                                {tag}
+                                {tech}
                               </span>
                             ))}
                           </div>
