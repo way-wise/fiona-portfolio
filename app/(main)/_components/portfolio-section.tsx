@@ -52,7 +52,7 @@ const PortfolioSection = () => {
           className="mt-20"
         >
           <div className="flex justify-center">
-            <TabsList className="bg-white">
+            <TabsList className="flex-wrap bg-white">
               <TabsTrigger value="all">All</TabsTrigger>
               <TabsTrigger value="apps-design" className="ml-1">
                 App Design

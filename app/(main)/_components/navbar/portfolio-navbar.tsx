@@ -97,9 +97,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
   }, [navLinks]);
 
   return (
-    <nav className="sticky top-0 right-0 left-0 z-50">
-      {/* Background with pink gradient */}
-      <div className="absolute inset-0 bg-fiona-pink dark:bg-fiona-pink-light"></div>
+    <nav className="fixed top-0 right-0 left-0 z-50">
 
       {/* Grid pattern overlay */}
       <div className="absolute inset-0 opacity-30">

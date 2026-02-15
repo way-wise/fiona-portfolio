@@ -6,10 +6,10 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="w-full bg-fiona-pink bg-cover bg-center bg-no-repeat"
+      className="w-full pt-10 md:pt-32 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
-          "url('https://c.animaapp.com/mh0l998lUYJvdB/img/group-143.png')",
+          "url('/hero-bg.png')",
       }}
     >
       {/* Container */}
