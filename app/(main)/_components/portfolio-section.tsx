@@ -118,7 +118,7 @@ const PortfolioSection = () => {
                             {item.title}
                           </p>
                         )}
-                        <p className="text-sm text-muted-foreground">
+                        <p className="font-(family-name:--font-outfit) text-[14px] text-muted-foreground">
                           {item.category}
                         </p>
                         {item.description && (
