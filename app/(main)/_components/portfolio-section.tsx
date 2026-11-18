@@ -8,7 +8,12 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { portfolioItems as importedPortfolioItems } from "@/lib/portfolio-data";
 
-type Category = "all" | "apps-design" | "web-design" | "branding" | "email-template";
+type Category =
+  | "all"
+  | "apps-design"
+  | "web-design"
+  | "branding"
+  | "email-template";
 
 const PortfolioSection = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>("all");
@@ -17,7 +22,9 @@ const PortfolioSection = () => {
     if (selectedCategory === "all") {
       return importedPortfolioItems;
     }
-    return importedPortfolioItems.filter((item) => item.category === selectedCategory);
+    return importedPortfolioItems.filter(
+      (item) => item.category === selectedCategory,
+    );
   }, [selectedCategory]);
 
   return (
@@ -88,27 +95,24 @@ const PortfolioSection = () => {
                         />
                         {item.technologies && (
                           <div className="absolute top-2 right-2 flex flex-wrap gap-1">
-                            {item.technologies.slice(0, 2).map((tech, techIdx) => (
-                              <span
-                                key={techIdx}
-                                className="rounded-full bg-black/70 px-2 py-1 text-xs text-white"
-                              >
-                                {tech}
-                              </span>
-                            ))}
+                            {item.technologies
+                              .slice(0, 2)
+                              .map((tech, techIdx) => (
+                                <span
+                                  key={techIdx}
+                                  className="rounded-full bg-black/70 px-2 py-1 text-xs text-white"
+                                >
+                                  {tech}
+                                </span>
+                              ))}
                           </div>
                         )}
                       </div>
                       <div className="space-y-2 p-4">
                         {item.demoUrl ? (
-                          <Link
-                            href={item.demoUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-lg font-semibold text-foreground hover:underline"
-                          >
+                          <span className="text-lg font-semibold text-foreground">
                             {item.title}
-                          </Link>
+                          </span>
                         ) : (
                           <p className="text-lg font-semibold text-foreground">
                             {item.title}
