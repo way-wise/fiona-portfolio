@@ -100,7 +100,7 @@ const PortfolioSection = () => {
                               .map((tech, techIdx) => (
                                 <span
                                   key={techIdx}
-                                  className="rounded-full bg-black/70 px-2 py-1 text-xs text-white"
+                                  className="rounded-full bg-black/70 px-2 py-1 font-(family-name:--font-outfit) text-xs text-white"
                                 >
                                   {tech}
                                 </span>
@@ -110,19 +110,19 @@ const PortfolioSection = () => {
                       </div>
                       <div className="space-y-2 p-4">
                         {item.demoUrl ? (
-                          <span className="text-lg font-semibold text-foreground">
+                          <span className="font-(family-name:--font-outfit) text-lg font-semibold text-foreground">
                             {item.title}
                           </span>
                         ) : (
-                          <p className="text-lg font-semibold text-foreground">
+                          <p className="font-(family-name:--font-outfit) text-lg font-semibold text-foreground">
                             {item.title}
                           </p>
                         )}
-                        <p className="font-(family-name:--font-outfit) text-[14px] text-muted-foreground">
+                        <p className="font-(family-name:--font-outfit) text-[14px] font-medium text-muted-foreground">
                           {item.category}
                         </p>
                         {item.description && (
-                          <p className="line-clamp-2 text-xs text-muted-foreground">
+                          <p className="line-clamp-2 font-(family-name:--font-outfit) font-normal text-muted-foreground">
                             {item.description}
                           </p>
                         )}
@@ -131,7 +131,7 @@ const PortfolioSection = () => {
                             {item.technologies.slice(2).map((tech, techIdx) => (
                               <span
                                 key={techIdx}
-                                className="rounded bg-zinc-100 px-2 py-1 text-xs text-zinc-600"
+                                className="rounded bg-zinc-100 px-3 py-2 font-(family-name:--font-outfit) text-[12px] font-normal text-zinc-600"
                               >
                                 {tech}
                               </span>
