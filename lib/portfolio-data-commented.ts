@@ -599,7 +599,7 @@ export const portfolioItems: PortfolioItem[] = [
   //   id: "branding-7",
   //   title: "Artisan Bakery – Handcrafted Brand Experience",
   //   description:
-  //     "Warm and inviting branding for Artisan Bakery, celebrating traditional baking with rustic typography and artisanal design elements.",
+  //     "Warm and inviting branding for Artisan Bakery, celebrating traditional baking with rustic typography and artisanal design el.",
   //   category: "branding",
   //   highlightKeyword: "Bakery Branding",
   //   image:

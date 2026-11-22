@@ -5,18 +5,25 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
+import { parseAsStringLiteral, useQueryState } from "nuqs";
 import { portfolioItems as importedPortfolioItems } from "@/lib/portfolio-data";
 
-type Category =
-  | "all"
-  | "apps-design"
-  | "web-design"
-  | "branding"
-  | "email-template";
+const categories = [
+  "all",
+  "apps-design",
+  "web-design",
+  "branding",
+  "email-template",
+] as const;
+
+type Category = (typeof categories)[number];
 
 const PortfolioSection = () => {
-  const [selectedCategory, setSelectedCategory] = useState<Category>("all");
+  const [selectedCategory, setSelectedCategory] = useQueryState(
+    "tab",
+    parseAsStringLiteral(categories).withDefault("all"),
+  );
 
   const filteredItems = useMemo(() => {
     if (selectedCategory === "all") {

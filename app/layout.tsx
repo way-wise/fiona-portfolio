@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
 import { Toaster } from "@/components/ui/sonner";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { ProgressProvider } from "@/providers/progress-provider";
 import { SwrConfigProvider } from "@/providers/swr-config-provider";
 import { ThemeProvider } from "@/providers/theme-provider";
@@ -44,7 +45,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ProgressProvider>
-            <SwrConfigProvider>{children}</SwrConfigProvider>
+            <SwrConfigProvider>
+              <NuqsAdapter>{children}</NuqsAdapter>
+            </SwrConfigProvider>
           </ProgressProvider>
           <Toaster richColors />
         </ThemeProvider>
