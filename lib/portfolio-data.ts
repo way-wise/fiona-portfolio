@@ -24,8 +24,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Financial Apps",
     image: "/design/app-design-1.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -43,8 +43,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "iBanking Apps",
     image: "/design/app-design-2.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "December 2023",
     features: [
       "Multi-source data aggregation",
@@ -62,8 +62,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Fitness Apps",
     image: "/design/app-design-3.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -81,8 +81,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "E-commerce Apps",
     image: "/design/ecommerce-apps-uiux-design.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -100,8 +100,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Finance Apps",
     image: "/design/app-design-5.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -119,8 +119,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Chatbot Apps",
     image: "/design/chatbot-apps-uiux-design.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -138,8 +138,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Fitness Tracking Apps",
     image: "/design/app-design-7.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -157,8 +157,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Mental Health Apps",
     image: "/design/app-design-8.png",
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "September 2023",
     features: [
       "Multi-source data aggregation",
@@ -586,9 +586,9 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: "email-template-6",
-    title: "Green & Yellow Supplement Promo Email Series",
+    title: "Feno - Smart Oral Care Email Series",
     description:
-      "High contrast mobile emails highlighting perks, offers, and quick scans.",
+      "Sleek mobile emails showcasing bundles, features, and reviews.",
     category: "email-template",
     highlightKeyword: "Seasonal Campaign",
     image: "design/email-template06.png",
@@ -609,8 +609,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Food Delivery Apps",
     image: "design/food-delivery-apps-uiux-design.png",
     technologies: ["Figma", "Sketch", "Adobe XD", "Principle"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "January 2024",
     features: [
       "Real-time order tracking",
@@ -628,8 +628,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Travel Booking Apps",
     image: "design/travel-booking-apps-uiux-design.png",
     technologies: ["Figma", "Figjam", "Photoshop", "InVision"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "February 2024",
     features: [
       "Multi-destination booking",
@@ -647,8 +647,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Music Streaming Apps",
     image: "design/music-streaming-apps-uiux-design.png",
     technologies: ["Figma", "Sketch", "Photoshop", "After Effects"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "March 2024",
     features: [
       "AI-powered recommendations",
@@ -667,8 +667,8 @@ export const portfolioItems: PortfolioItem[] = [
     image:
       "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&q=80",
     technologies: ["Figma", "Adobe XD", "Illustrator", "Principle"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "April 2024",
     features: [
       "Gamified learning modules",
@@ -687,8 +687,8 @@ export const portfolioItems: PortfolioItem[] = [
     image:
       "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
     technologies: ["Figma", "Sketch", "Photoshop", "Framer"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "May 2024",
     features: [
       "Multi-device control",
@@ -706,8 +706,8 @@ export const portfolioItems: PortfolioItem[] = [
     highlightKeyword: "Meditation Apps",
     image: "design/meditation-mindfulness-apps-uiux-design.png",
     technologies: ["Figma", "Adobe XD", "Photoshop", "Principle"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/project",
+    demoUrl: "",
+    githubUrl: "",
     completionDate: "June 2024",
     features: [
       "Guided meditation sessions",
