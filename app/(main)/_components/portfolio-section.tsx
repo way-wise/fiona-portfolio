@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { parseAsStringLiteral, useQueryState } from "nuqs";
 import { portfolioItems as importedPortfolioItems } from "@/lib/portfolio-data";
 
@@ -25,6 +25,20 @@ const PortfolioSection = () => {
     parseAsStringLiteral(categories).withDefault("all"),
   );
 
+  const portfolioRef = useRef<HTMLElement>(null);
+  const hasScrolledRef = useRef(false);
+
+  useEffect(() => {
+    if (
+      !hasScrolledRef.current &&
+      selectedCategory &&
+      selectedCategory !== "all"
+    ) {
+      hasScrolledRef.current = true;
+      portfolioRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [selectedCategory]);
+
   const filteredItems = useMemo(() => {
     if (selectedCategory === "all") {
       return importedPortfolioItems;
@@ -36,6 +50,7 @@ const PortfolioSection = () => {
 
   return (
     <section
+      ref={portfolioRef}
       id="portfolio"
       className="w-full bg-[#f8faff] py-14 sm:py-16 md:py-20"
     >
