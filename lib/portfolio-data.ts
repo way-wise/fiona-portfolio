@@ -591,7 +591,7 @@ export const portfolioItems: PortfolioItem[] = [
       "High contrast mobile emails highlighting perks, offers, and quick scans.",
     category: "email-template",
     highlightKeyword: "Seasonal Campaign",
-    image: "design/email-template05.png",
+    image: "design/email-template06.png",
     technologies: ["HTML", "CSS", "Wellness", "Promotional"],
     demoUrl: "",
     githubUrl: "",
