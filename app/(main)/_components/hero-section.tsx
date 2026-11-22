@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
@@ -6,10 +7,9 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="w-full pt-10 md:pt-32 bg-cover bg-center bg-no-repeat"
+      className="w-full bg-cover bg-center bg-no-repeat pt-10 md:pt-32"
       style={{
-        backgroundImage:
-          "url('/hero-bg.png')",
+        backgroundImage: "url('/hero-bg.png')",
       }}
     >
       {/* Container */}
@@ -80,14 +80,17 @@ const HeroSection = () => {
             <div className="absolute bottom-0 left-1/2 flex w-full -translate-x-1/2 justify-center">
               <div className="mb-4 rounded-full bg-white/70 p-2 backdrop-blur-sm md:mb-12">
                 <div className="grid grid-cols-2 gap-3">
-                  <button className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full border border-black bg-black px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4">
+                  <Link
+                    href="#portfolio"
+                    className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full border border-black bg-black px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4"
+                  >
                     <span className="font-['Inter',Helvetica] text-base font-medium tracking-[0] text-white">
                       Portfolio
                     </span>
                     <div className="rounded-full bg-fiona-red p-1 transition-transform group-hover:translate-x-1">
                       <IoMdArrowForward className="text-white" size={20} />
                     </div>
-                  </button>
+                  </Link>
                   <button className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4">
                     <span className="font-['Inter',Helvetica] text-sm font-medium tracking-[0] text-white">
                       Hire Me
