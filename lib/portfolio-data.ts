@@ -282,9 +282,9 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: "website-design-9",
-    title: "Audience Growth & Marketing Platform",
+    title: "Managed Support & Enterprise Portal",
     description:
-      "Vibrant conversion-focused page built for campaigns and lead capture.",
+      "Minimalist hero and structured sections tailored for B2B service teams.",
     category: "web-design",
     highlightKeyword: "",
     image: "/design/web-design09.png",
