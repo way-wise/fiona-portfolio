@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
+import { useContactModal } from "@/providers/contact-modal-provider";
 
 const HeroSection = () => {
-  console.log("Rendering HeroSection");
+  const { openContactModal } = useContactModal();
   return (
     <section
       id="home"
@@ -91,7 +94,11 @@ const HeroSection = () => {
                       <IoMdArrowForward className="text-white" size={20} />
                     </div>
                   </Link>
-                  <button className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4">
+                  <button
+                    type="button"
+                    onClick={openContactModal}
+                    className="group flex w-[150px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-3 lg:w-[170px] lg:px-4"
+                  >
                     <span className="font-['Inter',Helvetica] text-sm font-medium tracking-[0] text-white">
                       Hire Me
                     </span>

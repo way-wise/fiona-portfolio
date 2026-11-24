@@ -55,9 +55,9 @@ const PortfolioSection = () => {
       className="w-full bg-[#f8faff] py-14 sm:py-16 md:py-20"
     >
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
-          <div>
-            <h2 className="text-2xl text-black sm:text-3xl md:text-5xl">
+        <div className="flex flex-col items-start justify-center gap-4 sm:flex-row sm:items-end">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold text-black sm:text-3xl md:text-5xl">
               Look at My Portfolio
             </h2>
             <p className="mt-2 max-w-xl text-sm text-[#6d6d6d] sm:text-base">
@@ -65,14 +65,6 @@ const PortfolioSection = () => {
               transform your vision into reality.
             </p>
           </div>
-          <Button asChild className="rounded-full bg-black px-6 py-6 text-base">
-            <Link href="#" className="flex items-center gap-3">
-              <span>See All Projects</span>
-              <span className="grid size-7 place-items-center rounded-full bg-red-600 text-white">
-                →
-              </span>
-            </Link>
-          </Button>
         </div>
 
         <Tabs

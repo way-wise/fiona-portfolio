@@ -9,6 +9,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import type { auth } from "@/lib/auth";
+import { useContactModal } from "@/providers/contact-modal-provider";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
@@ -18,6 +19,7 @@ interface PortfolioNavbarProps {
 }
 
 const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
+  const { openContactModal } = useContactModal();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   void _session;
@@ -148,10 +150,11 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
               <div className="flex items-center gap-4">
                 {/* Contact Me Button */}
                 <Button
-                  className="hidden rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 sm:flex"
-                  asChild
+                  type="button"
+                  onClick={openContactModal}
+                  className="hidden rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 sm:flex cursor-pointer"
                 >
-                  <Link href="/#contact">Contact Me</Link>
+                  Contact Me
                 </Button>
 
                 {/* Profile Dropdown or Sign In */}
@@ -218,15 +221,14 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                         </Link>
                       ))}
                       <Button
-                        className="w-fit rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90"
-                        asChild
+                        type="button"
+                        className="w-fit rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 cursor-pointer"
+                        onClick={() => {
+                          setIsDrawerOpen(false);
+                          openContactModal();
+                        }}
                       >
-                        <Link
-                          href="/#contact"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          Contact Me
-                        </Link>
+                        Contact Me
                       </Button>
                     </div>
                   </DrawerContent>
