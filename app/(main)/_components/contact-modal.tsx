@@ -73,13 +73,13 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
     <Dialog open={isOpen} onClose={onClose} className="relative z-50">
       <DialogBackdrop
         transition
-        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300 ease-out data-[closed]:opacity-0"
+        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300 ease-out data-closed:opacity-0"
       />
 
       <div className="fixed inset-0 z-10 flex items-center justify-center overflow-y-auto p-4 sm:p-6">
         <DialogPanel
           transition
-          className="relative w-full max-w-2xl rounded-3xl bg-white p-7 shadow-2xl transition-all duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 sm:max-w-3xl sm:p-10 dark:bg-zinc-900"
+          className="relative w-full max-w-2xl rounded-3xl bg-white p-7 shadow-2xl transition-all duration-300 ease-out data-closed:scale-95 data-closed:opacity-0 sm:max-w-3xl sm:p-10 dark:bg-zinc-900"
         >
           {/* Close button */}
           <button

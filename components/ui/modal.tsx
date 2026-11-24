@@ -34,12 +34,12 @@ const Modal = ({
     <Dialog open={isOpen} onClose={close} transition className="relative z-50">
       <DialogBackdrop
         transition
-        className="fixed inset-0 bg-black/75 duration-300 ease-out data-[closed]:opacity-0"
+        className="fixed inset-0 bg-black/75 duration-300 ease-out data-closed:opacity-0"
       />
       <div className="fixed inset-0 flex size-full items-center justify-center p-4">
         <DialogPanel
           transition
-          className="w-full max-w-lg rounded-lg bg-card shadow-xl duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
+          className="w-full max-w-lg rounded-lg bg-card shadow-xl duration-300 ease-out data-closed:scale-95 data-closed:opacity-0"
         >
           <DialogTitle className="p-5 text-lg leading-none font-medium">
             {title}

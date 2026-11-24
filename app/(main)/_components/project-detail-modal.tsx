@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { Link as LinkIcon, X } from "lucide-react";
@@ -29,6 +29,13 @@ const ProjectDetailModal = ({
 }: ProjectDetailModalProps) => {
   const { openContactModal } = useContactModal();
   const [zoomPos, setZoomPos] = useState<{ x: number; y: number } | null>(null);
+  const [isZoomActive, setIsZoomActive] = useState(true);
+
+  // Reset zoom state whenever project changes or modal opens
+  useEffect(() => {
+    setIsZoomActive(true);
+    setZoomPos(null);
+  }, [project?.id, isOpen]);
 
   if (!project) return null;
 
@@ -44,15 +51,31 @@ const ProjectDetailModal = ({
   };
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const { left, top, width, height } =
-      e.currentTarget.getBoundingClientRect();
-    const x = ((e.clientX - left) / width) * 100;
-    const y = ((e.clientY - top) / height) * 100;
+    if (!isZoomActive) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
     setZoomPos({ x, y });
   };
 
   const handleMouseLeave = () => {
     setZoomPos(null);
+  };
+
+  const handleImageClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+    setIsZoomActive((prev) => {
+      const nextState = !prev;
+      if (!nextState) {
+        setZoomPos(null);
+      } else {
+        setZoomPos({ x, y });
+      }
+      return nextState;
+    });
   };
 
   // Select 4 other projects from the same category or overall items
@@ -65,13 +88,13 @@ const ProjectDetailModal = ({
     <Dialog open={isOpen} onClose={onClose} className="relative z-50">
       <DialogBackdrop
         transition
-        className="fixed inset-0 bg-black/85 backdrop-blur-md transition-opacity duration-300 ease-out data-[closed]:opacity-0"
+        className="fixed inset-0 bg-black/85 backdrop-blur-md transition-opacity duration-300 ease-out data-closed:opacity-0"
       />
 
       <div className="fixed inset-0 z-10 flex items-center justify-center overflow-y-auto p-3 sm:p-6 md:p-8">
         <DialogPanel
           transition
-          className="relative my-auto min-h-[85vh] max-h-[95vh] w-full max-w-7xl xl:max-w-[1450px] 2xl:max-w-[1600px] overflow-y-auto rounded-3xl border border-zinc-800 bg-[#0c0c0e] p-6 text-white shadow-2xl transition-all duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 sm:p-10 md:p-12"
+          className="relative my-auto min-h-[85vh] max-h-[95vh] w-full max-w-7xl xl:max-w-[1450px] 2xl:max-w-[1600px] overflow-y-auto rounded-3xl border border-zinc-800 bg-[#0c0c0e] p-6 text-white shadow-2xl transition-all duration-300 ease-out data-closed:scale-95 data-closed:opacity-0 sm:p-10 md:p-12"
         >
           {/* Header */}
           <div className="flex items-center justify-between gap-4 border-b border-zinc-800/80 pb-6">
@@ -204,12 +227,15 @@ const ProjectDetailModal = ({
               </div>
             </div>
 
-            {/* Right Column: Featured Image with Hover Zoom */}
+            {/* Right Column: Featured Image with Click-to-Toggle Zoom */}
             <div className="lg:col-span-7 xl:col-span-8">
               <div
+                onClick={handleImageClick}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={handleMouseLeave}
-                className="group/zoom relative flex w-full cursor-zoom-in items-center justify-center overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-900/50 p-3 sm:p-6 min-h-[480px] lg:min-h-[580px] xl:min-h-[640px]"
+                className={`group/zoom relative flex w-full items-center justify-center overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-900/50 p-3 sm:p-6 min-h-[480px] lg:min-h-[580px] xl:min-h-[640px] select-none ${
+                  isZoomActive ? "cursor-zoom-out" : "cursor-zoom-in"
+                }`}
               >
                 <Image
                   src={getValidImageUrl(project.image)}
@@ -218,7 +244,7 @@ const ProjectDetailModal = ({
                   height={1100}
                   className="pointer-events-none h-auto max-h-[600px] lg:max-h-[680px] xl:max-h-[740px] w-full rounded-xl object-contain transition-transform duration-200 ease-out select-none"
                   style={
-                    zoomPos
+                    isZoomActive && zoomPos
                       ? {
                           transformOrigin: `${zoomPos.x}% ${zoomPos.y}%`,
                           transform: "scale(1.75)",
@@ -231,6 +257,10 @@ const ProjectDetailModal = ({
                   unoptimized
                   priority
                 />
+
+                <span className="pointer-events-none absolute bottom-4 right-4 rounded-full bg-black/75 px-3 py-1 font-['Inter',Helvetica] text-xs font-medium text-zinc-300 opacity-0 backdrop-blur-xs transition-opacity duration-200 group-hover/zoom:opacity-100">
+                  Click to {isZoomActive ? "zoom out" : "zoom in"}
+                </span>
               </div>
             </div>
           </div>
