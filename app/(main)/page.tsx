@@ -1,5 +1,5 @@
+import { Suspense } from "react";
 import AboutSection from "./_components/about-us-section";
-import ContactSection from "./_components/contact-us";
 import HeroSection from "./_components/hero-section";
 import PortfolioSection from "./_components/portfolio-section";
 import ServicesSection from "./_components/service-section";
@@ -12,8 +12,9 @@ const HomePage = () => {
       <ServicesSection />
       <AboutSection />
       <ToolsSection />
-      <PortfolioSection />
-      {/* <ContactSection /> */}
+      <Suspense fallback={<div className="min-h-[500px] w-full bg-[#f8faff]" />}>
+        <PortfolioSection />
+      </Suspense>
     </div>
   );
 };

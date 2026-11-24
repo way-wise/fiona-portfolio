@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
+import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
 import { X } from "lucide-react";
 import { IoMdArrowForward } from "react-icons/io";
 import { toast } from "sonner";
@@ -46,9 +46,9 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
     if (
       !formData.name.trim() ||
       !formData.email.trim() ||
-      !formData.message.trim()
+      !formData.phone.trim()
     ) {
-      toast.error("Please fill in your name, email, and message.");
+      toast.error("Please fill in your name, email, and phone number.");
       return;
     }
 
@@ -96,9 +96,9 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
             <span className="inline-block rounded-full bg-rose-50 px-3.5 py-1.5 font-['Raleway',Helvetica] text-xs font-semibold text-fiona-red dark:bg-rose-950/40">
               Get In Touch
             </span>
-            <h2 className="mt-2.5 font-['Raleway',Helvetica] text-2xl font-bold text-black sm:text-3xl md:text-4xl dark:text-white">
+            <DialogTitle as="h2" className="mt-2.5 font-['Raleway',Helvetica] text-2xl font-bold text-black sm:text-3xl md:text-4xl dark:text-white">
               Let&apos;s Work Together
-            </h2>
+            </DialogTitle>
             <p className="mt-1.5 text-base text-[#6c6c6c] dark:text-zinc-400">
               Have a project in mind or want to discuss a design? Send a message
               and let&apos;s create something great.
@@ -153,12 +153,13 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                   htmlFor="contact-phone"
                   className="text-xs font-semibold tracking-wide text-zinc-700 uppercase dark:text-zinc-300"
                 >
-                  Phone Number
+                  Phone Number <span className="text-fiona-red">*</span>
                 </label>
                 <Input
                   id="contact-phone"
                   name="phone"
                   type="tel"
+                  required
                   placeholder="e.g. +1 (555) 000-0000"
                   value={formData.phone}
                   onChange={handleChange}
@@ -185,12 +186,9 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="ui-ux">UI/UX Design</SelectItem>
-                    <SelectItem value="web-des">Web Design</SelectItem>
-                    <SelectItem value="web-dev">Web Development</SelectItem>
-                    <SelectItem value="custom-soft">
-                      Custom Software Development
-                    </SelectItem>
+                    <SelectItem value="web">Web Design</SelectItem>
                     <SelectItem value="mobile">Mobile App Design</SelectItem>
+                    <SelectItem value="email">Email Template Design</SelectItem>
                     <SelectItem value="branding">
                       Branding & Identity
                     </SelectItem>
@@ -206,12 +204,13 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                 className="text-xs font-semibold tracking-wide text-zinc-700 uppercase dark:text-zinc-300"
               >
                 Project Details / Message{" "}
-                <span className="text-fiona-red">*</span>
+                <span className="font-normal lowercase text-zinc-400">
+                  (optional)
+                </span>
               </label>
               <Textarea
                 id="contact-message"
                 name="message"
-                required
                 rows={5}
                 placeholder="Tell me about your project, timeline, or requirements..."
                 value={formData.message}

@@ -59,16 +59,18 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
             }))
             .filter((section) => section.element && section.rect);
 
-          // Find the section closest to the top of the viewport
-          const closestSection = sections.reduce((closest, current) => {
-            if (!closest) return current;
-            const closestDistance = Math.abs(closest.rect!.top);
-            const currentDistance = Math.abs(current.rect!.top);
-            return currentDistance < closestDistance ? current : closest;
-          });
+          if (sections.length > 0) {
+            // Find the section closest to the top of the viewport
+            const closestSection = sections.reduce((closest, current) => {
+              if (!closest) return current;
+              const closestDistance = Math.abs(closest.rect!.top);
+              const currentDistance = Math.abs(current.rect!.top);
+              return currentDistance < closestDistance ? current : closest;
+            }, sections[0]);
 
-          if (closestSection) {
-            activeId = closestSection.id;
+            if (closestSection) {
+              activeId = closestSection.id;
+            }
           }
         }
 

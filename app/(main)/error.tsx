@@ -12,19 +12,24 @@ export default function Error({
 }) {
   useEffect(() => {
     // Log the error to an error reporting service
-    console.error(error);
+    console.error("Main layout error caught:", error);
   }, [error]);
 
   return (
-    <div className="grid grow place-items-center p-4">
-      <div className="space-y-4 text-center">
-        <h2 className="text-lg text-muted-foreground">Something went wrong!</h2>
+    <div className="grid grow place-items-center p-8 min-h-[50vh]">
+      <div className="space-y-4 text-center max-w-lg">
+        <h2 className="text-xl font-semibold text-zinc-800 dark:text-zinc-200">
+          Something went wrong!
+        </h2>
+        {error?.message && (
+          <p className="rounded-lg border border-red-200 bg-red-50 p-3 text-xs font-mono text-red-600 dark:border-red-900/50 dark:bg-red-950/40 dark:text-red-400">
+            {error.message}
+          </p>
+        )}
         <Button
-          onClick={
-            // Attempt to recover by trying to re-render the segment
-            () => reset()
-          }
+          onClick={() => reset()}
           variant="outline"
+          className="rounded-full"
         >
           Try again
         </Button>
