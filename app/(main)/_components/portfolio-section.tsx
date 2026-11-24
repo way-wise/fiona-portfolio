@@ -1,13 +1,15 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { parseAsStringLiteral, useQueryState } from "nuqs";
-import { portfolioItems as importedPortfolioItems } from "@/lib/portfolio-data";
+import {
+  PortfolioItem,
+  portfolioItems as importedPortfolioItems,
+} from "@/lib/portfolio-data";
+import ProjectDetailModal from "./project-detail-modal";
 
 const categories = [
   "all",
@@ -23,6 +25,10 @@ const PortfolioSection = () => {
   const [selectedCategory, setSelectedCategory] = useQueryState(
     "tab",
     parseAsStringLiteral(categories).withDefault("all"),
+  );
+
+  const [selectedProject, setSelectedProject] = useState<PortfolioItem | null>(
+    null,
   );
 
   const portfolioRef = useRef<HTMLElement>(null);
@@ -92,18 +98,24 @@ const PortfolioSection = () => {
           <TabsContent value={selectedCategory}>
             <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {filteredItems.map((item) => {
+                const itemImageUrl =
+                  item.image.startsWith("http") || item.image.startsWith("/")
+                    ? item.image
+                    : `/${item.image}`;
+
                 return (
                   <Card
                     key={item.id}
-                    className="overflow-hidden border-zinc-200"
+                    onClick={() => setSelectedProject(item)}
+                    className="group cursor-pointer overflow-hidden border-zinc-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5"
                   >
                     <CardContent className="p-0">
-                      <div className="relative aspect-video w-full">
+                      <div className="relative aspect-video w-full overflow-hidden bg-zinc-100">
                         <Image
-                          src={item.image}
+                          src={itemImageUrl}
                           alt={item.title}
                           fill
-                          className="object-cover"
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
                           unoptimized
                           priority
                         />
@@ -161,6 +173,13 @@ const PortfolioSection = () => {
           </TabsContent>
         </Tabs>
       </div>
+
+      <ProjectDetailModal
+        project={selectedProject}
+        isOpen={!!selectedProject}
+        onClose={() => setSelectedProject(null)}
+        onSelectProject={setSelectedProject}
+      />
     </section>
   );
 };

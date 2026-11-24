@@ -148,25 +148,7 @@ export const portfolioItems: PortfolioItem[] = [
       "Geolocation-based queries",
     ],
   },
-  {
-    id: "apps-design-8",
-    title: "Mental Health Apps UI/UX Design",
-    description:
-      "Calm and thoughtful UI/UX for a mental health app, supporting mood tracking, journaling, and guided sessions.",
-    category: "apps-design",
-    highlightKeyword: "Mental Health Apps",
-    image: "/design/app-design-8.png",
-    technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
-    demoUrl: "",
-    githubUrl: "",
-    completionDate: "September 2023",
-    features: [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries",
-    ],
-  },
+
   // Web Design Projects Starts here
   {
     id: "website-design-1",
@@ -739,26 +721,6 @@ export const portfolioItems: PortfolioItem[] = [
       "Collaborative playlists",
       "Lyrics integration",
       "Cross-device synchronization",
-    ],
-  },
-  {
-    id: "apps-design-12",
-    title: "Language Learning Apps UI/UX Design",
-    description:
-      "Interactive language learning app with gamified lessons, speech recognition, and progress tracking for effective language acquisition.",
-    category: "apps-design",
-    highlightKeyword: "Language Learning Apps",
-    image:
-      "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&q=80",
-    technologies: ["Figma", "Adobe XD", "Illustrator", "Principle"],
-    demoUrl: "",
-    githubUrl: "",
-    completionDate: "April 2024",
-    features: [
-      "Gamified learning modules",
-      "Speech recognition practice",
-      "Cultural context lessons",
-      "Daily streak tracking",
     ],
   },
   {
