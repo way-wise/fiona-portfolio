@@ -78,7 +78,7 @@ const HeroSection = () => {
           <div className="relative order-1 flex flex-col items-center gap-4 lg:order-2 lg:gap-0">
             <div className="overflow-hidden rounded-t-[180px] bg-fiona-pink lg:rounded-none lg:bg-transparent">
               <Image
-                className="block h-auto w-[320px] sm:w-[380px] md:w-[420px] lg:w-[480px] xl:w-[560px] 2xl:w-[620px] lg:max-h-[55vh] object-contain object-bottom"
+                className="block h-auto w-[320px] object-contain object-bottom sm:w-[380px] md:w-[420px] lg:max-h-[55vh] lg:w-[480px] xl:w-[560px] 2xl:w-[620px]"
                 alt="Fiona Bari - UX/UI Designer portrait"
                 src="/portfolio/fiona.png"
                 width={600}
@@ -93,7 +93,7 @@ const HeroSection = () => {
                 <div className="grid grid-cols-2 gap-3">
                   <Link
                     href="#portfolio"
-                    className="group flex w-[140px] cursor-pointer items-center justify-center gap-2 rounded-full border border-black bg-black px-4 py-2 sm:px-2 md:py-2.5 lg:w-[160px] lg:py-3 lg:px-4"
+                    className="group flex w-[140px] cursor-pointer items-center justify-center gap-2 rounded-full border border-black bg-black px-4 py-2 sm:px-2 md:py-2.5 lg:w-40 lg:px-4 lg:py-3"
                   >
                     <span className="font-['Inter',Helvetica] text-sm font-medium tracking-[0] text-white lg:text-base">
                       Portfolio
@@ -105,7 +105,7 @@ const HeroSection = () => {
                   <button
                     type="button"
                     onClick={openContactModal}
-                    className="group flex w-[140px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-2.5 lg:w-[160px] lg:py-3 lg:px-4"
+                    className="group flex w-[140px] cursor-pointer items-center justify-center gap-2 rounded-full bg-fiona-red px-4 py-2 sm:px-2 md:py-2.5 lg:w-40 lg:px-4 lg:py-3"
                   >
                     <span className="font-['Inter',Helvetica] text-sm font-medium tracking-[0] text-white">
                       Hire Me
