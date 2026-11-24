@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -9,9 +10,13 @@ export const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-red-500 to-red-600 shadow-lg">
-                <span className="text-lg font-bold text-white">FB</span>
-              </div>
+              <Image
+                src="/logo.png"
+                height={48}
+                width={48}
+                alt="Fiona Bari Logo"
+                className="h-10 w-10 rounded-full object-cover sm:h-12 sm:w-12"
+              />
               <h3 className="text-2xl font-bold tracking-tight">Fiona Bari</h3>
             </div>
             <p className="max-w-sm text-sm leading-relaxed text-slate-300">

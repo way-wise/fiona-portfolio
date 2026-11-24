@@ -22,6 +22,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Fiona Bari Portfolio",
   description: "This is my portfolio website",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

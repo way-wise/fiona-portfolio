@@ -13,6 +13,7 @@ import { useContactModal } from "@/providers/contact-modal-provider";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 
 interface PortfolioNavbarProps {
   session: typeof auth.$Infer.Session | null;
@@ -123,9 +124,13 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
             <div className="flex items-center justify-between">
               {/* Logo */}
               <Link href="/" className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-fiona-red">
-                  <span className="text-lg font-bold text-white">FB</span>
-                </div>
+                <Image
+                  src="/logo.png"
+                  height={48}
+                  width={48}
+                  alt="Fiona Bari Logo"
+                  className="h-10 w-10 sm:h-12 sm:w-12 rounded-full object-cover"
+                />
                 <span className="text-xl font-bold text-black dark:text-white">
                   Fiona Bari
                 </span>
@@ -154,7 +159,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                 <Button
                   type="button"
                   onClick={openContactModal}
-                  className="hidden rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 sm:flex cursor-pointer"
+                  className="hidden cursor-pointer rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 sm:flex"
                 >
                   Contact Me
                 </Button>
@@ -186,11 +191,13 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                         className="flex items-center gap-3"
                         onClick={() => setIsDrawerOpen(false)}
                       >
-                        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-fiona-red">
-                          <span className="text-base font-bold text-white">
-                            FB
-                          </span>
-                        </div>
+                        <Image
+                          src="/portfolio/logo.png"
+                          height={40}
+                          width={40}
+                          alt="Fiona Bari Logo"
+                          className="h-10 w-10 rounded-full object-cover"
+                        />
                         <span className="text-lg font-bold text-black dark:text-white">
                           Fiona Bari
                         </span>
@@ -224,7 +231,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
                       ))}
                       <Button
                         type="button"
-                        className="w-fit rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90 cursor-pointer"
+                        className="w-fit cursor-pointer rounded-full bg-fiona-red px-6 py-2 text-white hover:bg-fiona-red/90"
                         onClick={() => {
                           setIsDrawerOpen(false);
                           openContactModal();
