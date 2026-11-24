@@ -167,9 +167,11 @@ const ProjectDetailModal = ({
                 )}
 
                 {/* Published / Date */}
-                <p className="font-['Inter',Helvetica] text-sm text-zinc-400">
-                  Published on {project.completionDate || "Sep 22, 2024"}
-                </p>
+                {project.completionDate?.trim() && (
+                  <p className="font-['Inter',Helvetica] text-sm text-zinc-400">
+                    Published on {project.completionDate.trim()}
+                  </p>
+                )}
 
                 {/* Demo Link if available */}
                 {project.demoUrl && (
