@@ -86,7 +86,7 @@ const WhatIDoSection = () => {
               <div className="mt-5 flex items-start gap-4 p-1">
                 {/* Number Badge */}
                 <div
-                  className={`text-md flex size-14 shrink-0 items-center justify-center rounded-xl border font-['Inter',Helvetica] font-bold shadow-2xs ${card.badgeBg}`}
+                  className={`text-md flex size-12 shrink-0 items-center justify-center rounded-xl border font-['Inter',Helvetica] font-bold shadow-2xs ${card.badgeBg}`}
                 >
                   {card.number}
                 </div>
@@ -96,7 +96,7 @@ const WhatIDoSection = () => {
                   <h3 className="font-['Raleway',Helvetica] text-xl font-bold tracking-tight text-black sm:text-2xl dark:text-white">
                     {card.title}
                   </h3>
-                  <p className="font-['Inter',Helvetica] text-sm leading-relaxed text-[#6d6d6d] dark:text-zinc-400">
+                  <p className="text-md font-['Inter',Helvetica] leading-relaxed text-[#6d6d6d] dark:text-zinc-400">
                     {card.description}
                   </p>
 
