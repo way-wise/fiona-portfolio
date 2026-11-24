@@ -26,7 +26,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2025",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -45,7 +45,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "December 2025",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -64,7 +64,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2023",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -83,7 +83,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2023",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -102,7 +102,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2023",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -121,7 +121,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2023",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -140,7 +140,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "Google Doc"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2023",
+    completionDate: "",
     features: [
       "Multi-source data aggregation",
       "Historical weather data analysis",
@@ -161,7 +161,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Legal", "Website Design"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "October 2023",
+    completionDate: "",
     features: [
       "Editorial consultation layout",
       "Lead generation intake form",
@@ -180,7 +180,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Finance", "Mobile App"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "November 2023",
+    completionDate: "",
     features: [
       "Dark atmospheric dining aesthetic",
       "Interactive table reservation flow",
@@ -199,7 +199,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Finance", "Advisory"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "December 2023",
+    completionDate: "",
     features: [
       "Portfolio performance breakdowns",
       "Retirement calculator preview",
@@ -218,7 +218,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Agency", "Branding"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "January 2024",
+    completionDate: "",
     features: [
       "Split-screen narrative hero",
       "Interactive case study galleries",
@@ -237,7 +237,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Services", "Landing Page"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "February 2024",
+    completionDate: "",
     features: [
       "Rapid claim assessment funnel",
       "Emergency 24/7 hotline CTA",
@@ -256,7 +256,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Mobility", "Retail"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "February 2024",
+    completionDate: "",
     features: [
       "Inventory search & filter system",
       "Vehicle specification comparison",
@@ -275,7 +275,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Agency", "Branding"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "March 2025",
+    completionDate: "",
     features: [
       "360-degree scooter view",
       "Battery range & spec stats",
@@ -294,7 +294,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Marketing", "SaaS"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "April 2024",
+    completionDate: "",
     features: [
       "Enterprise software integration maps",
       "ROI metric demonstration",
@@ -313,7 +313,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "B2B", "Enterprise"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2024",
+    completionDate: "",
     features: [
       "SLA tier comparison cards",
       "24/7 technical helpdesk flow",
@@ -332,7 +332,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Marketing", "SaaS"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2024",
+    completionDate: "",
     features: [
       "Campaign analytics dashboard preview",
       "Multi-channel audience segmentation",
@@ -351,7 +351,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Healthcare", "Clinic"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "June 2024",
+    completionDate: "",
     features: [
       "Easy online appointment booking",
       "Before-and-after smile gallery",
@@ -370,7 +370,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Design", "Development", "Finance", "Mobile App"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "July 2024",
+    completionDate: "",
     features: [
       "Date & location pickup selector",
       "Vehicle tier options & pricing",
@@ -398,7 +398,7 @@ export const portfolioItems: PortfolioItem[] = [
     ],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "November 2023",
+    completionDate: "",
     features: [
       "Dynamic primary color palette",
       "Custom vector iconography set",
@@ -416,7 +416,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Wellness", "Editorial"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "December 2023",
+    completionDate: "",
     features: [
       "Nurturing pastel color scheme",
       "Hand-drawn organic motifs",
@@ -435,7 +435,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Healthtech", "Identify"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "January 2026",
+    completionDate: "",
     features: [
       "Clean clinical blue color architecture",
       "Minimalist logo mark & lockups",
@@ -454,7 +454,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Digital", "Visual System"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "February 2025",
+    completionDate: "",
     features: [
       "Vibrant neon & violet gradients",
       "Digital-first responsive typography",
@@ -473,7 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Print", "Corporate"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "March 2024",
+    completionDate: "",
     features: [
       "Corporate geometric identity mark",
       "CMYK precision print swatch guide",
@@ -492,7 +492,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Packing", "Pattern"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "April 2026",
+    completionDate: "",
     features: [
       "Custom seamless pattern library",
       "Eco-friendly tactile packaging concept",
@@ -511,7 +511,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Entertainment", "Identity"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2024",
+    completionDate: "",
     features: [
       "High-energy wave logo symbolism",
       "Digital concert ticket pass design",
@@ -530,7 +530,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Editorial", "Lifestyle"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2026",
+    completionDate: "",
     features: [
       "Serif editorial typography hierarchy",
       "Blush & rich plum palette pairing",
@@ -549,7 +549,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Tech", "Visual Identity"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "June 2026",
+    completionDate: "",
     features: [
       "Monogram logo mark construction",
       "Ultra-modern electric blue system",
@@ -568,7 +568,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Architechture", "Minimal"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "July 2026",
+    completionDate: "",
     features: [
       "Monochrome grid-based logo architecture",
       "Gold foil print accent guidelines",
@@ -587,7 +587,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Travel", "Identity"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "August 2026",
+    completionDate: "",
     features: [
       "Aerodynamic brand mark & wing motif",
       "Boarding pass & baggage tag design",
@@ -605,7 +605,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Illustrator", "Photoshop", "Typography", "Identity"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2024",
+    completionDate: "",
     features: [
       "Minimalist editorial bookplate mark",
       "Calm lavender & slate color tone",
@@ -627,7 +627,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Wellness", "Promotional"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "November 2025",
+    completionDate: "",
     features: [
       "Responsive multi-device email layout",
       "Dynamic social proof review cards",
@@ -646,7 +646,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Health", "Campaign"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "December 2025",
+    completionDate: "",
     features: [
       "Vibrant high-contrast product callouts",
       "Limited-time discount countdown banner",
@@ -665,7 +665,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Beverage", "Promotional"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "January 2024",
+    completionDate: "",
     features: [
       "Win-back personalized promo flow",
       "Benefit-driven ingredient grid",
@@ -684,7 +684,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Food & Lifestyle", "E-Commerce"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "February 2024",
+    completionDate: "",
     features: [
       "Warm artisanal culinary aesthetic",
       "Seasonal weekend drop announcement",
@@ -703,7 +703,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Skincare", "E-Commerce"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "March 2024",
+    completionDate: "",
     features: [
       "Replenishment reminder sequence",
       "Clean clinical skincare layout",
@@ -722,7 +722,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Wellness", "Promotional"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "March 2024",
+    completionDate: "",
     features: [
       "Starter kit unboxing showcase",
       "Brush head replacement reminder",
@@ -741,7 +741,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Beauty & Skincare", "Promotional"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "April 2024",
+    completionDate: "",
     features: [
       "Anti-aging formula education guide",
       "Before & after community spotlight",
@@ -760,7 +760,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Fashion", "Product Showcase"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2024",
+    completionDate: "",
     features: [
       "Curated editorial collection lookbook",
       "Shoe sizing & fit recommendation card",
@@ -779,7 +779,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Wellness", "Customer Engagement"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "June 2024",
+    completionDate: "",
     features: [
       "Community review collection survey",
       "Eco-friendly organic certification seal",
@@ -798,7 +798,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Footwear", "Sale Campaign"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "July 2024",
+    completionDate: "",
     features: [
       "Bold retail countdown urgent banner",
       "Clearance product price slash tags",
@@ -817,7 +817,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Health & Wellness", "Educational"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "August 2024",
+    completionDate: "",
     features: [
       "Daily joint mobility exercise guide",
       "Supplement timing & dosage diagram",
@@ -836,7 +836,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["HTML", "CSS", "Women's Wellness", "Promotional"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "September 2024",
+    completionDate: "",
     features: [
       "Gentle pastel wellness aesthetic",
       "Re-engagement welcome back discount",
@@ -857,7 +857,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Sketch", "Adobe XD", "Principle"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "January 2024",
+    completionDate: "",
     features: [
       "Real-time order tracking",
       "Smart restaurant recommendations",
@@ -876,7 +876,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Figjam", "Photoshop", "InVision"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "February 2024",
+    completionDate: "",
     features: [
       "Multi-destination booking",
       "Interactive travel maps",
@@ -895,7 +895,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Sketch", "Photoshop", "After Effects"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "March 2024",
+    completionDate: "",
     features: [
       "AI-powered recommendations",
       "Collaborative playlists",
@@ -915,7 +915,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Sketch", "Photoshop", "Framer"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "May 2024",
+    completionDate: "",
     features: [
       "Multi-device control",
       "Automation scheduling",
@@ -934,7 +934,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Figma", "Adobe XD", "Photoshop", "Principle"],
     demoUrl: "",
     githubUrl: "",
-    completionDate: "June 2025",
+    completionDate: "",
     features: [
       "Guided meditation sessions",
       "Breathing exercise timers",
