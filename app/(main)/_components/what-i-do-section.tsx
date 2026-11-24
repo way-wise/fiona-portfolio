@@ -8,30 +8,30 @@ const cards = [
     title: "App Design",
     description:
       "Crafting intuitive, human-centered mobile interfaces that simplify complex user flows, increase daily engagement, and deliver polished journeys across iOS and Android.",
-    image: "/portfolio/what-i-do-app.png",
+    image: "/design/app-design.png",
     link: "/?tab=apps-design#portfolio",
     badgeBg:
-      "bg-emerald-50 text-emerald-700 border-emerald-200/60 dark:bg-emerald-950/40 dark:text-emerald-300 dark:border-emerald-800/40",
+      "bg-violet-50 text-violet-700 border-violet-200/60 dark:bg-violet-950/40 dark:text-violet-300 dark:border-violet-800/40",
   },
   {
     number: "02",
     title: "Web Design",
     description:
       "Designing responsive, conversion-driven websites and landing pages built around visitor intent, crisp aesthetic hierarchy, and accessible cross-browser interactions.",
-    image: "/portfolio/what-i-do-web.png",
+    image: "/design/web-design.png",
     link: "/?tab=web-design#portfolio",
     badgeBg:
-      "bg-violet-50 text-violet-700 border-violet-200/60 dark:bg-violet-950/40 dark:text-violet-300 dark:border-violet-800/40",
+      "bg-red-50 text-red-600 border-red-200/60 dark:bg-emerald-950/40 dark:text-emerald-300 dark:border-emerald-800/40",
   },
   {
     number: "03",
     title: "Branding",
     description:
       "Developing distinctive visual systems, custom typography, and cohesive packaging assets that communicate your brand values and set you apart in competitive markets.",
-    image: "/portfolio/what-i-do-branding.png",
+    image: "/design/branding.png",
     link: "/?tab=branding#portfolio",
     badgeBg:
-      "bg-amber-50 text-amber-700 border-amber-200/60 dark:bg-amber-950/40 dark:text-amber-300 dark:border-amber-800/40",
+      "bg-green-50 text-green-700 border-green-200/60 dark:bg-amber-950/40 dark:text-amber-300 dark:border-amber-800/40",
   },
 ];
 
