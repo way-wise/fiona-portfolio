@@ -28,7 +28,7 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
       { href: "/#services", label: "Services", id: "services" },
       { href: "/#about", label: "About Me", id: "about" },
       { href: "/#portfolio", label: "Portfolio", id: "portfolio" },
-      { href: "/#contact", label: "Contact", id: "contact" },
+      // { href: "/#contact", label: "Contact", id: "contact" },
     ],
     [],
   );
@@ -98,7 +98,6 @@ const PortfolioNavbar = ({ session: _session }: PortfolioNavbarProps) => {
 
   return (
     <nav className="fixed top-0 right-0 left-0 z-50">
-
       {/* Grid pattern overlay */}
       <div className="absolute inset-0 opacity-30">
         <div
